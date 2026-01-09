@@ -1,0 +1,9 @@
+[
+  { "ticker": "AAPL", "name_ko": "애플", "name_en": "Apple" },
+  { "ticker": "TSLA", "name_ko": "테슬라", "name_en": "Tesla" },
+  { "ticker": "MSFT", "name_ko": "마이크로소프트", "name_en": "Microsoft" },
+  { "ticker": "NVDA", "name_ko": "엔비디아", "name_en": "NVIDIA" },
+  { "ticker": "GOOGL", "name_ko": "알파벳", "name_en": "Alphabet" },
+  { "ticker": "AMZN", "name_ko": "아마존", "name_en": "Amazon" },
+  { "ticker": "META", "name_ko": "메타", "name_en": "Meta Platforms" }
+]
