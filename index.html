@@ -129,6 +129,13 @@
 
       <div class="input-group">
         <input id="ticker" type="text" placeholder="예: AAPL, MSFT" />
+        <div id="suggestions" style="
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          margin-top: 4px;
+          display: none;
+          background: white;
+        "></div>
         <button onclick="analyze()">분석하기</button>
       </div>
 
@@ -144,23 +151,55 @@
   </footer>
 
   <script>
-    function analyze() {
-      const ticker = document.getElementById("ticker").value.trim().toUpperCase();
-      const result = document.getElementById("result");
-
-      if (!ticker) {
-        result.innerText = "종목 코드를 입력해주세요.";
-        return;
-      }
-
-      // 나중에 여기 fetch()만 바꾸면 됨
-      result.innerText =
-        `"${ticker}" 재무 분석 결과\n\n` +
-        "• 매출 및 이익 추이: 분석 예정\n" +
-        "• 재무 안정성: 분석 예정\n" +
-        "• 종합 평가: 준비 중";
+  let stocks = [];
+  
+  fetch("stocks.json")
+    .then(res => res.json())
+    .then(data => stocks = data);
+  
+  const input = document.getElementById("ticker");
+  const suggestions = document.getElementById("suggestions");
+  const result = document.getElementById("result");
+  
+  input.addEventListener("input", () => {
+    const q = input.value.trim();
+    suggestions.innerHTML = "";
+  
+    if (!q) {
+      suggestions.style.display = "none";
+      return;
     }
+  
+    const matches = stocks.filter(s =>
+      s.name_ko.includes(q) ||
+      s.name_en.toLowerCase().includes(q.toLowerCase()) ||
+      s.ticker.includes(q.toUpperCase())
+    ).slice(0, 5);
+  
+    if (matches.length === 0) {
+      suggestions.style.display = "none";
+      return;
+    }
+  
+    matches.forEach(s => {
+      const div = document.createElement("div");
+      div.innerText = `${s.name_ko} (${s.ticker})`;
+      div.style.padding = "10px";
+      div.style.cursor = "pointer";
+  
+      div.onclick = () => {
+        input.value = `${s.name_ko} (${s.ticker})`;
+        suggestions.style.display = "none";
+        result.innerText = `"${s.name_ko}" 분석 준비 중입니다.`;
+      };
+  
+      suggestions.appendChild(div);
+    });
+  
+    suggestions.style.display = "block";
+  });
   </script>
+
 
 </body>
 </html>
