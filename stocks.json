@@ -1,9 +1,8004 @@
 [
-  { "ticker": "AAPL", "name_ko": "애플", "name_en": "Apple" },
-  { "ticker": "TSLA", "name_ko": "테슬라", "name_en": "Tesla" },
-  { "ticker": "MSFT", "name_ko": "마이크로소프트", "name_en": "Microsoft" },
-  { "ticker": "NVDA", "name_ko": "엔비디아", "name_en": "NVIDIA" },
-  { "ticker": "GOOGL", "name_ko": "알파벳", "name_en": "Alphabet" },
-  { "ticker": "AMZN", "name_ko": "아마존", "name_en": "Amazon" },
-  { "ticker": "META", "name_ko": "메타", "name_en": "Meta Platforms" }
+  [
+  {
+    "ticker": "TSM",
+    "name_ko": "TSMC(타이완반도체제조) ADR"
+  },
+  {
+    "ticker": "LLY",
+    "name_ko": "일라이 릴리"
+  },
+  {
+    "ticker": "JPM",
+    "name_ko": "제이피모간체이스"
+  },
+  {
+    "ticker": "BRK.B",
+    "name_ko": "버크셔 해서웨이 Class B"
+  },
+  {
+    "ticker": "V",
+    "name_ko": "비자"
+  },
+  {
+    "ticker": "ORCL",
+    "name_ko": "오라클"
+  },
+  {
+    "ticker": "MA",
+    "name_ko": "마스터카드"
+  },
+  {
+    "ticker": "XOM",
+    "name_ko": "엑슨 모빌"
+  },
+  {
+    "ticker": "JNJ",
+    "name_ko": "존슨앤드존슨"
+  },
+  {
+    "ticker": "BAC",
+    "name_ko": "뱅크오브아메리카"
+  },
+  {
+    "ticker": "ABBV",
+    "name_ko": "애브비"
+  },
+  {
+    "ticker": "BRK.A",
+    "name_ko": "버크셔 해서웨이 Class A"
+  },
+  {
+    "ticker": "BABA",
+    "name_ko": "알리바바 그룹 홀딩스 ADR"
+  },
+  {
+    "ticker": "HD",
+    "name_ko": "홈디포"
+  },
+  {
+    "ticker": "GE",
+    "name_ko": "GE 에어로스페이스"
+  },
+  {
+    "ticker": "PG",
+    "name_ko": "P&G(프록터 & 갬블)"
+  },
+  {
+    "ticker": "CVX",
+    "name_ko": "셰브론"
+  },
+  {
+    "ticker": "UNH",
+    "name_ko": "유나이티드헬스 그룹"
+  },
+  {
+    "ticker": "WFC",
+    "name_ko": "웰스파고"
+  },
+  {
+    "ticker": "KO",
+    "name_ko": "코카콜라"
+  },
+  {
+    "ticker": "MS",
+    "name_ko": "모간스탠리"
+  },
+  {
+    "ticker": "CAT",
+    "name_ko": "캐터필러"
+  },
+  {
+    "ticker": "IBM",
+    "name_ko": "IBM(인터내셔널 비지니스 머신)"
+  },
+  {
+    "ticker": "SAP",
+    "name_ko": "SAP ADR"
+  },
+  {
+    "ticker": "GS",
+    "name_ko": "골드만삭스"
+  },
+  {
+    "ticker": "TM",
+    "name_ko": "토요타자동차 ADR"
+  },
+  {
+    "ticker": "HSBC",
+    "name_ko": "HSBC 홀딩스 ADR"
+  },
+  {
+    "ticker": "MRK",
+    "name_ko": "머크 앤 코"
+  },
+  {
+    "ticker": "NVS",
+    "name_ko": "노바티스 AG ADR"
+  },
+  {
+    "ticker": "AXP",
+    "name_ko": "아메리칸 익스프레스"
+  },
+  {
+    "ticker": "RTX",
+    "name_ko": "RTX"
+  },
+  {
+    "ticker": "PM",
+    "name_ko": "필립 모리스 인터내셔널"
+  },
+  {
+    "ticker": "CRM",
+    "name_ko": "세일즈포스"
+  },
+  {
+    "ticker": "RY",
+    "name_ko": "로열 뱅크 오브 캐나다"
+  },
+  {
+    "ticker": "TMO",
+    "name_ko": "써모 피셔 사이언티픽"
+  },
+  {
+    "ticker": "MCD",
+    "name_ko": "맥도날드"
+  },
+  {
+    "ticker": "ABT",
+    "name_ko": "애보트 래보라토리"
+  },
+  {
+    "ticker": "C",
+    "name_ko": "씨티그룹"
+  },
+  {
+    "ticker": "DIS",
+    "name_ko": "월트 디즈니"
+  },
+  {
+    "ticker": "SHEL",
+    "name_ko": "쉘 ADR"
+  },
+  {
+    "ticker": "NVO",
+    "name_ko": "노보 노디스크 ADR"
+  },
+  {
+    "ticker": "MUFG",
+    "name_ko": "미쓰비시 UFJ 파이낸셜 그룹 ADR"
+  },
+  {
+    "ticker": "BX",
+    "name_ko": "블랙스톤"
+  },
+  {
+    "ticker": "UBER",
+    "name_ko": "우버"
+  },
+  {
+    "ticker": "SCHW",
+    "name_ko": "찰스 슈왑"
+  },
+  {
+    "ticker": "BA",
+    "name_ko": "보잉"
+  },
+  {
+    "ticker": "SAN",
+    "name_ko": "방코 산탄데르 ADR"
+  },
+  {
+    "ticker": "TJX",
+    "name_ko": "TJX 컴퍼니스"
+  },
+  {
+    "ticker": "ACN",
+    "name_ko": "액센추어"
+  },
+  {
+    "ticker": "T",
+    "name_ko": "AT&T"
+  },
+  {
+    "ticker": "HDB",
+    "name_ko": "HDFC 뱅크 ADR"
+  },
+  {
+    "ticker": "VZ",
+    "name_ko": "버라이존"
+  },
+  {
+    "ticker": "GEV",
+    "name_ko": "GE 버노바"
+  },
+  {
+    "ticker": "BLK",
+    "name_ko": "블랙록"
+  },
+  {
+    "ticker": "APH",
+    "name_ko": "암페놀"
+  },
+  {
+    "ticker": "DHR",
+    "name_ko": "다나허"
+  },
+  {
+    "ticker": "NEE",
+    "name_ko": "넥스트에라 에너지"
+  },
+  {
+    "ticker": "SPGI",
+    "name_ko": "S&P 글로벌"
+  },
+  {
+    "ticker": "COF",
+    "name_ko": "캐피털 원 파이낸셜"
+  },
+  {
+    "ticker": "BHP",
+    "name_ko": "BHP 그룹 ADR"
+  },
+  {
+    "ticker": "UBS",
+    "name_ko": "UBS 그룹 AG"
+  },
+  {
+    "ticker": "TD",
+    "name_ko": "토론토 도미니언 은행"
+  },
+  {
+    "ticker": "ANET",
+    "name_ko": "아리스타 네트웍스"
+  },
+  {
+    "ticker": "NOW",
+    "name_ko": "서비스나우"
+  },
+  {
+    "ticker": "SONY",
+    "name_ko": "소니 그룹 ADR"
+  },
+  {
+    "ticker": "BSX",
+    "name_ko": "보스턴 사이언티픽"
+  },
+  {
+    "ticker": "PFE",
+    "name_ko": "화이자"
+  },
+  {
+    "ticker": "LOW",
+    "name_ko": "로우스 컴퍼니"
+  },
+  {
+    "ticker": "SYK",
+    "name_ko": "스트라이커"
+  },
+  {
+    "ticker": "TTE",
+    "name_ko": "토탈에너지스"
+  },
+  {
+    "ticker": "UL",
+    "name_ko": "유니레버 ADR"
+  },
+  {
+    "ticker": "UNP",
+    "name_ko": "유니온 퍼시픽"
+  },
+  {
+    "ticker": "BBVA",
+    "name_ko": "방코 빌바오 비스카야 아르헨타리아 ADR"
+  },
+  {
+    "ticker": "DE",
+    "name_ko": "디어"
+  },
+  {
+    "ticker": "SCCO",
+    "name_ko": "서던 코퍼"
+  },
+  {
+    "ticker": "WELL",
+    "name_ko": "웰타워"
+  },
+  {
+    "ticker": "MDT",
+    "name_ko": "메드트로닉"
+  },
+  {
+    "ticker": "SMFG",
+    "name_ko": "스미토모 미쓰이 파이낸셜그룹 ADR"
+  },
+  {
+    "ticker": "PGR",
+    "name_ko": "프로그레시브"
+  },
+  {
+    "ticker": "ETN",
+    "name_ko": "이튼"
+  },
+  {
+    "ticker": "CB",
+    "name_ko": "처브"
+  },
+  {
+    "ticker": "COP",
+    "name_ko": "코노코필립스"
+  },
+  {
+    "ticker": "LMT",
+    "name_ko": "록히드 마틴"
+  },
+  {
+    "ticker": "PLD",
+    "name_ko": "프로로지스"
+  },
+  {
+    "ticker": "KKR",
+    "name_ko": "KKR & Co"
+  },
+  {
+    "ticker": "BTI",
+    "name_ko": "브리티쉬 아메리칸 토바코 ADR"
+  },
+  {
+    "ticker": "BN",
+    "name_ko": "브룩필드"
+  },
+  {
+    "ticker": "NEM",
+    "name_ko": "뉴몬트"
+  },
+  {
+    "ticker": "BUD",
+    "name_ko": "안호이저부시 인베브 ADR"
+  },
+  {
+    "ticker": "PH",
+    "name_ko": "파커-하니핀"
+  },
+  {
+    "ticker": "SPOT",
+    "name_ko": "스포티파이 테크놀러지"
+  },
+  {
+    "ticker": "BMY",
+    "name_ko": "브리스톨-마이어스 스큅"
+  },
+  {
+    "ticker": "IBN",
+    "name_ko": "ICICI 뱅크 ADR"
+  },
+  {
+    "ticker": "HCA",
+    "name_ko": "HCA 헬스케어"
+  },
+  {
+    "ticker": "RIO",
+    "name_ko": "리오 틴토 ADR"
+  },
+  {
+    "ticker": "GSK",
+    "name_ko": "GSK"
+  },
+  {
+    "ticker": "CVS",
+    "name_ko": "CVS 헬스"
+  },
+  {
+    "ticker": "MCK",
+    "name_ko": "매케슨"
+  },
+  {
+    "ticker": "ENB",
+    "name_ko": "엔브리지"
+  },
+  {
+    "ticker": "MFG",
+    "name_ko": "미즈호 파이낸셜그룹 ADR"
+  },
+  {
+    "ticker": "NKE",
+    "name_ko": "나이키"
+  },
+  {
+    "ticker": "CVNA",
+    "name_ko": "카바나"
+  },
+  {
+    "ticker": "SO",
+    "name_ko": "서던"
+  },
+  {
+    "ticker": "GD",
+    "name_ko": "제너럴 다이내믹스"
+  },
+  {
+    "ticker": "MCO",
+    "name_ko": "무디스"
+  },
+  {
+    "ticker": "BMO",
+    "name_ko": "뱅크 오브 몬트리올"
+  },
+  {
+    "ticker": "MO",
+    "name_ko": "알트리아그룹"
+  },
+  {
+    "ticker": "AEM",
+    "name_ko": "애그니코 이글 마인스"
+  },
+  {
+    "ticker": "ICE",
+    "name_ko": "인터컨티넨털 익스체인지"
+  },
+  {
+    "ticker": "MMC",
+    "name_ko": "마쉬 앤 맥레넌 컴퍼니"
+  },
+  {
+    "ticker": "DUK",
+    "name_ko": "듀크 에너지"
+  },
+  {
+    "ticker": "UPS",
+    "name_ko": "UPS(유나이티드 파셀 서비스)"
+  },
+  {
+    "ticker": "BCS",
+    "name_ko": "바클레이즈 ADR"
+  },
+  {
+    "ticker": "BNS",
+    "name_ko": "뱅크 오브 노바 스코샤"
+  },
+  {
+    "ticker": "BP",
+    "name_ko": "BP ADR"
+  },
+  {
+    "ticker": "BAM",
+    "name_ko": "브룩필드 애셋 매니지먼트"
+  },
+  {
+    "ticker": "MMM",
+    "name_ko": "쓰리엠 (3M)"
+  },
+  {
+    "ticker": "WM",
+    "name_ko": "웨이스트 매니지먼트"
+  },
+  {
+    "ticker": "USB",
+    "name_ko": "US 뱅코프"
+  },
+  {
+    "ticker": "PNC",
+    "name_ko": "PNC 파이낸셜 서비스"
+  },
+  {
+    "ticker": "NU",
+    "name_ko": "누 홀딩스"
+  },
+  {
+    "ticker": "CM",
+    "name_ko": "캐내디언 임페리얼 뱅크 오브 커머스"
+  },
+  {
+    "ticker": "APO",
+    "name_ko": "아폴로 글로벌 매니지먼트"
+  },
+  {
+    "ticker": "SHW",
+    "name_ko": "셔윈-윌리엄즈"
+  },
+  {
+    "ticker": "HWM",
+    "name_ko": "하우멧 에어로스페이스"
+  },
+  {
+    "ticker": "NOC",
+    "name_ko": "노스롭 그루만"
+  },
+  {
+    "ticker": "TT",
+    "name_ko": "트레인 테크놀로지"
+  },
+  {
+    "ticker": "BK",
+    "name_ko": "뱅크 오브 뉴욕 멜론"
+  },
+  {
+    "ticker": "CRH",
+    "name_ko": "CRH"
+  },
+  {
+    "ticker": "ELV",
+    "name_ko": "엘레반스 헬스"
+  },
+  {
+    "ticker": "RCL",
+    "name_ko": "로얄 캐리비안 크루즈"
+  },
+  {
+    "ticker": "ING",
+    "name_ko": "ING 그룹 ADR"
+  },
+  {
+    "ticker": "EMR",
+    "name_ko": "에머슨 일렉트릭"
+  },
+  {
+    "ticker": "LYG",
+    "name_ko": "로이즈 뱅킹 그룹 ADR"
+  },
+  {
+    "ticker": "B",
+    "name_ko": "바릭 마이닝"
+  },
+  {
+    "ticker": "AMT",
+    "name_ko": "아메리칸 타워"
+  },
+  {
+    "ticker": "SE",
+    "name_ko": "씨 ADR"
+  },
+  {
+    "ticker": "GM",
+    "name_ko": "제너럴 모터스"
+  },
+  {
+    "ticker": "NGG",
+    "name_ko": "내셔널 그리드 ADR"
+  },
+  {
+    "ticker": "DELL",
+    "name_ko": "델테크놀로지"
+  },
+  {
+    "ticker": "FCX",
+    "name_ko": "프리포트 맥모란"
+  },
+  {
+    "ticker": "TDG",
+    "name_ko": "트랜스다임 그룹"
+  },
+  {
+    "ticker": "RELX",
+    "name_ko": "렐엑스 ADR"
+  },
+  {
+    "ticker": "ECL",
+    "name_ko": "이콜랩"
+  },
+  {
+    "ticker": "SNOW",
+    "name_ko": "스노우플레이크"
+  },
+  {
+    "ticker": "CI",
+    "name_ko": "시그나"
+  },
+  {
+    "ticker": "AON",
+    "name_ko": "에이온"
+  },
+  {
+    "ticker": "CMI",
+    "name_ko": "커민스"
+  },
+  {
+    "ticker": "WMB",
+    "name_ko": "윌리엄스 컴퍼니즈"
+  },
+  {
+    "ticker": "DB",
+    "name_ko": "도이치은행"
+  },
+  {
+    "ticker": "ITW",
+    "name_ko": "일리노이 툴 웍스"
+  },
+  {
+    "ticker": "GLW",
+    "name_ko": "코닝"
+  },
+  {
+    "ticker": "INFY",
+    "name_ko": "인포시스 ADR"
+  },
+  {
+    "ticker": "FDX",
+    "name_ko": "페덱스"
+  },
+  {
+    "ticker": "RACE",
+    "name_ko": "페라리"
+  },
+  {
+    "ticker": "NWG",
+    "name_ko": "내트웨스트 그룹 ADR"
+  },
+  {
+    "ticker": "HLT",
+    "name_ko": "힐튼 월드와이드 홀딩스"
+  },
+  {
+    "ticker": "EPD",
+    "name_ko": "Enterprise Products Partners Units"
+  },
+  {
+    "ticker": "JCI",
+    "name_ko": "존슨 컨트롤스 인터내셔널"
+  },
+  {
+    "ticker": "AJG",
+    "name_ko": "아서 J 갤러거 앤 코"
+  },
+  {
+    "ticker": "TEL",
+    "name_ko": "TE 커넥티비티"
+  },
+  {
+    "ticker": "SLB",
+    "name_ko": "Slb NV"
+  },
+  {
+    "ticker": "CNQ",
+    "name_ko": "캐나다 내추럴 리소시스"
+  },
+  {
+    "ticker": "RSG",
+    "name_ko": "리퍼블릭 서비스"
+  },
+  {
+    "ticker": "NET",
+    "name_ko": "클라우드플레어"
+  },
+  {
+    "ticker": "CL",
+    "name_ko": "콜게이트-팜올리브"
+  },
+  {
+    "ticker": "TFC",
+    "name_ko": "트루이스트 파이낸셜"
+  },
+  {
+    "ticker": "COR",
+    "name_ko": "센코라"
+  },
+  {
+    "ticker": "NSC",
+    "name_ko": "노퍽서던"
+  },
+  {
+    "ticker": "CP",
+    "name_ko": "캐나디안 퍼시픽 캔자스 시티"
+  },
+  {
+    "ticker": "MSI",
+    "name_ko": "모토로라 솔루션스"
+  },
+  {
+    "ticker": "TRV",
+    "name_ko": "트래블러스 컴퍼니스"
+  },
+  {
+    "ticker": "MFC",
+    "name_ko": "매뉴라이프 파이낸셜"
+  },
+  {
+    "ticker": "AMX",
+    "name_ko": "아메리카 모빌 ADR 시리즈 L"
+  },
+  {
+    "ticker": "PWR",
+    "name_ko": "콴타 서비스"
+  },
+  {
+    "ticker": "VRT",
+    "name_ko": "버티브 홀딩스"
+  },
+  {
+    "ticker": "CNI",
+    "name_ko": "커네디언 내셔널 레일웨이"
+  },
+  {
+    "ticker": "LHX",
+    "name_ko": "L3 해리스 테크놀러지"
+  },
+  {
+    "ticker": "KMI",
+    "name_ko": "킨더 모건"
+  },
+  {
+    "ticker": "SPG",
+    "name_ko": "사이먼 프로퍼티 그룹"
+  },
+  {
+    "ticker": "VALE",
+    "name_ko": "발레 ADR"
+  },
+  {
+    "ticker": "RKT",
+    "name_ko": "로켓 컴퍼니스"
+  },
+  {
+    "ticker": "EQNR",
+    "name_ko": "에퀴노르 ADR"
+  },
+  {
+    "ticker": "URI",
+    "name_ko": "유나이티드 렌탈스"
+  },
+  {
+    "ticker": "BDX",
+    "name_ko": "벡톤 디킨슨 앤 코"
+  },
+  {
+    "ticker": "VLO",
+    "name_ko": "발레로 에너지"
+  },
+  {
+    "ticker": "APD",
+    "name_ko": "에어 프로덕츠 앤 케미컬스"
+  },
+  {
+    "ticker": "PSX",
+    "name_ko": "필립스 66"
+  },
+  {
+    "ticker": "ET",
+    "name_ko": "Energy Transfer Units"
+  },
+  {
+    "ticker": "AFL",
+    "name_ko": "애플랙"
+  },
+  {
+    "ticker": "SRE",
+    "name_ko": "셈프라 에너지"
+  },
+  {
+    "ticker": "ARES",
+    "name_ko": "아레스 매니지먼트"
+  },
+  {
+    "ticker": "F",
+    "name_ko": "포드 모터"
+  },
+  {
+    "ticker": "EOG",
+    "name_ko": "EOG 리소시스"
+  },
+  {
+    "ticker": "WPM",
+    "name_ko": "휘턴 프레셔스 메탈스"
+  },
+  {
+    "ticker": "ZTS",
+    "name_ko": "조에티스"
+  },
+  {
+    "ticker": "TRP",
+    "name_ko": "TC 에너지"
+  },
+  {
+    "ticker": "ALL",
+    "name_ko": "올스테이트"
+  },
+  {
+    "ticker": "SU",
+    "name_ko": "선코어 에너지"
+  },
+  {
+    "ticker": "E",
+    "name_ko": "에니 ADR"
+  },
+  {
+    "ticker": "AZO",
+    "name_ko": "오토존"
+  },
+  {
+    "ticker": "O",
+    "name_ko": "리얼티 인컴"
+  },
+  {
+    "ticker": "MPLX",
+    "name_ko": "MPLX Common Units"
+  },
+  {
+    "ticker": "MPC",
+    "name_ko": "매러선 페트롤리엄"
+  },
+  {
+    "ticker": "MET",
+    "name_ko": "메트라이프"
+  },
+  {
+    "ticker": "DLR",
+    "name_ko": "디지털 리얼티 트러스트"
+  },
+  {
+    "ticker": "RBLX",
+    "name_ko": "로블록스"
+  },
+  {
+    "ticker": "CMG",
+    "name_ko": "치폴레 멕시칸 그릴"
+  },
+  {
+    "ticker": "TAK",
+    "name_ko": "다케다 파마슈티컬 ADR"
+  },
+  {
+    "ticker": "VST",
+    "name_ko": "비스트라 에너지"
+  },
+  {
+    "ticker": "CBRE",
+    "name_ko": "CBRE 그룹"
+  },
+  {
+    "ticker": "D",
+    "name_ko": "도미니언 에너지"
+  },
+  {
+    "ticker": "GWW",
+    "name_ko": "W W 그레인저"
+  },
+  {
+    "ticker": "EW",
+    "name_ko": "에드워즈 라이프사이언시스"
+  },
+  {
+    "ticker": "DEO",
+    "name_ko": "디아지오 ADR"
+  },
+  {
+    "ticker": "AME",
+    "name_ko": "아메텍"
+  },
+  {
+    "ticker": "TGT",
+    "name_ko": "타겟"
+  },
+  {
+    "ticker": "RDDT",
+    "name_ko": "레딧"
+  },
+  {
+    "ticker": "CAH",
+    "name_ko": "카디널 헬스"
+  },
+  {
+    "ticker": "PSA",
+    "name_ko": "퍼블릭 스토리지"
+  },
+  {
+    "ticker": "CTVA",
+    "name_ko": "코르테바"
+  },
+  {
+    "ticker": "AMP",
+    "name_ko": "아메리프라이즈 파이낸셜"
+  },
+  {
+    "ticker": "DAL",
+    "name_ko": "델타 에어라인스"
+  },
+  {
+    "ticker": "CCJ",
+    "name_ko": "카메코"
+  },
+  {
+    "ticker": "AU",
+    "name_ko": "앵글로골드 아샨티"
+  },
+  {
+    "ticker": "OKE",
+    "name_ko": "원오케이"
+  },
+  {
+    "ticker": "CARR",
+    "name_ko": "캐리어 글로벌"
+  },
+  {
+    "ticker": "ROK",
+    "name_ko": "로크웰 오토메이션"
+  },
+  {
+    "ticker": "FERG",
+    "name_ko": "퍼거슨 엔터프라이즈"
+  },
+  {
+    "ticker": "HLN",
+    "name_ko": "헤일리온 ADR"
+  },
+  {
+    "ticker": "PBR",
+    "name_ko": "페트로브라스 ADR"
+  },
+  {
+    "ticker": "MSCI",
+    "name_ko": "MSCI"
+  },
+  {
+    "ticker": "FNV",
+    "name_ko": "프랑코-네바다"
+  },
+  {
+    "ticker": "WCN",
+    "name_ko": "웨이스트 커넥션스"
+  },
+  {
+    "ticker": "XYZ",
+    "name_ko": "블록"
+  },
+  {
+    "ticker": "YUM",
+    "name_ko": "염 브랜즈"
+  },
+  {
+    "ticker": "OXY",
+    "name_ko": "옥시덴털 페트롤리움"
+  },
+  {
+    "ticker": "DHI",
+    "name_ko": "D.R. 호턴"
+  },
+  {
+    "ticker": "LNG",
+    "name_ko": "셰니어 에너지"
+  },
+  {
+    "ticker": "AIG",
+    "name_ko": "아메리칸 인터내셔널 그룹"
+  },
+  {
+    "ticker": "LVS",
+    "name_ko": "라스베이거스 샌즈"
+  },
+  {
+    "ticker": "PRU",
+    "name_ko": "푸르덴셜 파이낸셜"
+  },
+  {
+    "ticker": "IQV",
+    "name_ko": "아이큐비아 홀딩스"
+  },
+  {
+    "ticker": "A",
+    "name_ko": "애질런트 테크놀로지스"
+  },
+  {
+    "ticker": "GRMN",
+    "name_ko": "가민"
+  },
+  {
+    "ticker": "CPNG",
+    "name_ko": "쿠팡"
+  },
+  {
+    "ticker": "GFI",
+    "name_ko": "골드 필즈 ADR"
+  },
+  {
+    "ticker": "ETR",
+    "name_ko": "엔터지"
+  },
+  {
+    "ticker": "ITUB",
+    "name_ko": "이타우 우니방쿠 홀딩 ADR"
+  },
+  {
+    "ticker": "ALC",
+    "name_ko": "알콘"
+  },
+  {
+    "ticker": "PUK",
+    "name_ko": "푸르덴셜 ADR"
+  },
+  {
+    "ticker": "EL",
+    "name_ko": "에스티 로더"
+  },
+  {
+    "ticker": "VEEV",
+    "name_ko": "비바 시스템즈"
+  },
+  {
+    "ticker": "VMC",
+    "name_ko": "벌칸 머티리얼스"
+  },
+  {
+    "ticker": "TKO",
+    "name_ko": "TKO 그룹 홀딩스"
+  },
+  {
+    "ticker": "TFIN PR",
+    "name_ko": "트라이엄프 파이낸셜 우선주 Series C 7.125%"
+  },
+  {
+    "ticker": "ET PR I",
+    "name_ko": "에너지 트랜스퍼 LP 우선주 Series I"
+  },
+  {
+    "ticker": "ABEV",
+    "name_ko": "암베브 ADR"
+  },
+  {
+    "ticker": "HMC",
+    "name_ko": "혼다자동차 ADR"
+  },
+  {
+    "ticker": "PEG",
+    "name_ko": "퍼블릭 서비스 엔터프라이즈"
+  },
+  {
+    "ticker": "MLM",
+    "name_ko": "마틴 마리에타 머터리얼스"
+  },
+  {
+    "ticker": "HIG",
+    "name_ko": "하트포드 인슈어런스 그룹"
+  },
+  {
+    "ticker": "NUE",
+    "name_ko": "뉴코"
+  },
+  {
+    "ticker": "FLUT",
+    "name_ko": "플러터 엔터테인먼트"
+  },
+  {
+    "ticker": "WAB",
+    "name_ko": "웨스팅하우스 에어 브레이크 테크놀로지"
+  },
+  {
+    "ticker": "TRGP",
+    "name_ko": "타르가 리소스"
+  },
+  {
+    "ticker": "KR",
+    "name_ko": "크로거"
+  },
+  {
+    "ticker": "ASX",
+    "name_ko": "ASE 테크놀로지 홀딩 ADR"
+  },
+  {
+    "ticker": "FICO",
+    "name_ko": "페어 아이작"
+  },
+  {
+    "ticker": "HSY",
+    "name_ko": "허쉬"
+  },
+  {
+    "ticker": "KGC",
+    "name_ko": "킨로스 골드"
+  },
+  {
+    "ticker": "TEVA",
+    "name_ko": "테바제약 ADR"
+  },
+  {
+    "ticker": "STT",
+    "name_ko": "스테이트 스트리트"
+  },
+  {
+    "ticker": "CCL",
+    "name_ko": "카니발"
+  },
+  {
+    "ticker": "CCI",
+    "name_ko": "크라운 캐슬"
+  },
+  {
+    "ticker": "RMD",
+    "name_ko": "레스메드"
+  },
+  {
+    "ticker": "MT",
+    "name_ko": "아르셀로미탈 ADR"
+  },
+  {
+    "ticker": "ED",
+    "name_ko": "콘솔리데이티드 에디슨"
+  },
+  {
+    "ticker": "SYY",
+    "name_ko": "시스코"
+  },
+  {
+    "ticker": "KEYS",
+    "name_ko": "키사이트 테크놀로지스"
+  },
+  {
+    "ticker": "VTR",
+    "name_ko": "벤타스"
+  },
+  {
+    "ticker": "OTIS",
+    "name_ko": "오티스 월드와이드"
+  },
+  {
+    "ticker": "NOK",
+    "name_ko": "노키아 ADR"
+  },
+  {
+    "ticker": "FIS",
+    "name_ko": "피델리티 내셔널 인포메이션 서비스"
+  },
+  {
+    "ticker": "SLF",
+    "name_ko": "선 라이프 파이낸셜"
+  },
+  {
+    "ticker": "PCG",
+    "name_ko": "퍼시픽 가스 & 일렉트릭"
+  },
+  {
+    "ticker": "XYL",
+    "name_ko": "자일럼"
+  },
+  {
+    "ticker": "FIX",
+    "name_ko": "컴포트 시스템즈 USA"
+  },
+  {
+    "ticker": "WEC",
+    "name_ko": "WEC 에너지 그룹"
+  },
+  {
+    "ticker": "LYV",
+    "name_ko": "라이브 네이션 엔터테인먼트"
+  },
+  {
+    "ticker": "IX",
+    "name_ko": "오릭스 ADR"
+  },
+  {
+    "ticker": "HUM",
+    "name_ko": "휴마나"
+  },
+  {
+    "ticker": "IR",
+    "name_ko": "잉가솔랜드"
+  },
+  {
+    "ticker": "UI",
+    "name_ko": "유비퀴티"
+  },
+  {
+    "ticker": "RJF",
+    "name_ko": "레이먼드 제임스 파이낸셜"
+  },
+  {
+    "ticker": "CLS",
+    "name_ko": "셀레스티카"
+  },
+  {
+    "ticker": "CHT",
+    "name_ko": "중화 텔레콤 ADR"
+  },
+  {
+    "ticker": "MTB",
+    "name_ko": "M&T 뱅크"
+  },
+  {
+    "ticker": "EQT",
+    "name_ko": "EQT"
+  },
+  {
+    "ticker": "KVUE",
+    "name_ko": "켄뷰"
+  },
+  {
+    "ticker": "VIK",
+    "name_ko": "바이킹 홀딩스"
+  },
+  {
+    "ticker": "STLA",
+    "name_ko": "스텔란티스"
+  },
+  {
+    "ticker": "CIEN",
+    "name_ko": "시에나"
+  },
+  {
+    "ticker": "DG",
+    "name_ko": "달러 제너럴"
+  },
+  {
+    "ticker": "SYF",
+    "name_ko": "싱크로니 파이낸셜"
+  },
+  {
+    "ticker": "CVE",
+    "name_ko": "세노버스 에너지"
+  },
+  {
+    "ticker": "KB",
+    "name_ko": "KB금융지주 ADR"
+  },
+  {
+    "ticker": "PBR.A",
+    "name_ko": "페트로브라스 우선주 ADR"
+  },
+  {
+    "ticker": "AMRZ",
+    "name_ko": "암라이즈"
+  },
+  {
+    "ticker": "WIT",
+    "name_ko": "위프로 ADR"
+  },
+  {
+    "ticker": "MTD",
+    "name_ko": "메틀러 톨레도 인터내셔널"
+  },
+  {
+    "ticker": "WDS",
+    "name_ko": "우드사이드 에너지 그룹 ADR"
+  },
+  {
+    "ticker": "VICI",
+    "name_ko": "비치 프로퍼티스"
+  },
+  {
+    "ticker": "ADM",
+    "name_ko": "아처 대니얼스 미들랜드"
+  },
+  {
+    "ticker": "HPE",
+    "name_ko": "휴렛패커드 엔터프라이즈"
+  },
+  {
+    "ticker": "ROL",
+    "name_ko": "롤린스"
+  },
+  {
+    "ticker": "EXR",
+    "name_ko": "엑스트라 스페이스 스토리지"
+  },
+  {
+    "ticker": "NTR",
+    "name_ko": "뉴트리엔"
+  },
+  {
+    "ticker": "BE",
+    "name_ko": "블룸 에너지"
+  },
+  {
+    "ticker": "EME",
+    "name_ko": "엠코 그룹"
+  },
+  {
+    "ticker": "PHG",
+    "name_ko": "코닝클레이커 필립스 ADR"
+  },
+  {
+    "ticker": "DOV",
+    "name_ko": "도버"
+  },
+  {
+    "ticker": "BRO",
+    "name_ko": "브라운 & 브라운"
+  },
+  {
+    "ticker": "NRG",
+    "name_ko": "NRG 에너지"
+  },
+  {
+    "ticker": "TPR",
+    "name_ko": "태피스트리"
+  },
+  {
+    "ticker": "COHR",
+    "name_ko": "코히런트"
+  },
+  {
+    "ticker": "TME",
+    "name_ko": "텐센트뮤직엔터테인먼트그룹 ADR"
+  },
+  {
+    "ticker": "MKL",
+    "name_ko": "마켈"
+  },
+  {
+    "ticker": "HAL",
+    "name_ko": "할리버튼"
+  },
+  {
+    "ticker": "ATO",
+    "name_ko": "애트모스 에너지"
+  },
+  {
+    "ticker": "AEE",
+    "name_ko": "애머런"
+  },
+  {
+    "ticker": "DTE",
+    "name_ko": "DTE 에너지"
+  },
+  {
+    "ticker": "WRB",
+    "name_ko": "W. R. 버클리"
+  },
+  {
+    "ticker": "EFX",
+    "name_ko": "에퀴팩스"
+  },
+  {
+    "ticker": "CFG",
+    "name_ko": "시티즌스 파이낸셜 그룹"
+  },
+  {
+    "ticker": "FTS",
+    "name_ko": "포르티스"
+  },
+  {
+    "ticker": "NMR",
+    "name_ko": "노무라 홀딩스 ADR"
+  },
+  {
+    "ticker": "AVB",
+    "name_ko": "아발론베이 커뮤니티"
+  },
+  {
+    "ticker": "BR",
+    "name_ko": "브로드리지 파이낸셜 솔루션스"
+  },
+  {
+    "ticker": "CQP",
+    "name_ko": "Cheniere Energy Partners Units"
+  },
+  {
+    "ticker": "FE",
+    "name_ko": "퍼스트에너지"
+  },
+  {
+    "ticker": "IRM",
+    "name_ko": "아이언 마운틴"
+  },
+  {
+    "ticker": "TDY",
+    "name_ko": "텔레다인 테크놀로지스"
+  },
+  {
+    "ticker": "STZ",
+    "name_ko": "컨스텔레이션 브랜즈"
+  },
+  {
+    "ticker": "PPL",
+    "name_ko": "PPL"
+  },
+  {
+    "ticker": "AER",
+    "name_ko": "에어캡 홀딩스"
+  },
+  {
+    "ticker": "STE",
+    "name_ko": "스테리스"
+  },
+  {
+    "ticker": "SHG",
+    "name_ko": "신한금융지주 ADR"
+  },
+  {
+    "ticker": "ES",
+    "name_ko": "에버소스 에너지"
+  },
+  {
+    "ticker": "RF",
+    "name_ko": "리전스 파이낸셜"
+  },
+  {
+    "ticker": "VLTO",
+    "name_ko": "베랄토"
+  },
+  {
+    "ticker": "AWK",
+    "name_ko": "아메리칸 워터 웍스"
+  },
+  {
+    "ticker": "LDOS",
+    "name_ko": "레이도스 홀딩스"
+  },
+  {
+    "ticker": "STM",
+    "name_ko": "ST 마이크로 일렉트로닉스 ADR"
+  },
+  {
+    "ticker": "CNP",
+    "name_ko": "센터포인트 에너지"
+  },
+  {
+    "ticker": "OMC",
+    "name_ko": "옴니콤 그룹"
+  },
+  {
+    "ticker": "OWL",
+    "name_ko": "블루 아울 캐피털"
+  },
+  {
+    "ticker": "LEN",
+    "name_ko": "레나 Class A"
+  },
+  {
+    "ticker": "HUBB",
+    "name_ko": "허벨"
+  },
+  {
+    "ticker": "BAP",
+    "name_ko": "크레디코프"
+  },
+  {
+    "ticker": "PHM",
+    "name_ko": "풀티 그룹"
+  },
+  {
+    "ticker": "EQR",
+    "name_ko": "에퀴티 레지덴셜"
+  },
+  {
+    "ticker": "TECK",
+    "name_ko": "텍 리소스"
+  },
+  {
+    "ticker": "JBL",
+    "name_ko": "자빌"
+  },
+  {
+    "ticker": "PPG",
+    "name_ko": "PPG 인더스트리스"
+  },
+  {
+    "ticker": "WSM",
+    "name_ko": "윌리엄 소노마"
+  },
+  {
+    "ticker": "WAT",
+    "name_ko": "워터스"
+  },
+  {
+    "ticker": "BSBR",
+    "name_ko": "방쿠 산탄데르 브라질 ADR"
+  },
+  {
+    "ticker": "KEY",
+    "name_ko": "키코프"
+  },
+  {
+    "ticker": "CPAY",
+    "name_ko": "콜페이"
+  },
+  {
+    "ticker": "DRI",
+    "name_ko": "다든 레스토랑"
+  },
+  {
+    "ticker": "GIS",
+    "name_ko": "제너럴 밀즈"
+  },
+  {
+    "ticker": "CNC",
+    "name_ko": "센틴"
+  },
+  {
+    "ticker": "EIX",
+    "name_ko": "에디슨 인터내셔널"
+  },
+  {
+    "ticker": "HEI.A",
+    "name_ko": "헤이코 Class A"
+  },
+  {
+    "ticker": "DVN",
+    "name_ko": "데번 에너지"
+  },
+  {
+    "ticker": "QSR",
+    "name_ko": "레스토랑 브랜즈 인터내셔널"
+  },
+  {
+    "ticker": "PAAS",
+    "name_ko": "팬 아메리카 실버"
+  },
+  {
+    "ticker": "TEF",
+    "name_ko": "텔레포니카 ADR"
+  },
+  {
+    "ticker": "IP",
+    "name_ko": "인터내셔널 페이퍼"
+  },
+  {
+    "ticker": "LUV",
+    "name_ko": "사우스웨스트 에어라인스"
+  },
+  {
+    "ticker": "BCE",
+    "name_ko": "BCE"
+  },
+  {
+    "ticker": "RL",
+    "name_ko": "랄프 로렌"
+  },
+  {
+    "ticker": "EC",
+    "name_ko": "에코페트롤 ADR"
+  },
+  {
+    "ticker": "SW",
+    "name_ko": "스머핏 웨스트락"
+  },
+  {
+    "ticker": "KEP",
+    "name_ko": "한국전력 ADR"
+  },
+  {
+    "ticker": "BIP",
+    "name_ko": "Brookfield Infrastructure Partners Units"
+  },
+  {
+    "ticker": "L",
+    "name_ko": "로우스"
+  },
+  {
+    "ticker": "PSTG",
+    "name_ko": "퓨어 스토리지"
+  },
+  {
+    "ticker": "AS",
+    "name_ko": "아머 스포츠"
+  },
+  {
+    "ticker": "TOST",
+    "name_ko": "토스트"
+  },
+  {
+    "ticker": "CW",
+    "name_ko": "커티스 라이트"
+  },
+  {
+    "ticker": "UMC",
+    "name_ko": "유나이티드 마이크로일렉트로닉 ADR"
+  },
+  {
+    "ticker": "PBA",
+    "name_ko": "펨비나 파이프라인"
+  },
+  {
+    "ticker": "CMS",
+    "name_ko": "CMS 에너지"
+  },
+  {
+    "ticker": "EXPD",
+    "name_ko": "익스페디터스 인터내셔널 오브 워싱턴"
+  },
+  {
+    "ticker": "LH",
+    "name_ko": "랩코프 홀딩스"
+  },
+  {
+    "ticker": "IHG",
+    "name_ko": "인터컨티넨탈 호텔 그룹 ADR"
+  },
+  {
+    "ticker": "NVR",
+    "name_ko": "NVR"
+  },
+  {
+    "ticker": "TPL",
+    "name_ko": "텍사스 퍼시픽 랜드"
+  },
+  {
+    "ticker": "TWLO",
+    "name_ko": "트윌리오"
+  },
+  {
+    "ticker": "TLK",
+    "name_ko": "텔콤 인도네시아 ADR"
+  },
+  {
+    "ticker": "TU",
+    "name_ko": "텔러스"
+  },
+  {
+    "ticker": "FMX",
+    "name_ko": "포멘토 에코노미코 멕시카노 ADR"
+  },
+  {
+    "ticker": "CHD",
+    "name_ko": "처치 & 드와이트"
+  },
+  {
+    "ticker": "GIB",
+    "name_ko": "CGI"
+  },
+  {
+    "ticker": "TS",
+    "name_ko": "테나리스 ADR"
+  },
+  {
+    "ticker": "BCH",
+    "name_ko": "방코 데 칠레 ADR"
+  },
+  {
+    "ticker": "TSN",
+    "name_ko": "타이슨 푸드"
+  },
+  {
+    "ticker": "BEKE",
+    "name_ko": "KE 홀딩스 ADR"
+  },
+  {
+    "ticker": "RBA",
+    "name_ko": "리치 브로스 옥셔니어스"
+  },
+  {
+    "ticker": "AMCR",
+    "name_ko": "앰코"
+  },
+  {
+    "ticker": "FTI",
+    "name_ko": "테크닙FMC"
+  },
+  {
+    "ticker": "NI",
+    "name_ko": "나이소스"
+  },
+  {
+    "ticker": "WST",
+    "name_ko": "웨스트 파마슈티컬 서비시즈"
+  },
+  {
+    "ticker": "VIV",
+    "name_ko": "텔레포니카 브라질 ADR"
+  },
+  {
+    "ticker": "DGX",
+    "name_ko": "퀘스트 다이아그노스틱스"
+  },
+  {
+    "ticker": "HPQ",
+    "name_ko": "HP"
+  },
+  {
+    "ticker": "XPEV",
+    "name_ko": "샤오펑 ADR"
+  },
+  {
+    "ticker": "TYL",
+    "name_ko": "타일러 테크놀로지스"
+  },
+  {
+    "ticker": "IOT",
+    "name_ko": "삼사라"
+  },
+  {
+    "ticker": "DKS",
+    "name_ko": "딕스 스포팅 굿즈"
+  },
+  {
+    "ticker": "HUBS",
+    "name_ko": "허브스팟"
+  },
+  {
+    "ticker": "U",
+    "name_ko": "유니티소프트웨어"
+  },
+  {
+    "ticker": "SGI",
+    "name_ko": "솜니그룹 인터내셔널"
+  },
+  {
+    "ticker": "BURL",
+    "name_ko": "벌링턴 스토어스"
+  },
+  {
+    "ticker": "HEI",
+    "name_ko": "헤이코"
+  },
+  {
+    "ticker": "CTRA",
+    "name_ko": "코테라 에너지"
+  },
+  {
+    "ticker": "CRCL",
+    "name_ko": "써클 인터넷 그룹"
+  },
+  {
+    "ticker": "PKG",
+    "name_ko": "패키징 코퍼레이션 오브 아메리카"
+  },
+  {
+    "ticker": "BG",
+    "name_ko": "번지 글로벌"
+  },
+  {
+    "ticker": "AXIA",
+    "name_ko": "AXIA 에너지 ADR"
+  },
+  {
+    "ticker": "SNA",
+    "name_ko": "스냅-온"
+  },
+  {
+    "ticker": "Q",
+    "name_ko": "큐니티 일렉트로닉스"
+  },
+  {
+    "ticker": "APTV",
+    "name_ko": "앱티브"
+  },
+  {
+    "ticker": "ZBH",
+    "name_ko": "짐머 바이오멧 홀딩스"
+  },
+  {
+    "ticker": "ALB",
+    "name_ko": "앨버말"
+  },
+  {
+    "ticker": "GPN",
+    "name_ko": "글로벌 페이먼츠"
+  },
+  {
+    "ticker": "FIG",
+    "name_ko": "피그마"
+  },
+  {
+    "ticker": "DOW",
+    "name_ko": "다우"
+  },
+  {
+    "ticker": "VG",
+    "name_ko": "벤처 글로벌"
+  },
+  {
+    "ticker": "DD",
+    "name_ko": "듀폰"
+  },
+  {
+    "ticker": "BBD",
+    "name_ko": "방쿠 브라데스쿠 우선주 ADR"
+  },
+  {
+    "ticker": "LII",
+    "name_ko": "레녹스 인터내셔널"
+  },
+  {
+    "ticker": "PINS",
+    "name_ko": "핀터레스트"
+  },
+  {
+    "ticker": "IONQ",
+    "name_ko": "아이온큐"
+  },
+  {
+    "ticker": "THC",
+    "name_ko": "테넷 헬스케어"
+  },
+  {
+    "ticker": "CX",
+    "name_ko": "시멕스 ADR"
+  },
+  {
+    "ticker": "IT",
+    "name_ko": "가트너"
+  },
+  {
+    "ticker": "BWXT",
+    "name_ko": "BWX 테크놀로지스"
+  },
+  {
+    "ticker": "GPC",
+    "name_ko": "제뉴인 파츠"
+  },
+  {
+    "ticker": "IFF",
+    "name_ko": "인터내셔널 플레이버스 & 프레그런스"
+  },
+  {
+    "ticker": "FTV",
+    "name_ko": "포티브"
+  },
+  {
+    "ticker": "AGI",
+    "name_ko": "알라모스 골드"
+  },
+  {
+    "ticker": "APG",
+    "name_ko": "APi 그룹"
+  },
+  {
+    "ticker": "SN",
+    "name_ko": "샤크닌자"
+  },
+  {
+    "ticker": "YUMC",
+    "name_ko": "염 차이나 홀딩스"
+  },
+  {
+    "ticker": "WY",
+    "name_ko": "와이어하우저"
+  },
+  {
+    "ticker": "MTZ",
+    "name_ko": "마스텍"
+  },
+  {
+    "ticker": "ZTO",
+    "name_ko": "ZTO 익스프레스 (케이먼) ADR"
+  },
+  {
+    "ticker": "SBS",
+    "name_ko": "콤파니아 데 사네아멘투 바지쿠 상파울루 - SABESP"
+  },
+  {
+    "ticker": "MKC",
+    "name_ko": "맥코믹 앤 컴퍼니 무의결권주"
+  },
+  {
+    "ticker": "XPO",
+    "name_ko": "엑스포"
+  },
+  {
+    "ticker": "PNR",
+    "name_ko": "펜테어"
+  },
+  {
+    "ticker": "ONON",
+    "name_ko": "온 홀딩"
+  },
+  {
+    "ticker": "USFD",
+    "name_ko": "US 푸즈 홀딩"
+  },
+  {
+    "ticker": "ULS",
+    "name_ko": "UL 솔루션스"
+  },
+  {
+    "ticker": "QXO",
+    "name_ko": "QXO"
+  },
+  {
+    "ticker": "NVT",
+    "name_ko": "엔벤트 일렉트릭"
+  },
+  {
+    "ticker": "ESS",
+    "name_ko": "에섹스 프로퍼티 트러스트"
+  },
+  {
+    "ticker": "LTM",
+    "name_ko": "라탐 에어라인스 그룹 ADR"
+  },
+  {
+    "ticker": "J",
+    "name_ko": "제이콥스 솔루션스"
+  },
+  {
+    "ticker": "TRU",
+    "name_ko": "트랜스유니온"
+  },
+  {
+    "ticker": "JLL",
+    "name_ko": "존스 랭 라살"
+  },
+  {
+    "ticker": "INVH",
+    "name_ko": "인비테이션 홈스"
+  },
+  {
+    "ticker": "WES",
+    "name_ko": "Western Midstream Partners Common Units"
+  },
+  {
+    "ticker": "MAA",
+    "name_ko": "미드아메리카 아파트 커뮤니티"
+  },
+  {
+    "ticker": "TXT",
+    "name_ko": "텍스트론"
+  },
+  {
+    "ticker": "ATI",
+    "name_ko": "ATI"
+  },
+  {
+    "ticker": "RS",
+    "name_ko": "릴라이언스"
+  },
+  {
+    "ticker": "H",
+    "name_ko": "하얏트 호텔"
+  },
+  {
+    "ticker": "CRBG",
+    "name_ko": "코어브릿지 파이낸셜"
+  },
+  {
+    "ticker": "CRS",
+    "name_ko": "카펜터 테크놀로지"
+  },
+  {
+    "ticker": "BBDO",
+    "name_ko": "방쿠 브라데스쿠 ADR"
+  },
+  {
+    "ticker": "RTO",
+    "name_ko": "렌토킬 이니셜 ADR"
+  },
+  {
+    "ticker": "NLY",
+    "name_ko": "애널리 캐피털 매니지먼트"
+  },
+  {
+    "ticker": "FN",
+    "name_ko": "패브리넷"
+  },
+  {
+    "ticker": "AA",
+    "name_ko": "알코아"
+  },
+  {
+    "ticker": "MGA",
+    "name_ko": "마그나 인터내셔널"
+  },
+  {
+    "ticker": "RCI",
+    "name_ko": "로저스 커뮤니케이션스"
+  },
+  {
+    "ticker": "DECK",
+    "name_ko": "덱커 아웃도어"
+  },
+  {
+    "ticker": "GDDY",
+    "name_ko": "고대디"
+  },
+  {
+    "ticker": "PKX",
+    "name_ko": "포스코 홀딩스 ADR"
+  },
+  {
+    "ticker": "SUI",
+    "name_ko": "선 커뮤니티즈"
+  },
+  {
+    "ticker": "ITT",
+    "name_ko": "ITT"
+  },
+  {
+    "ticker": "GWRE",
+    "name_ko": "가이드와이어 소프트웨어"
+  },
+  {
+    "ticker": "LYB",
+    "name_ko": "라이온델바젤 인더스트리스"
+  },
+  {
+    "ticker": "RBC",
+    "name_ko": "리갈 벨로이트"
+  },
+  {
+    "ticker": "OKLO",
+    "name_ko": "오클로"
+  },
+  {
+    "ticker": "JBS",
+    "name_ko": "Jbs"
+  },
+  {
+    "ticker": "GFL",
+    "name_ko": "GFL 인바이런먼털"
+  },
+  {
+    "ticker": "BSAC",
+    "name_ko": "방코 산탄데르 칠레 ADR"
+  },
+  {
+    "ticker": "BBY",
+    "name_ko": "베스트 바이"
+  },
+  {
+    "ticker": "EVR",
+    "name_ko": "에버코어"
+  },
+  {
+    "ticker": "FNF",
+    "name_ko": "피델리티 내셔널 파이낸셜"
+  },
+  {
+    "ticker": "PNFP",
+    "name_ko": "피너클 파이낸셜 파트너스"
+  },
+  {
+    "ticker": "SOLV",
+    "name_ko": "솔벤텀"
+  },
+  {
+    "ticker": "HII",
+    "name_ko": "헌팅턴 잉걸스 인더스트리즈"
+  },
+  {
+    "ticker": "W",
+    "name_ko": "웨이페어"
+  },
+  {
+    "ticker": "EMA",
+    "name_ko": "에메라"
+  },
+  {
+    "ticker": "WPC",
+    "name_ko": "WP 케어리"
+  },
+  {
+    "ticker": "BALL",
+    "name_ko": "볼"
+  },
+  {
+    "ticker": "SNN",
+    "name_ko": "스미스 & 네퓨 ADR"
+  },
+  {
+    "ticker": "SNAP",
+    "name_ko": "스냅"
+  },
+  {
+    "ticker": "AVY",
+    "name_ko": "에이버리 데니슨"
+  },
+  {
+    "ticker": "RBRK",
+    "name_ko": "루브릭"
+  },
+  {
+    "ticker": "CSL",
+    "name_ko": "칼라일"
+  },
+  {
+    "ticker": "EG",
+    "name_ko": "에베레스트 그룹"
+  },
+  {
+    "ticker": "WF",
+    "name_ko": "우리금융지주 ADR"
+  },
+  {
+    "ticker": "ALLY",
+    "name_ko": "앨라이 파이낸셜"
+  },
+  {
+    "ticker": "ALLE",
+    "name_ko": "얼리지언"
+  },
+  {
+    "ticker": "GGG",
+    "name_ko": "그라코"
+  },
+  {
+    "ticker": "HL",
+    "name_ko": "헤클라 마이닝"
+  },
+  {
+    "ticker": "KIM",
+    "name_ko": "킴코 리얼티"
+  },
+  {
+    "ticker": "MAS",
+    "name_ko": "매스코"
+  },
+  {
+    "ticker": "JOBY",
+    "name_ko": "조비 에비에이션"
+  },
+  {
+    "ticker": "PFGC",
+    "name_ko": "퍼포먼스 푸드 그룹"
+  },
+  {
+    "ticker": "IEX",
+    "name_ko": "아이덱스"
+  },
+  {
+    "ticker": "EQH",
+    "name_ko": "에퀴터블 홀딩스"
+  },
+  {
+    "ticker": "RPM",
+    "name_ko": "RPM 인터내셔널"
+  },
+  {
+    "ticker": "MLI",
+    "name_ko": "뮬러 인더스트리스"
+  },
+  {
+    "ticker": "UNM",
+    "name_ko": "유넘그룹"
+  },
+  {
+    "ticker": "KRMN",
+    "name_ko": "카르만 홀딩스"
+  },
+  {
+    "ticker": "RGA",
+    "name_ko": "리인슈어런스 그룹 오브 아메리카"
+  },
+  {
+    "ticker": "YPF",
+    "name_ko": "YPF ADR"
+  },
+  {
+    "ticker": "BEN",
+    "name_ko": "프랭클린 리소시스"
+  },
+  {
+    "ticker": "RYAN",
+    "name_ko": "라이언 스페셜티 홀딩스"
+  },
+  {
+    "ticker": "SF",
+    "name_ko": "스티펄 파이낸셜"
+  },
+  {
+    "ticker": "CLH",
+    "name_ko": "클린 하버스"
+  },
+  {
+    "ticker": "OHI",
+    "name_ko": "오메가 헬스케어 인베스터스"
+  },
+  {
+    "ticker": "UHS",
+    "name_ko": "유니버셜 헬스 서비스"
+  },
+  {
+    "ticker": "FMS",
+    "name_ko": "프레제니우스 메디칼 케어 ADR"
+  },
+  {
+    "ticker": "CHWY",
+    "name_ko": "츄이"
+  },
+  {
+    "ticker": "ACM",
+    "name_ko": "애이콤"
+  },
+  {
+    "ticker": "WCC",
+    "name_ko": "웨스코 인터내셔널"
+  },
+  {
+    "ticker": "DT",
+    "name_ko": "다이나트레이스"
+  },
+  {
+    "ticker": "CACI",
+    "name_ko": "CACI 인터내셔널"
+  },
+  {
+    "ticker": "RNR",
+    "name_ko": "르네상스리 홀딩스"
+  },
+  {
+    "ticker": "TOL",
+    "name_ko": "톨 브라더스"
+  },
+  {
+    "ticker": "CNH",
+    "name_ko": "CNH 인더스트리얼"
+  },
+  {
+    "ticker": "HMY",
+    "name_ko": "하모니 골드 마이닝 ADR"
+  },
+  {
+    "ticker": "HLI",
+    "name_ko": "훌리한 로키"
+  },
+  {
+    "ticker": "CNA",
+    "name_ko": "CNA 파이낸셜"
+  },
+  {
+    "ticker": "CLX",
+    "name_ko": "크로락스"
+  },
+  {
+    "ticker": "CF",
+    "name_ko": "CF 인더스트리스 홀딩스"
+  },
+  {
+    "ticker": "GMED",
+    "name_ko": "글로부스 메디컬"
+  },
+  {
+    "ticker": "SWK",
+    "name_ko": "스탠리 블랙 & 데커"
+  },
+  {
+    "ticker": "WSO",
+    "name_ko": "와츠코"
+  },
+  {
+    "ticker": "CDE",
+    "name_ko": "쾨르 마이닝"
+  },
+  {
+    "ticker": "JEF",
+    "name_ko": "제프리스 파이낸셜 그룹"
+  },
+  {
+    "ticker": "IVZ",
+    "name_ko": "인베스코"
+  },
+  {
+    "ticker": "HRL",
+    "name_ko": "호멜 푸즈"
+  },
+  {
+    "ticker": "EMBJ",
+    "name_ko": "임브라에르 ADR"
+  },
+  {
+    "ticker": "JHX",
+    "name_ko": "제임스 하디 인더스트리스 ADR"
+  },
+  {
+    "ticker": "BLD",
+    "name_ko": "탑빌드"
+  },
+  {
+    "ticker": "PEN",
+    "name_ko": "페넘브라"
+  },
+  {
+    "ticker": "UDR",
+    "name_ko": "UDR"
+  },
+  {
+    "ticker": "BLDR",
+    "name_ko": "빌더스 퍼스트소스"
+  },
+  {
+    "ticker": "AEG",
+    "name_ko": "아에곤 ADR"
+  },
+  {
+    "ticker": "FHN",
+    "name_ko": "퍼스트 호라이즌"
+  },
+  {
+    "ticker": "EPAM",
+    "name_ko": "이팸 시스템즈"
+  },
+  {
+    "ticker": "DTM",
+    "name_ko": "DT 미드스트림"
+  },
+  {
+    "ticker": "SNX",
+    "name_ko": "TD 시넥스"
+  },
+  {
+    "ticker": "CCK",
+    "name_ko": "크라운 홀딩스"
+  },
+  {
+    "ticker": "AIZ",
+    "name_ko": "어슈런트"
+  },
+  {
+    "ticker": "ELS",
+    "name_ko": "에퀴티 라이프스타일 프로퍼티스"
+  },
+  {
+    "ticker": "CPT",
+    "name_ko": "캠든 프로퍼티 트러스트"
+  },
+  {
+    "ticker": "DOC",
+    "name_ko": "헬스피크 프로퍼티스"
+  },
+  {
+    "ticker": "CMA",
+    "name_ko": "코메리카"
+  },
+  {
+    "ticker": "BJ",
+    "name_ko": "BJ's 홀세일 클럽 홀딩스"
+  },
+  {
+    "ticker": "WMS",
+    "name_ko": "어드밴스트 드레이니지 시스템즈"
+  },
+  {
+    "ticker": "GIL",
+    "name_ko": "질단 액티브웨어"
+  },
+  {
+    "ticker": "AMH",
+    "name_ko": "아메리칸 홈스 포 렌트"
+  },
+  {
+    "ticker": "PR",
+    "name_ko": "페르미안 리소시스"
+  },
+  {
+    "ticker": "PAC",
+    "name_ko": "그루포 에어로포르투아리오 파시피코 B ADR"
+  },
+  {
+    "ticker": "NYT",
+    "name_ko": "뉴욕타임스"
+  },
+  {
+    "ticker": "KLAR",
+    "name_ko": "클라나 그룹"
+  },
+  {
+    "ticker": "NIO",
+    "name_ko": "니오 ADR"
+  },
+  {
+    "ticker": "ELAN",
+    "name_ko": "엘란코 애니멀 헬스"
+  },
+  {
+    "ticker": "RVTY",
+    "name_ko": "레비티"
+  },
+  {
+    "ticker": "PCOR",
+    "name_ko": "프로코어테크놀러지스"
+  },
+  {
+    "ticker": "CR",
+    "name_ko": "크레인 홀딩스"
+  },
+  {
+    "ticker": "SUZ",
+    "name_ko": "수자노 ADR"
+  },
+  {
+    "ticker": "BAH",
+    "name_ko": "부즈 앨런 해밀턴 홀딩"
+  },
+  {
+    "ticker": "GL",
+    "name_ko": "글로브 라이프"
+  },
+  {
+    "ticker": "AFG",
+    "name_ko": "아메리칸 파이낸셜 그룹"
+  },
+  {
+    "ticker": "SCI",
+    "name_ko": "서비스 코퍼레이션 인터내셔널"
+  },
+  {
+    "ticker": "RDY",
+    "name_ko": "닥터 레디스 래보라토리스 ADR"
+  },
+  {
+    "ticker": "DAY",
+    "name_ko": "데이포스"
+  },
+  {
+    "ticker": "NCLH",
+    "name_ko": "노르웨이지안 크루즈 라인 홀딩스"
+  },
+  {
+    "ticker": "STN",
+    "name_ko": "스탠텍"
+  },
+  {
+    "ticker": "YMM",
+    "name_ko": "풀 트럭 얼라이언스 ADR"
+  },
+  {
+    "ticker": "FDS",
+    "name_ko": "팩트셋 리서치 시스템즈"
+  },
+  {
+    "ticker": "WTRG",
+    "name_ko": "에센셜 유틸리티스"
+  },
+  {
+    "ticker": "PAG",
+    "name_ko": "펜스케 오토모티브 그룹"
+  },
+  {
+    "ticker": "SBSW",
+    "name_ko": "시바니 스틸워터 ADR"
+  },
+  {
+    "ticker": "MP",
+    "name_ko": "엠피 머터리얼즈"
+  },
+  {
+    "ticker": "DDS",
+    "name_ko": "딜라즈"
+  },
+  {
+    "ticker": "CNM",
+    "name_ko": "코어 & 메인"
+  },
+  {
+    "ticker": "DCI",
+    "name_ko": "도널드슨"
+  },
+  {
+    "ticker": "PNW",
+    "name_ko": "피너클 웨스트 캐피털"
+  },
+  {
+    "ticker": "ORI",
+    "name_ko": "올드 리퍼블릭 인터내셔널"
+  },
+  {
+    "ticker": "BAX",
+    "name_ko": "박스터 인터내셔널"
+  },
+  {
+    "ticker": "BXP",
+    "name_ko": "BXP"
+  },
+  {
+    "ticker": "CRL",
+    "name_ko": "찰스 리버 래보라토리스 인터내셔널"
+  },
+  {
+    "ticker": "WBS",
+    "name_ko": "웹스터 파이낸셜"
+  },
+  {
+    "ticker": "SQM",
+    "name_ko": "소시에다드 퀴미카 B ADR"
+  },
+  {
+    "ticker": "GAP",
+    "name_ko": "갭"
+  },
+  {
+    "ticker": "EHC",
+    "name_ko": "인컴퍼스 헬스"
+  },
+  {
+    "ticker": "CAE",
+    "name_ko": "CAE"
+  },
+  {
+    "ticker": "SJM",
+    "name_ko": "J.M.스머커"
+  },
+  {
+    "ticker": "BROS",
+    "name_ko": "더치 브로스"
+  },
+  {
+    "ticker": "SPXC",
+    "name_ko": "SPX 테크놀로지스"
+  },
+  {
+    "ticker": "QBTS",
+    "name_ko": "디 웨이브 퀀텀"
+  },
+  {
+    "ticker": "SARO",
+    "name_ko": "스탠다드에어로"
+  },
+  {
+    "ticker": "RRX",
+    "name_ko": "리걸 렉스노드"
+  },
+  {
+    "ticker": "BWA",
+    "name_ko": "보그워너"
+  },
+  {
+    "ticker": "WLK",
+    "name_ko": "웨스트레이크"
+  },
+  {
+    "ticker": "ARMK",
+    "name_ko": "아라마크"
+  },
+  {
+    "ticker": "DY",
+    "name_ko": "다이콤 인더스트리스"
+  },
+  {
+    "ticker": "AES",
+    "name_ko": "AES"
+  },
+  {
+    "ticker": "IAG",
+    "name_ko": "아이엠골드"
+  },
+  {
+    "ticker": "EDU",
+    "name_ko": "뉴 오리엔탈 에듀케이션 & 테크놀로지 ADR"
+  },
+  {
+    "ticker": "AIT",
+    "name_ko": "어플라이드 인더스트리얼 테크놀로지"
+  },
+  {
+    "ticker": "QGEN",
+    "name_ko": "퀴아젠"
+  },
+  {
+    "ticker": "AR",
+    "name_ko": "앤테로 리소스"
+  },
+  {
+    "ticker": "ASR",
+    "name_ko": "그루포 에어로포르투아리오 수레스테 ADR"
+  },
+  {
+    "ticker": "SSB",
+    "name_ko": "사우스스테이트 뱅크"
+  },
+  {
+    "ticker": "AYI",
+    "name_ko": "어큐이티"
+  },
+  {
+    "ticker": "WAL",
+    "name_ko": "웨스턴 얼라이언스 뱅코프"
+  },
+  {
+    "ticker": "TIMB",
+    "name_ko": "팀 ADR"
+  },
+  {
+    "ticker": "EGP",
+    "name_ko": "이스트그룹 프로퍼티스"
+  },
+  {
+    "ticker": "AOS",
+    "name_ko": "A O 스미스"
+  },
+  {
+    "ticker": "OVV",
+    "name_ko": "오빈티브"
+  },
+  {
+    "ticker": "OC",
+    "name_ko": "오웬스 코닝"
+  },
+  {
+    "ticker": "MGM",
+    "name_ko": "MGM 리조트 인터내셔널"
+  },
+  {
+    "ticker": "GME",
+    "name_ko": "게임스탑"
+  },
+  {
+    "ticker": "KNSL",
+    "name_ko": "킨세일 캐피털 그룹"
+  },
+  {
+    "ticker": "WTS",
+    "name_ko": "와츠 워터 테크놀로지스"
+  },
+  {
+    "ticker": "MOH",
+    "name_ko": "몰리나 헬스케어"
+  },
+  {
+    "ticker": "REXR",
+    "name_ko": "렉스포드 인더스트리얼 리얼티"
+  },
+  {
+    "ticker": "OSK",
+    "name_ko": "오시코시"
+  },
+  {
+    "ticker": "DINO",
+    "name_ko": "HF 싱클레어"
+  },
+  {
+    "ticker": "MICC",
+    "name_ko": "매그넘 아이스크림 컴퍼니"
+  },
+  {
+    "ticker": "GTLS",
+    "name_ko": "차트 인더스트리스"
+  },
+  {
+    "ticker": "ALV",
+    "name_ko": "오토리브"
+  },
+  {
+    "ticker": "KNX",
+    "name_ko": "나이트-스위프트 트랜스포테이션"
+  },
+  {
+    "ticker": "ARE",
+    "name_ko": "알렉산드리아 리얼에스테이트 이쿼티"
+  },
+  {
+    "ticker": "KT",
+    "name_ko": "KT ADR"
+  },
+  {
+    "ticker": "FLS",
+    "name_ko": "플로우서브"
+  },
+  {
+    "ticker": "VIPS",
+    "name_ko": "브이아이피숍 홀딩스 ADR"
+  },
+  {
+    "ticker": "PSO",
+    "name_ko": "피어슨 ADR"
+  },
+  {
+    "ticker": "TFII",
+    "name_ko": "TFI 인터내셔널"
+  },
+  {
+    "ticker": "PATH",
+    "name_ko": "유아이패스"
+  },
+  {
+    "ticker": "OGE",
+    "name_ko": "OGE 에너지"
+  },
+  {
+    "ticker": "ONTO",
+    "name_ko": "온투 이노베이션"
+  },
+  {
+    "ticker": "UHAL.B",
+    "name_ko": "유홀 홀딩 시리즈 N"
+  },
+  {
+    "ticker": "FRT",
+    "name_ko": "페더럴 리얼티 인베스트먼트 트러스트"
+  },
+  {
+    "ticker": "AHR",
+    "name_ko": "아메리칸 헬스케어 REIT"
+  },
+  {
+    "ticker": "PLNT",
+    "name_ko": "플래닛 피트니스"
+  },
+  {
+    "ticker": "AG",
+    "name_ko": "퍼스트 머제스틱 실버"
+  },
+  {
+    "ticker": "CFR",
+    "name_ko": "컬런/프로스트 뱅커스"
+  },
+  {
+    "ticker": "TAP",
+    "name_ko": "몰슨 쿠어스 베버리지 Class B"
+  },
+  {
+    "ticker": "GNRC",
+    "name_ko": "제네락 홀딩스"
+  },
+  {
+    "ticker": "PAYC",
+    "name_ko": "페이콤 소프트웨어"
+  },
+  {
+    "ticker": "AMG",
+    "name_ko": "어필리에이티드 매니저스 그룹"
+  },
+  {
+    "ticker": "TTC",
+    "name_ko": "토로"
+  },
+  {
+    "ticker": "LEVI",
+    "name_ko": "리바이 스트라우스"
+  },
+  {
+    "ticker": "ACI",
+    "name_ko": "앨버트슨 컴퍼니"
+  },
+  {
+    "ticker": "CADE",
+    "name_ko": "케이던스 뱅크"
+  },
+  {
+    "ticker": "ALSN",
+    "name_ko": "앨리슨 트랜스미션 홀딩스"
+  },
+  {
+    "ticker": "KVYO",
+    "name_ko": "클라비요"
+  },
+  {
+    "ticker": "AGCO",
+    "name_ko": "애그코"
+  },
+  {
+    "ticker": "CUBE",
+    "name_ko": "큐브스마트"
+  },
+  {
+    "ticker": "AWI",
+    "name_ko": "암스트롱 월드 인더스트리스"
+  },
+  {
+    "ticker": "PRI",
+    "name_ko": "프라이메리카"
+  },
+  {
+    "ticker": "MOS",
+    "name_ko": "모자이크"
+  },
+  {
+    "ticker": "LNC",
+    "name_ko": "링컨 내셔널"
+  },
+  {
+    "ticker": "LUMN",
+    "name_ko": "루멘 테크놀로지스"
+  },
+  {
+    "ticker": "OMF",
+    "name_ko": "원메인 홀딩스"
+  },
+  {
+    "ticker": "HBM",
+    "name_ko": "허드베이 미네랄"
+  },
+  {
+    "ticker": "JBTM",
+    "name_ko": "JBT 마렐"
+  },
+  {
+    "ticker": "VMI",
+    "name_ko": "밸몬트 인더스트리스"
+  },
+  {
+    "ticker": "ESTC",
+    "name_ko": "엘라스틱"
+  },
+  {
+    "ticker": "BA PR A",
+    "name_ko": "보잉 우선주 6%"
+  },
+  {
+    "ticker": "AM",
+    "name_ko": "앤테로 미드스트림"
+  },
+  {
+    "ticker": "CTRE",
+    "name_ko": "케어트러스트 리츠 (REIT)"
+  },
+  {
+    "ticker": "DOCS",
+    "name_ko": "독시미티"
+  },
+  {
+    "ticker": "AVTR",
+    "name_ko": "어밴터"
+  },
+  {
+    "ticker": "BEP",
+    "name_ko": "Brookfield Renewable Partners Non Voting Units"
+  },
+  {
+    "ticker": "G",
+    "name_ko": "젠팩트"
+  },
+  {
+    "ticker": "ADC",
+    "name_ko": "어그리 리얼티"
+  },
+  {
+    "ticker": "BIRK",
+    "name_ko": "버컨스톡 홀딩"
+  },
+  {
+    "ticker": "TX",
+    "name_ko": "테르니움 ADR"
+  },
+  {
+    "ticker": "CAVA",
+    "name_ko": "카바 그룹"
+  },
+  {
+    "ticker": "LAD",
+    "name_ko": "리시아 모터스"
+  },
+  {
+    "ticker": "MUSA",
+    "name_ko": "머피 USA"
+  },
+  {
+    "ticker": "ATR",
+    "name_ko": "아프타그룹"
+  },
+  {
+    "ticker": "RRC",
+    "name_ko": "레인지 리소시스"
+  },
+  {
+    "ticker": "BRX",
+    "name_ko": "브릭스모어 프로퍼티 그룹"
+  },
+  {
+    "ticker": "AXS",
+    "name_ko": "액시스 캐피털 홀딩스"
+  },
+  {
+    "ticker": "UGI",
+    "name_ko": "UGI"
+  },
+  {
+    "ticker": "JXN",
+    "name_ko": "잭슨 파이낸셜"
+  },
+  {
+    "ticker": "MET PR F",
+    "name_ko": "메트라이프 우선주 시리즈 F 4.75%"
+  },
+  {
+    "ticker": "DVA",
+    "name_ko": "다비타"
+  },
+  {
+    "ticker": "CAG",
+    "name_ko": "콘아그라 브랜즈"
+  },
+  {
+    "ticker": "CIB",
+    "name_ko": "그루포 시베스트 ADR"
+  },
+  {
+    "ticker": "BVN",
+    "name_ko": "미나스 부에나벤투라 ADR"
+  },
+  {
+    "ticker": "AMTM",
+    "name_ko": "아멘텀 홀딩스"
+  },
+  {
+    "ticker": "VFC",
+    "name_ko": "VF"
+  },
+  {
+    "ticker": "AN",
+    "name_ko": "오토네이션"
+  },
+  {
+    "ticker": "SKM",
+    "name_ko": "SK텔레콤 ADR"
+  },
+  {
+    "ticker": "EMN",
+    "name_ko": "이스트만 케미컬"
+  },
+  {
+    "ticker": "CMC",
+    "name_ko": "커머셜 메탈스"
+  },
+  {
+    "ticker": "NNN",
+    "name_ko": "내셔널 리테일 프로퍼티즈"
+  },
+  {
+    "ticker": "FR",
+    "name_ko": "퍼스트 인더스트리얼 리얼티 트러스트"
+  },
+  {
+    "ticker": "HIMS",
+    "name_ko": "힘스 & 허즈"
+  },
+  {
+    "ticker": "ZWS",
+    "name_ko": "전 엘케이 워터 솔루션스"
+  },
+  {
+    "ticker": "R",
+    "name_ko": "라이더 시스템"
+  },
+  {
+    "ticker": "EGO",
+    "name_ko": "엘도라도 골드"
+  },
+  {
+    "ticker": "SUN",
+    "name_ko": "Sunoco Common Units"
+  },
+  {
+    "ticker": "BF.B",
+    "name_ko": "브라운-포맨 Class B"
+  },
+  {
+    "ticker": "UWMC",
+    "name_ko": "UWM 홀딩스"
+  },
+  {
+    "ticker": "VOYA",
+    "name_ko": "보야 파이낸셜"
+  },
+  {
+    "ticker": "MOG.A",
+    "name_ko": "무그 Class A"
+  },
+  {
+    "ticker": "IBP",
+    "name_ko": "인스톨드 빌딩 프로덕츠"
+  },
+  {
+    "ticker": "NFG",
+    "name_ko": "내셔널 퓨얼 가스"
+  },
+  {
+    "ticker": "JHG",
+    "name_ko": "재너스 헨더슨 그룹"
+  },
+  {
+    "ticker": "FND",
+    "name_ko": "플로어 & 데코 홀딩스"
+  },
+  {
+    "ticker": "PSN",
+    "name_ko": "파슨스"
+  },
+  {
+    "ticker": "ESAB",
+    "name_ko": "ESAB"
+  },
+  {
+    "ticker": "TFPM",
+    "name_ko": "트리플 플래그 프레셔스 메탈스"
+  },
+  {
+    "ticker": "ICL",
+    "name_ko": "이스라엘 케미컬스"
+  },
+  {
+    "ticker": "PJT",
+    "name_ko": "PJT 파트너스"
+  },
+  {
+    "ticker": "AL",
+    "name_ko": "에어 리스"
+  },
+  {
+    "ticker": "INGR",
+    "name_ko": "인그리디언"
+  },
+  {
+    "ticker": "SSD",
+    "name_ko": "심슨 매뉴팩처링"
+  },
+  {
+    "ticker": "OR",
+    "name_ko": "OR 로열티스"
+  },
+  {
+    "ticker": "PFSI",
+    "name_ko": "페니맥 파이낸셜 서비스"
+  },
+  {
+    "ticker": "PDI",
+    "name_ko": "PIMCO Dynamic Income Fund"
+  },
+  {
+    "ticker": "EAT",
+    "name_ko": "브링커 인터내셔널"
+  },
+  {
+    "ticker": "MHK",
+    "name_ko": "모호크 인더스트리스"
+  },
+  {
+    "ticker": "EXP",
+    "name_ko": "이글 머티리얼스"
+  },
+  {
+    "ticker": "STAG",
+    "name_ko": "스태그 인더스트리얼"
+  },
+  {
+    "ticker": "CWAN",
+    "name_ko": "클리어워터 애널리틱스 홀딩스"
+  },
+  {
+    "ticker": "FSS",
+    "name_ko": "페더럴 시그널"
+  },
+  {
+    "ticker": "PL",
+    "name_ko": "플래닛 랩스 PBC"
+  },
+  {
+    "ticker": "PB",
+    "name_ko": "프로스페리티 뱅크셰어스"
+  },
+  {
+    "ticker": "FLR",
+    "name_ko": "플루오르"
+  },
+  {
+    "ticker": "BIO",
+    "name_ko": "바이오래드 래보라토리스 Class A"
+  },
+  {
+    "ticker": "CLF",
+    "name_ko": "클리블랜드-클리프스"
+  },
+  {
+    "ticker": "HESM",
+    "name_ko": "헤스 미드스트림"
+  },
+  {
+    "ticker": "ORA",
+    "name_ko": "오마트 테크놀로지스"
+  },
+  {
+    "ticker": "AXTA",
+    "name_ko": "엑솔타 코팅 시스템즈"
+  },
+  {
+    "ticker": "COMP",
+    "name_ko": "컴퍼스"
+  },
+  {
+    "ticker": "BYD",
+    "name_ko": "보이드 게이밍"
+  },
+  {
+    "ticker": "IDA",
+    "name_ko": "아이다코프"
+  },
+  {
+    "ticker": "LOAR",
+    "name_ko": "로어 홀딩스"
+  },
+  {
+    "ticker": "TAL",
+    "name_ko": "TAL 에듀케이션 그룹 ADR"
+  },
+  {
+    "ticker": "KEX",
+    "name_ko": "커비"
+  },
+  {
+    "ticker": "BEPC",
+    "name_ko": "브룩필드 리뉴어블 리뉴어블"
+  },
+  {
+    "ticker": "ADT",
+    "name_ko": "ADT"
+  },
+  {
+    "ticker": "STWD",
+    "name_ko": "스타우드 프로퍼티 트러스트"
+  },
+  {
+    "ticker": "PRIM",
+    "name_ko": "프리모리스 서비시스"
+  },
+  {
+    "ticker": "MSA",
+    "name_ko": "MSA 세이프티"
+  },
+  {
+    "ticker": "NEU",
+    "name_ko": "뉴마켓"
+  },
+  {
+    "ticker": "ESI",
+    "name_ko": "엘리먼트 솔루션즈"
+  },
+  {
+    "ticker": "OTF",
+    "name_ko": "블루 아울 테크놀로지 파이낸스"
+  },
+  {
+    "ticker": "VNO",
+    "name_ko": "보나도 리얼티 트러스트"
+  },
+  {
+    "ticker": "STVN",
+    "name_ko": "스테바나토 그룹"
+  },
+  {
+    "ticker": "FBIN",
+    "name_ko": "포츈 브랜즈 홈 앤 시큐리티"
+  },
+  {
+    "ticker": "NXE",
+    "name_ko": "넥스젠 에너지"
+  },
+  {
+    "ticker": "GKOS",
+    "name_ko": "글라우코스"
+  },
+  {
+    "ticker": "LEA",
+    "name_ko": "리어"
+  },
+  {
+    "ticker": "BETA",
+    "name_ko": "베타 테크놀로지스"
+  },
+  {
+    "ticker": "PRMB",
+    "name_ko": "프리모 브랜드"
+  },
+  {
+    "ticker": "PIPR",
+    "name_ko": "파이퍼 샌들러 컴퍼니스"
+  },
+  {
+    "ticker": "MTG",
+    "name_ko": "MGIC 인베스트먼트"
+  },
+  {
+    "ticker": "PACS",
+    "name_ko": "팩스 그룹"
+  },
+  {
+    "ticker": "OBDC",
+    "name_ko": "블루 아울 캐피털"
+  },
+  {
+    "ticker": "TXNM",
+    "name_ko": "TXNM 에너지"
+  },
+  {
+    "ticker": "NOV",
+    "name_ko": "노브"
+  },
+  {
+    "ticker": "GXO",
+    "name_ko": "GXO 로지스틱스"
+  },
+  {
+    "ticker": "CHE",
+    "name_ko": "케미드"
+  },
+  {
+    "ticker": "GATX",
+    "name_ko": "GATX"
+  },
+  {
+    "ticker": "MSGS",
+    "name_ko": "매디슨 스퀘어 가든 스포츠"
+  },
+  {
+    "ticker": "KMX",
+    "name_ko": "카맥스"
+  },
+  {
+    "ticker": "HXL",
+    "name_ko": "헥셀"
+  },
+  {
+    "ticker": "MOD",
+    "name_ko": "모딘 매뉴팩처링"
+  },
+  {
+    "ticker": "RITM",
+    "name_ko": "리듬 캐피탈"
+  },
+  {
+    "ticker": "TKR",
+    "name_ko": "팀켄"
+  },
+  {
+    "ticker": "FNB",
+    "name_ko": "FNB"
+  },
+  {
+    "ticker": "M",
+    "name_ko": "메이시스"
+  },
+  {
+    "ticker": "CRK",
+    "name_ko": "캄스톡 리소시즈"
+  },
+  {
+    "ticker": "THG",
+    "name_ko": "하노버 인슈어런스 그룹"
+  },
+  {
+    "ticker": "ESNT",
+    "name_ko": "이센트 그룹"
+  },
+  {
+    "ticker": "KD",
+    "name_ko": "킨드릴 홀딩스"
+  },
+  {
+    "ticker": "LTH",
+    "name_ko": "라이프 타임 그룹 홀딩스"
+  },
+  {
+    "ticker": "XXI",
+    "name_ko": "트웬티 원 캐피털"
+  },
+  {
+    "ticker": "GBCI",
+    "name_ko": "글레이셔 뱅코프"
+  },
+  {
+    "ticker": "MIR",
+    "name_ko": "미리온 테크놀로지스"
+  },
+  {
+    "ticker": "TRNO",
+    "name_ko": "테레노 리얼티"
+  },
+  {
+    "ticker": "BLCO",
+    "name_ko": "바슈롬"
+  },
+  {
+    "ticker": "FAF",
+    "name_ko": "퍼스트 아메리칸 파이낸셜"
+  },
+  {
+    "ticker": "SEE",
+    "name_ko": "실드 에어"
+  },
+  {
+    "ticker": "BXSL",
+    "name_ko": "블랙스톤 시큐어드 렌딩 펀드"
+  },
+  {
+    "ticker": "MNSO",
+    "name_ko": "미니소 그룹 홀딩 ADR"
+  },
+  {
+    "ticker": "DAR",
+    "name_ko": "달링 인그리디언츠"
+  },
+  {
+    "ticker": "DLB",
+    "name_ko": "돌비 래보라토리스"
+  },
+  {
+    "ticker": "WH",
+    "name_ko": "윈덤 호텔 & 리조트"
+  },
+  {
+    "ticker": "ETSY",
+    "name_ko": "ETSY"
+  },
+  {
+    "ticker": "LMND",
+    "name_ko": "레모네이드"
+  },
+  {
+    "ticker": "HR",
+    "name_ko": "헬스케어 리얼티 트러스트"
+  },
+  {
+    "ticker": "BMA",
+    "name_ko": "방코 마크로 ADR"
+  },
+  {
+    "ticker": "ANF",
+    "name_ko": "애버크롬비 & 피치"
+  },
+  {
+    "ticker": "SMR",
+    "name_ko": "뉴스케일 파워"
+  },
+  {
+    "ticker": "TMHC",
+    "name_ko": "테일러 모리슨 홈"
+  },
+  {
+    "ticker": "SITE",
+    "name_ko": "사이트원 랜드스케이프 서플라이"
+  },
+  {
+    "ticker": "RHP",
+    "name_ko": "라이먼 호스피탤리티 프로퍼티스"
+  },
+  {
+    "ticker": "EPRT",
+    "name_ko": "에센셜 프로퍼티 리얼티"
+  },
+  {
+    "ticker": "KNTK",
+    "name_ko": "키네틱 홀딩스"
+  },
+  {
+    "ticker": "LPX",
+    "name_ko": "루이지애나-퍼시픽"
+  },
+  {
+    "ticker": "BOOT",
+    "name_ko": "부트 반 홀딩스"
+  },
+  {
+    "ticker": "FOUR",
+    "name_ko": "쉬프트4 페이먼트"
+  },
+  {
+    "ticker": "BIPC",
+    "name_ko": "브룩필드 인프라스트럭처"
+  },
+  {
+    "ticker": "ARW",
+    "name_ko": "애로우 일렉트로닉스"
+  },
+  {
+    "ticker": "ENIC",
+    "name_ko": "에넬 칠레 ADR"
+  },
+  {
+    "ticker": "SWX",
+    "name_ko": "사우스웨스트 가스 홀딩스"
+  },
+  {
+    "ticker": "MC",
+    "name_ko": "모엘리스"
+  },
+  {
+    "ticker": "ZETA",
+    "name_ko": "제타 글로벌 홀딩스"
+  },
+  {
+    "ticker": "GTES",
+    "name_ko": "게이츠 인더스트리얼"
+  },
+  {
+    "ticker": "ENS",
+    "name_ko": "에너시스"
+  },
+  {
+    "ticker": "RAL",
+    "name_ko": "랠리언트"
+  },
+  {
+    "ticker": "BFAM",
+    "name_ko": "브라이트 호라이즌 패밀리 솔루션"
+  },
+  {
+    "ticker": "BLSH",
+    "name_ko": "불리쉬"
+  },
+  {
+    "ticker": "LW",
+    "name_ko": "램 웨스턴 홀딩스"
+  },
+  {
+    "ticker": "THO",
+    "name_ko": "소어 인더스트리스"
+  },
+  {
+    "ticker": "ACHR",
+    "name_ko": "아처 에비에이션"
+  },
+  {
+    "ticker": "HRB",
+    "name_ko": "H&R 블록"
+  },
+  {
+    "ticker": "HOMB",
+    "name_ko": "홈 뱅크셰어스"
+  },
+  {
+    "ticker": "BC",
+    "name_ko": "브런스윅"
+  },
+  {
+    "ticker": "ALK",
+    "name_ko": "알래스카 에어 그룹"
+  },
+  {
+    "ticker": "VNT",
+    "name_ko": "본티어"
+  },
+  {
+    "ticker": "HRI",
+    "name_ko": "허크 홀딩스"
+  },
+  {
+    "ticker": "RLI",
+    "name_ko": "알리"
+  },
+  {
+    "ticker": "MAIN",
+    "name_ko": "메인 스트리트 캐피털"
+  },
+  {
+    "ticker": "KBR",
+    "name_ko": "KBR"
+  },
+  {
+    "ticker": "REZI",
+    "name_ko": "레지디오 테크놀러지"
+  },
+  {
+    "ticker": "POR",
+    "name_ko": "포틀랜드 제너럴 일렉트릭"
+  },
+  {
+    "ticker": "BILL",
+    "name_ko": "빌닷컴 홀딩스"
+  },
+  {
+    "ticker": "FLG",
+    "name_ko": "플래그스타 파이낸셜"
+  },
+  {
+    "ticker": "WEX",
+    "name_ko": "웩스"
+  },
+  {
+    "ticker": "SOBO",
+    "name_ko": "사우스 보우"
+  },
+  {
+    "ticker": "FRO",
+    "name_ko": "프론트라인"
+  },
+  {
+    "ticker": "FCN",
+    "name_ko": "FTI 컨설팅"
+  },
+  {
+    "ticker": "ESE",
+    "name_ko": "에스코 테크놀로지스"
+  },
+  {
+    "ticker": "ABCB",
+    "name_ko": "아메리스 뱅코프"
+  },
+  {
+    "ticker": "BKH",
+    "name_ko": "블랙 힐스"
+  },
+  {
+    "ticker": "CPA",
+    "name_ko": "코파 홀딩스"
+  },
+  {
+    "ticker": "CSW",
+    "name_ko": "CSW 인더스트리얼즈"
+  },
+  {
+    "ticker": "AUB",
+    "name_ko": "아틀란틱 유니온 뱅크셰어스"
+  },
+  {
+    "ticker": "SGHC",
+    "name_ko": "SGHC"
+  },
+  {
+    "ticker": "ACA",
+    "name_ko": "아코사"
+  },
+  {
+    "ticker": "AX",
+    "name_ko": "액소스 파이낸셜"
+  },
+  {
+    "ticker": "MTDR",
+    "name_ko": "마타도 리소시스"
+  },
+  {
+    "ticker": "WTM",
+    "name_ko": "화이트 마운틴스 인슈어런스 그룹"
+  },
+  {
+    "ticker": "LEU",
+    "name_ko": "센트러스 에너지"
+  },
+  {
+    "ticker": "S",
+    "name_ko": "센티넬원"
+  },
+  {
+    "ticker": "GVA",
+    "name_ko": "그래니트 컨스트럭션"
+  },
+  {
+    "ticker": "KRG",
+    "name_ko": "카이트 리얼티 그룹 트러스트"
+  },
+  {
+    "ticker": "MMS",
+    "name_ko": "막시무스"
+  },
+  {
+    "ticker": "BCO",
+    "name_ko": "브링크스"
+  },
+  {
+    "ticker": "ST",
+    "name_ko": "센사타 테크놀로지스 홀딩"
+  },
+  {
+    "ticker": "BMI",
+    "name_ko": "배저 미터"
+  },
+  {
+    "ticker": "ELF",
+    "name_ko": "엘프 뷰티"
+  },
+  {
+    "ticker": "POST",
+    "name_ko": "포스트 홀딩스"
+  },
+  {
+    "ticker": "SKY",
+    "name_ko": "챔피언 홈스"
+  },
+  {
+    "ticker": "NNI",
+    "name_ko": "넬넷"
+  },
+  {
+    "ticker": "GPI",
+    "name_ko": "그룹 원 오토모티브"
+  },
+  {
+    "ticker": "ATH PR A",
+    "name_ko": "아테네 홀딩 우선주 시리즈 A"
+  },
+  {
+    "ticker": "WK",
+    "name_ko": "워키바"
+  },
+  {
+    "ticker": "GOLF",
+    "name_ko": "아쿠쉬네트 홀딩스"
+  },
+  {
+    "ticker": "KOF",
+    "name_ko": "코카콜라 펨사 ADR"
+  },
+  {
+    "ticker": "VSCO",
+    "name_ko": "빅토리아 시크릿 & 코"
+  },
+  {
+    "ticker": "MCY",
+    "name_ko": "머큐리 제너럴"
+  },
+  {
+    "ticker": "HCC",
+    "name_ko": "워리어 멧 콜"
+  },
+  {
+    "ticker": "IFS",
+    "name_ko": "인터코프 파이낸셜 서비스"
+  },
+  {
+    "ticker": "TKC",
+    "name_ko": "투르크젤 을레티심 히즈메틀레리 ADR"
+  },
+  {
+    "ticker": "GGB",
+    "name_ko": "제르다우 ADR"
+  },
+  {
+    "ticker": "SNDR",
+    "name_ko": "슈나이더 내셔널"
+  },
+  {
+    "ticker": "VIRT",
+    "name_ko": "버튜 파이낸셜"
+  },
+  {
+    "ticker": "GHC",
+    "name_ko": "그레이엄 홀딩스"
+  },
+  {
+    "ticker": "NIQ",
+    "name_ko": "NIQ 글로벌 인텔리전스"
+  },
+  {
+    "ticker": "WPP",
+    "name_ko": "WPP ADR"
+  },
+  {
+    "ticker": "SR",
+    "name_ko": "스파이어"
+  },
+  {
+    "ticker": "INGM",
+    "name_ko": "인그램 마이크로 홀딩"
+  },
+  {
+    "ticker": "MTN",
+    "name_ko": "베일 리조트"
+  },
+  {
+    "ticker": "HHH",
+    "name_ko": "하워드 휴스 홀딩스"
+  },
+  {
+    "ticker": "RDN",
+    "name_ko": "라디안 그룹"
+  },
+  {
+    "ticker": "CHH",
+    "name_ko": "초이스 호텔스 인터내셔널"
+  },
+  {
+    "ticker": "WFG",
+    "name_ko": "웨스트 프레이저 팀버"
+  },
+  {
+    "ticker": "ABG",
+    "name_ko": "애즈버리 오토모티브 그룹"
+  },
+  {
+    "ticker": "TFX",
+    "name_ko": "텔레플렉스"
+  },
+  {
+    "ticker": "WFC PR L",
+    "name_ko": "웰스파고 우선주 시리즈 L 7.5%"
+  },
+  {
+    "ticker": "YOU",
+    "name_ko": "클리어 시큐어"
+  },
+  {
+    "ticker": "MRP",
+    "name_ko": "밀로즈 프로퍼티스"
+  },
+  {
+    "ticker": "NPO",
+    "name_ko": "엔프로"
+  },
+  {
+    "ticker": "TNL",
+    "name_ko": "트래블 앤 레저"
+  },
+  {
+    "ticker": "CE",
+    "name_ko": "셀라니즈 코퍼레이션"
+  },
+  {
+    "ticker": "CNR",
+    "name_ko": "코어 내추럴 리소시스"
+  },
+  {
+    "ticker": "MTH",
+    "name_ko": "메리티지 홈즈"
+  },
+  {
+    "ticker": "LAZ",
+    "name_ko": "라자드"
+  },
+  {
+    "ticker": "DOCN",
+    "name_ko": "디지털오션 홀딩스"
+  },
+  {
+    "ticker": "NE",
+    "name_ko": "노블"
+  },
+  {
+    "ticker": "AQN",
+    "name_ko": "알곤퀸 파워 & 유틸리티"
+  },
+  {
+    "ticker": "BBU",
+    "name_ko": "Brookfield Business Partners Units"
+  },
+  {
+    "ticker": "CNX",
+    "name_ko": "CNX 리소스"
+  },
+  {
+    "ticker": "MAC",
+    "name_ko": "메이서리치"
+  },
+  {
+    "ticker": "VIST",
+    "name_ko": "비스타 에너지"
+  },
+  {
+    "ticker": "KRC",
+    "name_ko": "킬로이 리얼티"
+  },
+  {
+    "ticker": "TDS",
+    "name_ko": "텔레폰 앤 데이터 시스템즈"
+  },
+  {
+    "ticker": "RIG",
+    "name_ko": "트랜스오션"
+  },
+  {
+    "ticker": "PHI",
+    "name_ko": "PLDT ADR"
+  },
+  {
+    "ticker": "NJR",
+    "name_ko": "뉴저지 리소시스"
+  },
+  {
+    "ticker": "MSM",
+    "name_ko": "MSC 인더스트리얼 다이렉트"
+  },
+  {
+    "ticker": "AEO",
+    "name_ko": "아메리칸 이글 아웃피터스"
+  },
+  {
+    "ticker": "MUR",
+    "name_ko": "머피 오일"
+  },
+  {
+    "ticker": "GPK",
+    "name_ko": "그래픽 패키징 홀딩"
+  },
+  {
+    "ticker": "BBWI",
+    "name_ko": "배스 앤 바디 웍스"
+  },
+  {
+    "ticker": "OGS",
+    "name_ko": "원 가스"
+  },
+  {
+    "ticker": "ENVA",
+    "name_ko": "이노바 인터내셔널"
+  },
+  {
+    "ticker": "SON",
+    "name_ko": "소노코 프로덕트"
+  },
+  {
+    "ticker": "CUK",
+    "name_ko": "카니발 ADR"
+  },
+  {
+    "ticker": "AROC",
+    "name_ko": "아크록"
+  },
+  {
+    "ticker": "WHR",
+    "name_ko": "월풀"
+  },
+  {
+    "ticker": "STUB",
+    "name_ko": "스텁허브 홀딩스"
+  },
+  {
+    "ticker": "PAM",
+    "name_ko": "팜파 에네르히아 ADR"
+  },
+  {
+    "ticker": "HGTY",
+    "name_ko": "해거티"
+  },
+  {
+    "ticker": "BDC",
+    "name_ko": "벨던"
+  },
+  {
+    "ticker": "AD",
+    "name_ko": "어레이 디지털 인프라스트럭처"
+  },
+  {
+    "ticker": "OSCR",
+    "name_ko": "오스카 헬스"
+  },
+  {
+    "ticker": "CUZ",
+    "name_ko": "커즌스 프로퍼티스"
+  },
+  {
+    "ticker": "ECG",
+    "name_ko": "에베루스 컨스트럭션 그룹"
+  },
+  {
+    "ticker": "ASB",
+    "name_ko": "어소시에이티드 뱅크코프"
+  },
+  {
+    "ticker": "SLGN",
+    "name_ko": "실간 홀딩스"
+  },
+  {
+    "ticker": "CAAP",
+    "name_ko": "코퍼래시온 어메리카 에어포츠"
+  },
+  {
+    "ticker": "ATMU",
+    "name_ko": "아트무스 필트레이션 테크놀로지스"
+  },
+  {
+    "ticker": "RSI",
+    "name_ko": "러시 스트리트 인터랙티브"
+  },
+  {
+    "ticker": "KNF",
+    "name_ko": "나이프 리버"
+  },
+  {
+    "ticker": "QTWO",
+    "name_ko": "Q2 홀딩스"
+  },
+  {
+    "ticker": "BF.A",
+    "name_ko": "브라운-포맨 Class A"
+  },
+  {
+    "ticker": "AGX",
+    "name_ko": "아간"
+  },
+  {
+    "ticker": "BGSI",
+    "name_ko": "보이드 그룹 서비스"
+  },
+  {
+    "ticker": "PRM",
+    "name_ko": "페리미터 솔루션스"
+  },
+  {
+    "ticker": "GBTG",
+    "name_ko": "글로벌 비지니스 트래블 그룹"
+  },
+  {
+    "ticker": "ALH",
+    "name_ko": "얼라이언스 런드리 홀딩스"
+  },
+  {
+    "ticker": "LPL",
+    "name_ko": "엘지디스플레이 ADR"
+  },
+  {
+    "ticker": "BOX",
+    "name_ko": "박스"
+  },
+  {
+    "ticker": "MGY",
+    "name_ko": "매그놀리아 오일 & 가스"
+  },
+  {
+    "ticker": "CNO",
+    "name_ko": "CNO 파이낸셜 그룹"
+  },
+  {
+    "ticker": "IRT",
+    "name_ko": "인디펜던스 리얼티 트러스트"
+  },
+  {
+    "ticker": "SFBS",
+    "name_ko": "서비스퍼스트 뱅크셰어스"
+  },
+  {
+    "ticker": "AGO",
+    "name_ko": "어슈어드 개런티"
+  },
+  {
+    "ticker": "CRC",
+    "name_ko": "캘리포니아 리소시스"
+  },
+  {
+    "ticker": "PII",
+    "name_ko": "폴라리스"
+  },
+  {
+    "ticker": "UGP",
+    "name_ko": "울트라파르 팔티시파코에스 ADR"
+  },
+  {
+    "ticker": "TREX",
+    "name_ko": "트렉스"
+  },
+  {
+    "ticker": "HASI",
+    "name_ko": "HA 서스테이너블 인프라 캐피털"
+  },
+  {
+    "ticker": "SXT",
+    "name_ko": "센시언트 테크놀로지스"
+  },
+  {
+    "ticker": "OUT",
+    "name_ko": "아웃프론트 미디어"
+  },
+  {
+    "ticker": "FHI",
+    "name_ko": "페더레이티드 헤르메스"
+  },
+  {
+    "ticker": "MDU",
+    "name_ko": "MDU 리소시스 그룹"
+  },
+  {
+    "ticker": "WHD",
+    "name_ko": "캑터스"
+  },
+  {
+    "ticker": "FSK",
+    "name_ko": "FS KKR 캐피털"
+  },
+  {
+    "ticker": "CWEN",
+    "name_ko": "클리어웨이 에너지 Class C"
+  },
+  {
+    "ticker": "MATX",
+    "name_ko": "매트슨"
+  },
+  {
+    "ticker": "SSL",
+    "name_ko": "사솔 ADR"
+  },
+  {
+    "ticker": "UCB",
+    "name_ko": "유나이티드 커뮤니티 뱅크스"
+  },
+  {
+    "ticker": "RH",
+    "name_ko": "RH"
+  },
+  {
+    "ticker": "HGV",
+    "name_ko": "힐튼 그랜드 베케이션스"
+  },
+  {
+    "ticker": "VVV",
+    "name_ko": "밸보라인"
+  },
+  {
+    "ticker": "EPR",
+    "name_ko": "EPR 프로퍼티스"
+  },
+  {
+    "ticker": "BTU",
+    "name_ko": "피바디 에너지"
+  },
+  {
+    "ticker": "SKT",
+    "name_ko": "텐저"
+  },
+  {
+    "ticker": "ATGE",
+    "name_ko": "애드탈렘 글로벌 에듀케이션"
+  },
+  {
+    "ticker": "HAE",
+    "name_ko": "헤모네틱스"
+  },
+  {
+    "ticker": "SHAK",
+    "name_ko": "쉐이크쉑"
+  },
+  {
+    "ticker": "TBBB",
+    "name_ko": "BBB 푸드"
+  },
+  {
+    "ticker": "MWA",
+    "name_ko": "뮬러 워터 프로덕츠"
+  },
+  {
+    "ticker": "HNGE",
+    "name_ko": "힌지 헬스"
+  },
+  {
+    "ticker": "NVST",
+    "name_ko": "엔비스타 홀딩스"
+  },
+  {
+    "ticker": "BRC",
+    "name_ko": "브래디"
+  },
+  {
+    "ticker": "BAC PR L",
+    "name_ko": "뱅크오브아메리카 우선주 시리즈 L 7.250%"
+  },
+  {
+    "ticker": "TEX",
+    "name_ko": "테렉스"
+  },
+  {
+    "ticker": "FG",
+    "name_ko": "F&G 어뉴어티 앤 라이프"
+  },
+  {
+    "ticker": "YETI",
+    "name_ko": "예티 홀딩스"
+  },
+  {
+    "ticker": "PAY",
+    "name_ko": "페이먼트어스 홀딩스"
+  },
+  {
+    "ticker": "CWK",
+    "name_ko": "쿠쉬맨 앤 웨이크필드"
+  },
+  {
+    "ticker": "CIG",
+    "name_ko": "이네르제치카 지 미나스 제라이스 우선주 ADR"
+  },
+  {
+    "ticker": "BBAR",
+    "name_ko": "뱅코 BBVA 아르헨티나 ADR"
+  },
+  {
+    "ticker": "CBT",
+    "name_ko": "캐보트"
+  },
+  {
+    "ticker": "NP",
+    "name_ko": "넵튠 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "AIR",
+    "name_ko": "AAR"
+  },
+  {
+    "ticker": "COLD",
+    "name_ko": "아메리콜드 리얼티 트러스트"
+  },
+  {
+    "ticker": "KBH",
+    "name_ko": "KB 홈"
+  },
+  {
+    "ticker": "PBF",
+    "name_ko": "PBF 에너지"
+  },
+  {
+    "ticker": "BFH",
+    "name_ko": "브레드 파이낸셜 홀딩스"
+  },
+  {
+    "ticker": "VAL",
+    "name_ko": "밸라리스"
+  },
+  {
+    "ticker": "DNP",
+    "name_ko": "DNP Select Income Fund Inc"
+  },
+  {
+    "ticker": "TPC",
+    "name_ko": "튜터 페리니"
+  },
+  {
+    "ticker": "NHI",
+    "name_ko": "내셔널 헬스 인베스터스"
+  },
+  {
+    "ticker": "JOE",
+    "name_ko": "세인트 조"
+  },
+  {
+    "ticker": "SIG",
+    "name_ko": "시그넷 주얼러스"
+  },
+  {
+    "ticker": "KAI",
+    "name_ko": "카단트"
+  },
+  {
+    "ticker": "MIAX",
+    "name_ko": "마이애미 인터내셔널 홀딩스"
+  },
+  {
+    "ticker": "UNF",
+    "name_ko": "유니퍼스트"
+  },
+  {
+    "ticker": "LB",
+    "name_ko": "랜드브리지"
+  },
+  {
+    "ticker": "RYN",
+    "name_ko": "레이어니어"
+  },
+  {
+    "ticker": "TAC",
+    "name_ko": "트랜스알타"
+  },
+  {
+    "ticker": "GNW",
+    "name_ko": "젠워스 파이낸셜"
+  },
+  {
+    "ticker": "GFF",
+    "name_ko": "그리폰"
+  },
+  {
+    "ticker": "CMBT",
+    "name_ko": "CMB.테크"
+  },
+  {
+    "ticker": "KEN",
+    "name_ko": "케논 홀딩스"
+  },
+  {
+    "ticker": "KFY",
+    "name_ko": "콘 페리"
+  },
+  {
+    "ticker": "SMG",
+    "name_ko": "스코츠 미러클 그로"
+  },
+  {
+    "ticker": "APAM",
+    "name_ko": "아티잔 파트너스 애셋 매니지먼트"
+  },
+  {
+    "ticker": "ARX",
+    "name_ko": "엑셀러런트 홀딩스"
+  },
+  {
+    "ticker": "NEA",
+    "name_ko": "Nuveen AMT-Free Quality Municipal Income Fund"
+  },
+  {
+    "ticker": "AZZ",
+    "name_ko": "AZZ"
+  },
+  {
+    "ticker": "AB",
+    "name_ko": "AllianceBernstein Holding Units"
+  },
+  {
+    "ticker": "HAYW",
+    "name_ko": "해이워드 홀딩스"
+  },
+  {
+    "ticker": "SLG",
+    "name_ko": "SL 그린 리얼티"
+  },
+  {
+    "ticker": "RNST",
+    "name_ko": "르네산트"
+  },
+  {
+    "ticker": "GPOR",
+    "name_ko": "걸프포트 에너지"
+  },
+  {
+    "ticker": "SEI",
+    "name_ko": "솔라리스 에너지 인프라스트럭처"
+  },
+  {
+    "ticker": "WRBY",
+    "name_ko": "와비 파커"
+  },
+  {
+    "ticker": "MHO",
+    "name_ko": "M/I 홈스"
+  },
+  {
+    "ticker": "BNL",
+    "name_ko": "브로드스톤 넷 리스"
+  },
+  {
+    "ticker": "KTB",
+    "name_ko": "콘투어 브랜즈"
+  },
+  {
+    "ticker": "FBP",
+    "name_ko": "퍼스트 뱅코프 푸에르토 리코"
+  },
+  {
+    "ticker": "CNS",
+    "name_ko": "코헨 & 스티어스"
+  },
+  {
+    "ticker": "FUL",
+    "name_ko": "풀러 H B"
+  },
+  {
+    "ticker": "AHL",
+    "name_ko": "애스펜 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "CALX",
+    "name_ko": "캘릭스"
+  },
+  {
+    "ticker": "BKU",
+    "name_ko": "뱅크유나이티드"
+  },
+  {
+    "ticker": "HTGC",
+    "name_ko": "허큘리스 캐피털"
+  },
+  {
+    "ticker": "JKS",
+    "name_ko": "징코솔라 홀딩스 ADR"
+  },
+  {
+    "ticker": "EE",
+    "name_ko": "엑셀러레이트 에너지"
+  },
+  {
+    "ticker": "CDP",
+    "name_ko": "COPT 디펜스 프로퍼티스"
+  },
+  {
+    "ticker": "OPLN",
+    "name_ko": "오픈레인"
+  },
+  {
+    "ticker": "MPW",
+    "name_ko": "MPT(메디컬 프로퍼티스 트러스트)"
+  },
+  {
+    "ticker": "BXMT",
+    "name_ko": "블랙스톤 모기지 트러스트"
+  },
+  {
+    "ticker": "SA",
+    "name_ko": "시브리지 골드"
+  },
+  {
+    "ticker": "CBU",
+    "name_ko": "커뮤니티 파이낸셜 시스템"
+  },
+  {
+    "ticker": "REVG",
+    "name_ko": "REV 그룹"
+  },
+  {
+    "ticker": "SPHR",
+    "name_ko": "스피어 엔터테인먼트"
+  },
+  {
+    "ticker": "FUBO",
+    "name_ko": "푸보티비"
+  },
+  {
+    "ticker": "AVA",
+    "name_ko": "아비스타"
+  },
+  {
+    "ticker": "EBR.B",
+    "name_ko": "센트라이스 엘렉트리카스 브라질레이라스 ADR Series B"
+  },
+  {
+    "ticker": "LEN.B",
+    "name_ko": "레나 Class B"
+  },
+  {
+    "ticker": "FBK",
+    "name_ko": "FB 파이낸셜 그룹"
+  },
+  {
+    "ticker": "ASAN",
+    "name_ko": "아사나"
+  },
+  {
+    "ticker": "PVH",
+    "name_ko": "필립스 반 휴센"
+  },
+  {
+    "ticker": "KGS",
+    "name_ko": "코디악 가스 서비시스"
+  },
+  {
+    "ticker": "BNT",
+    "name_ko": "브룩필드 웰스 솔루션스"
+  },
+  {
+    "ticker": "CGAU",
+    "name_ko": "센테라 골드"
+  },
+  {
+    "ticker": "CPRI",
+    "name_ko": "카프리홀딩스"
+  },
+  {
+    "ticker": "DAN",
+    "name_ko": "다나"
+  },
+  {
+    "ticker": "LCII",
+    "name_ko": "LCI 인더스트리스"
+  },
+  {
+    "ticker": "TTAM",
+    "name_ko": "타이탄 아메리카"
+  },
+  {
+    "ticker": "AAUC",
+    "name_ko": "앨라이드 골드"
+  },
+  {
+    "ticker": "BANC",
+    "name_ko": "캘리포니아 은행"
+  },
+  {
+    "ticker": "HP",
+    "name_ko": "헬머리치 & 페인"
+  },
+  {
+    "ticker": "WU",
+    "name_ko": "웨스턴유니온"
+  },
+  {
+    "ticker": "LBRT",
+    "name_ko": "리버티 에너지"
+  },
+  {
+    "ticker": "PBH",
+    "name_ko": "프레스티지 컨슈머 헬스케어"
+  },
+  {
+    "ticker": "TGNA",
+    "name_ko": "테그나"
+  },
+  {
+    "ticker": "AERO",
+    "name_ko": "그루포 에어로멕시코 ADR"
+  },
+  {
+    "ticker": "GLOB",
+    "name_ko": "글로번트"
+  },
+  {
+    "ticker": "FSM",
+    "name_ko": "포르투나 마이닝"
+  },
+  {
+    "ticker": "LRN",
+    "name_ko": "스트라이드"
+  },
+  {
+    "ticker": "PAGS",
+    "name_ko": "파그세구로 디지털"
+  },
+  {
+    "ticker": "USAC",
+    "name_ko": "USA Compression Partners Common Units"
+  },
+  {
+    "ticker": "ERO",
+    "name_ko": "에로 코퍼"
+  },
+  {
+    "ticker": "AVNT",
+    "name_ko": "애비엔트"
+  },
+  {
+    "ticker": "HIW",
+    "name_ko": "하이우즈 프로퍼티스"
+  },
+  {
+    "ticker": "SKE",
+    "name_ko": "스키나 리소시스"
+  },
+  {
+    "ticker": "ALB PR A",
+    "name_ko": "앨버말 우선주 Series A 7.25%"
+  },
+  {
+    "ticker": "NATL",
+    "name_ko": "NCR 아틀레오스"
+  },
+  {
+    "ticker": "LXP",
+    "name_ko": "LXP 인더스트리얼 트러스트"
+  },
+  {
+    "ticker": "TNET",
+    "name_ko": "트라이넷 그룹"
+  },
+  {
+    "ticker": "HAFN",
+    "name_ko": "하프니아"
+  },
+  {
+    "ticker": "AMR",
+    "name_ko": "알파 메탈러지컬 리소시스"
+  },
+  {
+    "ticker": "EXG",
+    "name_ko": "Eaton Vance Tax-Managed Global Diversified Equity Income Closed Fund"
+  },
+  {
+    "ticker": "CBZ",
+    "name_ko": "CBIZ"
+  },
+  {
+    "ticker": "APLE",
+    "name_ko": "애플 호스피탤리티 리츠"
+  },
+  {
+    "ticker": "GRBK",
+    "name_ko": "그린 브릭 파트너스"
+  },
+  {
+    "ticker": "ELPC",
+    "name_ko": "파라나인스 데 에네르히아 ADR"
+  },
+  {
+    "ticker": "BRBR",
+    "name_ko": "벨링 브랜드"
+  },
+  {
+    "ticker": "CPK",
+    "name_ko": "체사피크 유틸리티스"
+  },
+  {
+    "ticker": "BSM",
+    "name_ko": "Black Stone Minerals Units"
+  },
+  {
+    "ticker": "BRSL",
+    "name_ko": "브라이트스타 로터리"
+  },
+  {
+    "ticker": "STNG",
+    "name_ko": "스콜피오 탱커스"
+  },
+  {
+    "ticker": "ITGR",
+    "name_ko": "인티거 홀딩스"
+  },
+  {
+    "ticker": "NUVB",
+    "name_ko": "누베이션 바이오"
+  },
+  {
+    "ticker": "SXI",
+    "name_ko": "스탠덱스 인터내셔널"
+  },
+  {
+    "ticker": "TDC",
+    "name_ko": "테라데이타"
+  },
+  {
+    "ticker": "BCC",
+    "name_ko": "보이시 캐스케이드"
+  },
+  {
+    "ticker": "BHC",
+    "name_ko": "바슈 헬스 컴퍼니스"
+  },
+  {
+    "ticker": "RHI",
+    "name_ko": "로버트 하프 인터내셔널"
+  },
+  {
+    "ticker": "EXK",
+    "name_ko": "엔데버 실버"
+  },
+  {
+    "ticker": "MH",
+    "name_ko": "맥그로 힐"
+  },
+  {
+    "ticker": "BKE",
+    "name_ko": "버클"
+  },
+  {
+    "ticker": "CXT",
+    "name_ko": "크레인 NXT"
+  },
+  {
+    "ticker": "BOH",
+    "name_ko": "뱅크 오브 하와이"
+  },
+  {
+    "ticker": "NAD",
+    "name_ko": "Nuveen Quality Municipal Income Fund"
+  },
+  {
+    "ticker": "MANU",
+    "name_ko": "맨체스터 유나이티드"
+  },
+  {
+    "ticker": "MTRN",
+    "name_ko": "마테리언"
+  },
+  {
+    "ticker": "AWR",
+    "name_ko": "아메리칸 스테이츠 워터"
+  },
+  {
+    "ticker": "ADX",
+    "name_ko": "Adams Diversified Equity Fund，Inc."
+  },
+  {
+    "ticker": "RLX",
+    "name_ko": "RLX 테크놀로지 ADR"
+  },
+  {
+    "ticker": "TDW",
+    "name_ko": "타이드워터"
+  },
+  {
+    "ticker": "DBRG",
+    "name_ko": "디지털브리지 그룹"
+  },
+  {
+    "ticker": "TPH",
+    "name_ko": "TRI 포인테 홈즈 (델라웨어)"
+  },
+  {
+    "ticker": "VTMX",
+    "name_ko": "베스타 리얼 에스테이트 ADR"
+  },
+  {
+    "ticker": "CSTM",
+    "name_ko": "콘스텔리움"
+  },
+  {
+    "ticker": "ATS",
+    "name_ko": "ATS"
+  },
+  {
+    "ticker": "KKR PR D",
+    "name_ko": "KKR 우선주 Series D"
+  },
+  {
+    "ticker": "DRD",
+    "name_ko": "DRD골드 ADR"
+  },
+  {
+    "ticker": "AKR",
+    "name_ko": "아카디아 리얼티 트러스트"
+  },
+  {
+    "ticker": "INSP",
+    "name_ko": "인스파이어 메디컬 시스템"
+  },
+  {
+    "ticker": "CMPO",
+    "name_ko": "콤포시큐어"
+  },
+  {
+    "ticker": "ZGN",
+    "name_ko": "에르메네질도 제냐"
+  },
+  {
+    "ticker": "ASH",
+    "name_ko": "애쉬랜드"
+  },
+  {
+    "ticker": "C PR N",
+    "name_ko": "씨티그룹 캐피탈 XIII 우선주"
+  },
+  {
+    "ticker": "COTY",
+    "name_ko": "코티"
+  },
+  {
+    "ticker": "ZIM",
+    "name_ko": "ZIM 인티그레이티드 시핑 서비시스"
+  },
+  {
+    "ticker": "NVG",
+    "name_ko": "Nuveen AMT-Free Municipal Credit Income Fund"
+  },
+  {
+    "ticker": "CRGY",
+    "name_ko": "크레센트 에너지"
+  },
+  {
+    "ticker": "AXIA PR",
+    "name_ko": "AXIA 에너지 우선주 ADR"
+  },
+  {
+    "ticker": "CUBI",
+    "name_ko": "커스터머스 뱅코프"
+  },
+  {
+    "ticker": "BBAI",
+    "name_ko": "빅베어 AI 홀딩스"
+  },
+  {
+    "ticker": "INSW",
+    "name_ko": "인터네셔널 시웨이스"
+  },
+  {
+    "ticker": "SUNC",
+    "name_ko": "SunocoCorp Units"
+  },
+  {
+    "ticker": "ANDG",
+    "name_ko": "안데르센 그룹"
+  },
+  {
+    "ticker": "OII",
+    "name_ko": "오셔니어링 인터내셔널"
+  },
+  {
+    "ticker": "ATHM",
+    "name_ko": "오토홈 ADR"
+  },
+  {
+    "ticker": "CNK",
+    "name_ko": "시네마크 홀딩스"
+  },
+  {
+    "ticker": "BKV",
+    "name_ko": "BKV"
+  },
+  {
+    "ticker": "GENI",
+    "name_ko": "지니어스 스포츠"
+  },
+  {
+    "ticker": "SII",
+    "name_ko": "스프롯"
+  },
+  {
+    "ticker": "PFS",
+    "name_ko": "프로비던트 파이낸셜 서비스"
+  },
+  {
+    "ticker": "BKD",
+    "name_ko": "브룩데일 시니어 리빙"
+  },
+  {
+    "ticker": "JPC",
+    "name_ko": "Nuveen Preferred & Income Opportunities Fund"
+  },
+  {
+    "ticker": "WOR",
+    "name_ko": "워딩턴 엔터프라이즈"
+  },
+  {
+    "ticker": "ABM",
+    "name_ko": "ABM 인더스트리즈"
+  },
+  {
+    "ticker": "HG",
+    "name_ko": "해밀턴 인슈어런스 그룹"
+  },
+  {
+    "ticker": "CTRI",
+    "name_ko": "센추리 홀딩스"
+  },
+  {
+    "ticker": "RCUS",
+    "name_ko": "아쿠스 바이오사이언스"
+  },
+  {
+    "ticker": "DXC",
+    "name_ko": "DXC 테크놀러지 컴퍼니"
+  },
+  {
+    "ticker": "PHIN",
+    "name_ko": "피니아"
+  },
+  {
+    "ticker": "LION",
+    "name_ko": "라이온스게이트 스튜디오스"
+  },
+  {
+    "ticker": "CWT",
+    "name_ko": "캘리포니아 워터 서비스 그룹"
+  },
+  {
+    "ticker": "AMBP",
+    "name_ko": "아르다 메탈 패키징"
+  },
+  {
+    "ticker": "MSGE",
+    "name_ko": "매디슨 스퀘어 가든 엔터테인먼트"
+  },
+  {
+    "ticker": "IHS",
+    "name_ko": "IHS 홀딩"
+  },
+  {
+    "ticker": "KWR",
+    "name_ko": "퀘이커 케미컬"
+  },
+  {
+    "ticker": "OLN",
+    "name_ko": "올린"
+  },
+  {
+    "ticker": "CON",
+    "name_ko": "콘센트라 그룹 홀딩스"
+  },
+  {
+    "ticker": "BTE",
+    "name_ko": "배이텍스 에너지"
+  },
+  {
+    "ticker": "CCU",
+    "name_ko": "세르베세리아스 우니다스 ADR"
+  },
+  {
+    "ticker": "DNOW",
+    "name_ko": "디나우"
+  },
+  {
+    "ticker": "FCPT",
+    "name_ko": "포 코너스 프로퍼티 트러스트"
+  },
+  {
+    "ticker": "AAP",
+    "name_ko": "어드밴스 오토 파츠"
+  },
+  {
+    "ticker": "PTY",
+    "name_ko": "PIMCO Corporate & Income Opportunity Fund"
+  },
+  {
+    "ticker": "CEPU",
+    "name_ko": "센트럴 푸에르토 ADR"
+  },
+  {
+    "ticker": "DKL",
+    "name_ko": "Delek Logistics Partners Common Units"
+  },
+  {
+    "ticker": "GDV",
+    "name_ko": "Gabelli Dividend & Income Trust"
+  },
+  {
+    "ticker": "HOG",
+    "name_ko": "할리-데이비슨"
+  },
+  {
+    "ticker": "MODG",
+    "name_ko": "탑골프 캘러웨이 브랜즈"
+  },
+  {
+    "ticker": "CIG.C",
+    "name_ko": "이네르제치카 지 미나스 제라이스 ADR"
+  },
+  {
+    "ticker": "USB PR R",
+    "name_ko": "US 뱅코프 우선주 시리즈 M 4%"
+  },
+  {
+    "ticker": "RNG",
+    "name_ko": "링센트럴"
+  },
+  {
+    "ticker": "SID",
+    "name_ko": "콤파니아 시데루르지카 나시오나우 ADR"
+  },
+  {
+    "ticker": "CURB",
+    "name_ko": "커브라인 프로퍼티스"
+  },
+  {
+    "ticker": "ETY",
+    "name_ko": "Eaton Vance Tax Managed Diversified Equity Income Closed Fund"
+  },
+  {
+    "ticker": "NZF",
+    "name_ko": "Nuveen Municipal Credit Income Fund"
+  },
+  {
+    "ticker": "KSS",
+    "name_ko": "콜스"
+  },
+  {
+    "ticker": "DBD",
+    "name_ko": "다이볼드 닉스도르프"
+  },
+  {
+    "ticker": "GRND",
+    "name_ko": "그라인더"
+  },
+  {
+    "ticker": "UE",
+    "name_ko": "어반 에지 프로퍼티스"
+  },
+  {
+    "ticker": "TIC",
+    "name_ko": "TIC 솔루션스"
+  },
+  {
+    "ticker": "TGLS",
+    "name_ko": "테크노글래스"
+  },
+  {
+    "ticker": "BBUC",
+    "name_ko": "브룩필드 비즈니스"
+  },
+  {
+    "ticker": "LC",
+    "name_ko": "렌딩클럽"
+  },
+  {
+    "ticker": "CVI",
+    "name_ko": "CVR 에너지"
+  },
+  {
+    "ticker": "SPNT",
+    "name_ko": "시리우스포인트"
+  },
+  {
+    "ticker": "RXO",
+    "name_ko": "RXO"
+  },
+  {
+    "ticker": "HE",
+    "name_ko": "하와이안 일렉트릭 인더스트리스"
+  },
+  {
+    "ticker": "LU",
+    "name_ko": "루팍스 홀딩 ADR"
+  },
+  {
+    "ticker": "TRN",
+    "name_ko": "트리니티 인더스트리스"
+  },
+  {
+    "ticker": "OI",
+    "name_ko": "O-I 글래스"
+  },
+  {
+    "ticker": "CWEN.A",
+    "name_ko": "클리어웨이 에너지 Class A"
+  },
+  {
+    "ticker": "UTF",
+    "name_ko": "Cohen & Steers Infrastructure Fund Inc"
+  },
+  {
+    "ticker": "GEO",
+    "name_ko": "지오 그룹"
+  },
+  {
+    "ticker": "NSA",
+    "name_ko": "내셔널 스토리지 어필리에이츠"
+  },
+  {
+    "ticker": "KMPR",
+    "name_ko": "켐퍼"
+  },
+  {
+    "ticker": "BBT",
+    "name_ko": "비콘 파이낸셜"
+  },
+  {
+    "ticker": "CLVT",
+    "name_ko": "클래리베이트"
+  },
+  {
+    "ticker": "NGVT",
+    "name_ko": "인제비티"
+  },
+  {
+    "ticker": "ATKR",
+    "name_ko": "앳코어"
+  },
+  {
+    "ticker": "KMT",
+    "name_ko": "켄나메탈"
+  },
+  {
+    "ticker": "BB",
+    "name_ko": "블랙베리"
+  },
+  {
+    "ticker": "HCI",
+    "name_ko": "HCI 그룹"
+  },
+  {
+    "ticker": "IVT",
+    "name_ko": "인벤트러스트 프로퍼티스"
+  },
+  {
+    "ticker": "ALG",
+    "name_ko": "알라모 그룹"
+  },
+  {
+    "ticker": "AKO.B",
+    "name_ko": "엠보텔라도라 안디나 ADR 시리즈 B"
+  },
+  {
+    "ticker": "CIVI",
+    "name_ko": "키비타스 리소시스"
+  },
+  {
+    "ticker": "HI",
+    "name_ko": "힐렌브랜드"
+  },
+  {
+    "ticker": "RVLV",
+    "name_ko": "리볼브 그룹"
+  },
+  {
+    "ticker": "SAM",
+    "name_ko": "보스턴 비어"
+  },
+  {
+    "ticker": "PK",
+    "name_ko": "파크 호텔 & 리조트"
+  },
+  {
+    "ticker": "GOF",
+    "name_ko": "Guggenheim Strategic Opportunities Mutual Fund"
+  },
+  {
+    "ticker": "FLO",
+    "name_ko": "플라워스 푸드"
+  },
+  {
+    "ticker": "NTB",
+    "name_ko": "뱅크 오브 NT 버터필드 & 선"
+  },
+  {
+    "ticker": "SAH",
+    "name_ko": "소닉 오토모티브"
+  },
+  {
+    "ticker": "BPRE",
+    "name_ko": "Bluerock Private Real Estate Closed End Fund"
+  },
+  {
+    "ticker": "VAC",
+    "name_ko": "메리어트 버케이션 월드와이드"
+  },
+  {
+    "ticker": "APO PR A",
+    "name_ko": "아폴로 글로벌 매니지먼트 우선주 Series A 6.75%"
+  },
+  {
+    "ticker": "SDRL",
+    "name_ko": "시드릴"
+  },
+  {
+    "ticker": "VSH",
+    "name_ko": "비샤이 인터테크놀로지"
+  },
+  {
+    "ticker": "BWLP",
+    "name_ko": "BW LPG"
+  },
+  {
+    "ticker": "DHT",
+    "name_ko": "DHT 홀딩스"
+  },
+  {
+    "ticker": "ASGN",
+    "name_ko": "ASGN"
+  },
+  {
+    "ticker": "HTH",
+    "name_ko": "힐탑 홀딩스"
+  },
+  {
+    "ticker": "EPAC",
+    "name_ko": "에너팩 툴 그룹"
+  },
+  {
+    "ticker": "AORT",
+    "name_ko": "아티비온"
+  },
+  {
+    "ticker": "WD",
+    "name_ko": "워커 & 던롭"
+  },
+  {
+    "ticker": "NOG",
+    "name_ko": "노던 오일 & 가스"
+  },
+  {
+    "ticker": "OGN",
+    "name_ko": "오가논 & 코"
+  },
+  {
+    "ticker": "TGS",
+    "name_ko": "TGS ADR"
+  },
+  {
+    "ticker": "VIA",
+    "name_ko": "비아 트랜스포테이션"
+  },
+  {
+    "ticker": "SM",
+    "name_ko": "SM 에너지"
+  },
+  {
+    "ticker": "CC",
+    "name_ko": "케무어스"
+  },
+  {
+    "ticker": "KYN",
+    "name_ko": "Kayne Anderson Energy Infrastructure Fund Inc"
+  },
+  {
+    "ticker": "TSLX",
+    "name_ko": "TPG 스페셜티 렌딩"
+  },
+  {
+    "ticker": "CXW",
+    "name_ko": "코어시빅"
+  },
+  {
+    "ticker": "STC",
+    "name_ko": "스튜어트 인포메이션 서비스"
+  },
+  {
+    "ticker": "NEE PR S",
+    "name_ko": "Nextera Energy Units"
+  },
+  {
+    "ticker": "DX",
+    "name_ko": "다이넥스 캐피털"
+  },
+  {
+    "ticker": "TNK",
+    "name_ko": "티케이 탱커스"
+  },
+  {
+    "ticker": "MTX",
+    "name_ko": "미네랄스 테크놀로지스"
+  },
+  {
+    "ticker": "BUR",
+    "name_ko": "버포트 캐피털"
+  },
+  {
+    "ticker": "PRGO",
+    "name_ko": "페리고"
+  },
+  {
+    "ticker": "ARR",
+    "name_ko": "아머 레지던셜 리츠"
+  },
+  {
+    "ticker": "PRKS",
+    "name_ko": "유나이티드 파크 & 리조트"
+  },
+  {
+    "ticker": "UNFI",
+    "name_ko": "유나이티드 내추럴 푸드"
+  },
+  {
+    "ticker": "XZO",
+    "name_ko": "엑제오 그룹"
+  },
+  {
+    "ticker": "RVT",
+    "name_ko": "Royce Small-Cap Trust Inc"
+  },
+  {
+    "ticker": "HNI",
+    "name_ko": "HNI"
+  },
+  {
+    "ticker": "FIHL",
+    "name_ko": "피델리스 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "HOUS",
+    "name_ko": "애니웨어 리얼 에스테이트"
+  },
+  {
+    "ticker": "HUN",
+    "name_ko": "헌츠맨"
+  },
+  {
+    "ticker": "TPB",
+    "name_ko": "터닝 포인트 브랜드"
+  },
+  {
+    "ticker": "CMRE",
+    "name_ko": "코스타마레"
+  },
+  {
+    "ticker": "GRDN",
+    "name_ko": "가디언 파마시 서비시스"
+  },
+  {
+    "ticker": "HLIO",
+    "name_ko": "헬리오스 테크놀로지스"
+  },
+  {
+    "ticker": "NWN",
+    "name_ko": "노스웨스트 내추럴 홀딩"
+  },
+  {
+    "ticker": "GNL",
+    "name_ko": "글로벌 네트 리스"
+  },
+  {
+    "ticker": "AI",
+    "name_ko": "C3 AI"
+  },
+  {
+    "ticker": "FIGS",
+    "name_ko": "피그스"
+  },
+  {
+    "ticker": "EVTC",
+    "name_ko": "에버테크"
+  },
+  {
+    "ticker": "PDO",
+    "name_ko": "PIMCO Dynamic Income Opportunities Fund"
+  },
+  {
+    "ticker": "KN",
+    "name_ko": "놀스"
+  },
+  {
+    "ticker": "MD",
+    "name_ko": "페디아트릭스 메디컬 그룹"
+  },
+  {
+    "ticker": "WSO.B",
+    "name_ko": "와츠코 Class B"
+  },
+  {
+    "ticker": "EVT",
+    "name_ko": "Eaton Vance Tax Advantaged Dividend Income Closed Fund"
+  },
+  {
+    "ticker": "SLVM",
+    "name_ko": "실바모"
+  },
+  {
+    "ticker": "GEL",
+    "name_ko": "Genesis Energy Units Class A"
+  },
+  {
+    "ticker": "PARR",
+    "name_ko": "파 퍼시픽 홀딩스"
+  },
+  {
+    "ticker": "GAB",
+    "name_ko": "Gabelli Equity Trust Inc"
+  },
+  {
+    "ticker": "VVX",
+    "name_ko": "브이투엑스(V2X)"
+  },
+  {
+    "ticker": "CXM",
+    "name_ko": "스프링클러"
+  },
+  {
+    "ticker": "SEM",
+    "name_ko": "셀렉트 메디컬 홀딩스"
+  },
+  {
+    "ticker": "VOYG",
+    "name_ko": "보이저 테크놀로지스"
+  },
+  {
+    "ticker": "NIC",
+    "name_ko": "니콜렛 뱅크셰어스"
+  },
+  {
+    "ticker": "NUV",
+    "name_ko": "Nuveen Municipal Value Fund Inc"
+  },
+  {
+    "ticker": "FMC",
+    "name_ko": "FMC"
+  },
+  {
+    "ticker": "JPM PR C",
+    "name_ko": "제이피모간체이스 우선주 시리즈 EE 6%"
+  },
+  {
+    "ticker": "DEI",
+    "name_ko": "더글러스 에밋"
+  },
+  {
+    "ticker": "USA",
+    "name_ko": "Liberty All Star Equity Closed Fund"
+  },
+  {
+    "ticker": "GEF",
+    "name_ko": "그리프 Class A"
+  },
+  {
+    "ticker": "YELP",
+    "name_ko": "옐프"
+  },
+  {
+    "ticker": "MNR",
+    "name_ko": "Mach Natural Resources Units"
+  },
+  {
+    "ticker": "TALO",
+    "name_ko": "탈로스 에너지"
+  },
+  {
+    "ticker": "WT",
+    "name_ko": "위즈덤트리"
+  },
+  {
+    "ticker": "HPE PR C",
+    "name_ko": "휴렛 패커드 엔터프라이즈 우선주 Series C 7.625%"
+  },
+  {
+    "ticker": "WS",
+    "name_ko": "워딩턴 스틸"
+  },
+  {
+    "ticker": "HMN",
+    "name_ko": "호레이스 맨 에듀케이터스"
+  },
+  {
+    "ticker": "EFXT",
+    "name_ko": "에너플렉스"
+  },
+  {
+    "ticker": "OFG",
+    "name_ko": "OFG 뱅코프"
+  },
+  {
+    "ticker": "DK",
+    "name_ko": "델렉 유에스 홀딩스"
+  },
+  {
+    "ticker": "IMAX",
+    "name_ko": "아이맥스"
+  },
+  {
+    "ticker": "FCF",
+    "name_ko": "퍼스트 커먼웰스 파이낸셜"
+  },
+  {
+    "ticker": "AAMI",
+    "name_ko": "아캐디언 애셋 매니지먼트"
+  },
+  {
+    "ticker": "CCS",
+    "name_ko": "센츄리 커뮤니티스"
+  },
+  {
+    "ticker": "DAC",
+    "name_ko": "다나오스"
+  },
+  {
+    "ticker": "AKO.A",
+    "name_ko": "엠보텔라도라 안디나 ADR 시리즈 A"
+  },
+  {
+    "ticker": "NOMD",
+    "name_ko": "노마드 푸드"
+  },
+  {
+    "ticker": "SEMR",
+    "name_ko": "SEM러시 홀딩스"
+  },
+  {
+    "ticker": "CSAN",
+    "name_ko": "코샌 ADR"
+  },
+  {
+    "ticker": "TE",
+    "name_ko": "T1 에너지"
+  },
+  {
+    "ticker": "JMIA",
+    "name_ko": "주미아 테크놀로지 AG ADR"
+  },
+  {
+    "ticker": "CDLR",
+    "name_ko": "카델러 A/S ADR"
+  },
+  {
+    "ticker": "STEW",
+    "name_ko": "SRH Total Return Fund，Inc"
+  },
+  {
+    "ticker": "ETG",
+    "name_ko": "Eaton Vance Tax Advantaged Global Dividend Income Closed Fund"
+  },
+  {
+    "ticker": "RAMP",
+    "name_ko": "라이브램프 홀딩스"
+  },
+  {
+    "ticker": "SHO",
+    "name_ko": "선스톤 호텔 인베스터스"
+  },
+  {
+    "ticker": "DV",
+    "name_ko": "더블베리파이 홀딩스"
+  },
+  {
+    "ticker": "SMA",
+    "name_ko": "스마트스톱 셀프 스토리지 REIT"
+  },
+  {
+    "ticker": "FLOC",
+    "name_ko": "플로우코 홀딩스"
+  },
+  {
+    "ticker": "NAC",
+    "name_ko": "Nuveen California Quality Municipal Income Fund"
+  },
+  {
+    "ticker": "SOMN",
+    "name_ko": "Southern Units"
+  },
+  {
+    "ticker": "LAC",
+    "name_ko": "리튬 아메리카스"
+  },
+  {
+    "ticker": "DQ",
+    "name_ko": "다초 뉴 에너지 ADR"
+  },
+  {
+    "ticker": "TY",
+    "name_ko": "Tri Continental Closed Fund"
+  },
+  {
+    "ticker": "CDRE",
+    "name_ko": "캐드리 홀딩스"
+  },
+  {
+    "ticker": "GEF.B",
+    "name_ko": "그리프 Class B"
+  },
+  {
+    "ticker": "LOB",
+    "name_ko": "라이브 오크 뱅크셰어스"
+  },
+  {
+    "ticker": "FDP",
+    "name_ko": "프레쉬 델몬트 프로듀스"
+  },
+  {
+    "ticker": "LSPD",
+    "name_ko": "라이트스피드 커머스"
+  },
+  {
+    "ticker": "JPM PR D",
+    "name_ko": "제이피모간체이스 우선주 시리즈 DD 5.75%"
+  },
+  {
+    "ticker": "RDW",
+    "name_ko": "레드와이어"
+  },
+  {
+    "ticker": "LTC",
+    "name_ko": "LTC 프로퍼티즈"
+  },
+  {
+    "ticker": "ETV",
+    "name_ko": "Eaton Vance Tax Managed Buy Write Opportunities Closed Fund"
+  },
+  {
+    "ticker": "ROG",
+    "name_ko": "로저스"
+  },
+  {
+    "ticker": "RHLD",
+    "name_ko": "레졸루트 홀딩스 매니지먼트"
+  },
+  {
+    "ticker": "PBI",
+    "name_ko": "피트니보우스"
+  },
+  {
+    "ticker": "BDJ",
+    "name_ko": "BlackRock Enhanced Equity Dividend Trust"
+  },
+  {
+    "ticker": "ARCO",
+    "name_ko": "아르코스 도라도스 홀딩스"
+  },
+  {
+    "ticker": "XPRO",
+    "name_ko": "엑스프로 그룹 홀딩스"
+  },
+  {
+    "ticker": "AGM",
+    "name_ko": "페더럴 애그리컬처럴 모기지 Class C"
+  },
+  {
+    "ticker": "NSP",
+    "name_ko": "인스페리티"
+  },
+  {
+    "ticker": "ENOV",
+    "name_ko": "이노비스"
+  },
+  {
+    "ticker": "GBX",
+    "name_ko": "그린브라이어"
+  },
+  {
+    "ticker": "STEL",
+    "name_ko": "스텔라 뱅코프"
+  },
+  {
+    "ticker": "DFH",
+    "name_ko": "드림 파인더스 홈즈"
+  },
+  {
+    "ticker": "LEG",
+    "name_ko": "레겟 & 플랫"
+  },
+  {
+    "ticker": "GTY",
+    "name_ko": "게티 리얼티"
+  },
+  {
+    "ticker": "WMK",
+    "name_ko": "웨이스 마켓"
+  },
+  {
+    "ticker": "ARES PR B",
+    "name_ko": "아레스 매니지먼트 우선주 Series B 6.75%"
+  },
+  {
+    "ticker": "TFIN",
+    "name_ko": "트라이엄프 파이낸셜"
+  },
+  {
+    "ticker": "ADNT",
+    "name_ko": "애디언트"
+  },
+  {
+    "ticker": "LZB",
+    "name_ko": "레이지보이"
+  },
+  {
+    "ticker": "INVX",
+    "name_ko": "이노벡스 인터내셔널"
+  },
+  {
+    "ticker": "NMM",
+    "name_ko": "Navios Maritime Partners Units"
+  },
+  {
+    "ticker": "BHE",
+    "name_ko": "벤치마크 일렉트로닉스"
+  },
+  {
+    "ticker": "SHCO",
+    "name_ko": "소호 하우스 & 코"
+  },
+  {
+    "ticker": "AIN",
+    "name_ko": "앨버니 인터내셔널"
+  },
+  {
+    "ticker": "DCO",
+    "name_ko": "듀코먼"
+  },
+  {
+    "ticker": "BIO.B",
+    "name_ko": "바이오래드 래보라토리스 Class B"
+  },
+  {
+    "ticker": "RQI",
+    "name_ko": "Cohen & Steers Quality Income Realty Fund Inc"
+  },
+  {
+    "ticker": "ECAT",
+    "name_ko": "BlackRock ESG Capital Allocation Term Closed End Fund"
+  },
+  {
+    "ticker": "TV",
+    "name_ko": "그루포 텔레비사 ADR"
+  },
+  {
+    "ticker": "SVV",
+    "name_ko": "세이버스 밸류 빌리지"
+  },
+  {
+    "ticker": "AVAL",
+    "name_ko": "그루포 아발 악시오네스 이 발로 ADR"
+  },
+  {
+    "ticker": "EVEX",
+    "name_ko": "이브 홀딩"
+  },
+  {
+    "ticker": "FUN",
+    "name_ko": "식스 플래그스 엔터테인먼트"
+  },
+  {
+    "ticker": "BSTZ",
+    "name_ko": "BlackRock Science and Technology Term Closed End Fund"
+  },
+  {
+    "ticker": "AMRC",
+    "name_ko": "아메리스코"
+  },
+  {
+    "ticker": "TR",
+    "name_ko": "투시 롤 인더스트리스"
+  },
+  {
+    "ticker": "BXMX",
+    "name_ko": "Nuveen S And P 500 Buy Write Income Closed End Fund"
+  },
+  {
+    "ticker": "NBHC",
+    "name_ko": "내셔널 뱅크 홀딩스"
+  },
+  {
+    "ticker": "ABR",
+    "name_ko": "아버 리얼티 트러스트"
+  },
+  {
+    "ticker": "WWW",
+    "name_ko": "울버린 월드 와이드"
+  },
+  {
+    "ticker": "UTI",
+    "name_ko": "유니버설 테크니컬 인스티튜트"
+  },
+  {
+    "ticker": "HLF",
+    "name_ko": "허벌라이프"
+  },
+  {
+    "ticker": "CYD",
+    "name_ko": "차이나 유차이 인터내셔널"
+  },
+  {
+    "ticker": "SBH",
+    "name_ko": "샐리 뷰티 홀딩스"
+  },
+  {
+    "ticker": "PAR",
+    "name_ko": "파 테크놀로지"
+  },
+  {
+    "ticker": "BCAT",
+    "name_ko": "BlackRock Capital Allocation Term Closed End Fund"
+  },
+  {
+    "ticker": "BHVN",
+    "name_ko": "바이오헤이븐"
+  },
+  {
+    "ticker": "ALEX",
+    "name_ko": "알렉산더 & 볼드윈"
+  },
+  {
+    "ticker": "ACVA",
+    "name_ko": "ACV 옥션스"
+  },
+  {
+    "ticker": "SPB",
+    "name_ko": "스펙트럼 브랜즈 홀딩스"
+  },
+  {
+    "ticker": "WKC",
+    "name_ko": "월드 키넥트"
+  },
+  {
+    "ticker": "VYX",
+    "name_ko": "NCR 보익스"
+  },
+  {
+    "ticker": "NVRI",
+    "name_ko": "엔비리"
+  },
+  {
+    "ticker": "MBC",
+    "name_ko": "마스터브랜드"
+  },
+  {
+    "ticker": "JPM PR M",
+    "name_ko": "제이피모간체이스 우선주 시리즈 MM 4.20%"
+  },
+  {
+    "ticker": "JPM PR L",
+    "name_ko": "제이피모간체이스 우선주 시리즈 LL 4.625%"
+  },
+  {
+    "ticker": "ARLO",
+    "name_ko": "아를로 테크놀러지"
+  },
+  {
+    "ticker": "NTST",
+    "name_ko": "넷에스티리츠"
+  },
+  {
+    "ticker": "EFC",
+    "name_ko": "엘링턴 파이낸셜"
+  },
+  {
+    "ticker": "VET",
+    "name_ko": "버밀리온 에너지"
+  },
+  {
+    "ticker": "DAO",
+    "name_ko": "유다오 ADR"
+  },
+  {
+    "ticker": "ENR",
+    "name_ko": "에너자이저 홀딩스"
+  },
+  {
+    "ticker": "LOMA",
+    "name_ko": "로마 네그라 콤파니아 인더스트리얼 ADR"
+  },
+  {
+    "ticker": "BTT",
+    "name_ko": "BlackRock Municipal 2030 Target Term Trust"
+  },
+  {
+    "ticker": "MSDL",
+    "name_ko": "모간스탠리 다이렉트 렌딩 펀드"
+  },
+  {
+    "ticker": "BTX",
+    "name_ko": "BlackRock Technology and Private Equity Term Trust"
+  },
+  {
+    "ticker": "MAN",
+    "name_ko": "맨파워그룹"
+  },
+  {
+    "ticker": "TEO",
+    "name_ko": "텔레콤 아르헨티나 ADR"
+  },
+  {
+    "ticker": "GLP",
+    "name_ko": "Global Partners Units"
+  },
+  {
+    "ticker": "VRE",
+    "name_ko": "베리스 레지덴셜스"
+  },
+  {
+    "ticker": "XHR",
+    "name_ko": "제니아 호텔 & 리조트"
+  },
+  {
+    "ticker": "HYT",
+    "name_ko": "BlackRock Corporate High Yield Fund，Inc."
+  },
+  {
+    "ticker": "BST",
+    "name_ko": "BlackRock Science and Technology Trust"
+  },
+  {
+    "ticker": "TNC",
+    "name_ko": "테넌트"
+  },
+  {
+    "ticker": "UTZ",
+    "name_ko": "UTZ 브랜즈"
+  },
+  {
+    "ticker": "GAM",
+    "name_ko": "General American Investors Closed Fund"
+  },
+  {
+    "ticker": "IIPR",
+    "name_ko": "이노베이티브 인더스트리얼 프로퍼티"
+  },
+  {
+    "ticker": "FLNG",
+    "name_ko": "플렉스 LNG"
+  },
+  {
+    "ticker": "BY",
+    "name_ko": "바이라인 뱅코프"
+  },
+  {
+    "ticker": "ECO",
+    "name_ko": "오케아니스 에코 탱커스"
+  },
+  {
+    "ticker": "ARI",
+    "name_ko": "아폴로 커머셜 리얼에스테이트 파이낸스"
+  },
+  {
+    "ticker": "NRP",
+    "name_ko": "Natural Resource Partners Units"
+  },
+  {
+    "ticker": "WLY",
+    "name_ko": "존 윌리 앤 손 Class A"
+  },
+  {
+    "ticker": "LADR",
+    "name_ko": "래더 캐피털"
+  },
+  {
+    "ticker": "UMH",
+    "name_ko": "UMH 프로퍼티"
+  },
+  {
+    "ticker": "KW",
+    "name_ko": "케네디-윌슨 홀딩스"
+  },
+  {
+    "ticker": "CNMD",
+    "name_ko": "콘메드"
+  },
+  {
+    "ticker": "BAC PR B",
+    "name_ko": "뱅크오브아메리카 우선주 시리즈 GG 6%"
+  },
+  {
+    "ticker": "BLX",
+    "name_ko": "포린 트레이드 뱅크 오브 라틴 아메리카"
+  },
+  {
+    "ticker": "WFC PR Z",
+    "name_ko": "웰스파고 우선주 시리즈 Z 4.75%"
+  },
+  {
+    "ticker": "DOLE",
+    "name_ko": "돌"
+  },
+  {
+    "ticker": "WTTR",
+    "name_ko": "셀렉트 에너지 서비스"
+  },
+  {
+    "ticker": "T PR C",
+    "name_ko": "AT&T 우선주 시리즈 C 4.750%"
+  },
+  {
+    "ticker": "TUYA",
+    "name_ko": "투야 ADR"
+  },
+  {
+    "ticker": "PEB",
+    "name_ko": "페블브룩 호텔 트러스트"
+  },
+  {
+    "ticker": "NABL",
+    "name_ko": "엔-에이블"
+  },
+  {
+    "ticker": "SOC",
+    "name_ko": "세이블 오프쇼어"
+  },
+  {
+    "ticker": "UVV",
+    "name_ko": "유니버설"
+  },
+  {
+    "ticker": "DFIN",
+    "name_ko": "도넬리 파이낸셜 솔루션스"
+  },
+  {
+    "ticker": "TDOC",
+    "name_ko": "텔라닥 헬스"
+  },
+  {
+    "ticker": "CTOS",
+    "name_ko": "커스텀 트럭 원 소스"
+  },
+  {
+    "ticker": "UAA",
+    "name_ko": "언더 아머 Class A"
+  },
+  {
+    "ticker": "GRC",
+    "name_ko": "고먼-러프"
+  },
+  {
+    "ticker": "ORC",
+    "name_ko": "오키드 아일랜드 캐피털"
+  },
+  {
+    "ticker": "RERE",
+    "name_ko": "AT리뉴 ADR"
+  },
+  {
+    "ticker": "CTS",
+    "name_ko": "CTS"
+  },
+  {
+    "ticker": "TTI",
+    "name_ko": "테트라 테크놀로지스"
+  },
+  {
+    "ticker": "LNN",
+    "name_ko": "린지"
+  },
+  {
+    "ticker": "GOOS",
+    "name_ko": "캐나다 구스 홀딩스"
+  },
+  {
+    "ticker": "ARDT",
+    "name_ko": "아던트 헬스"
+  },
+  {
+    "ticker": "FINV",
+    "name_ko": "핀볼루션 그룹 ADR"
+  },
+  {
+    "ticker": "RES",
+    "name_ko": "RPC"
+  },
+  {
+    "ticker": "IDT",
+    "name_ko": "IDT"
+  },
+  {
+    "ticker": "FOR",
+    "name_ko": "포레스타 그룹"
+  },
+  {
+    "ticker": "PRLB",
+    "name_ko": "프로토 랩스"
+  },
+  {
+    "ticker": "IRS",
+    "name_ko": "IRSA 인베르시오네스 ADR"
+  },
+  {
+    "ticker": "SILA",
+    "name_ko": "실라 리얼티 트러스트"
+  },
+  {
+    "ticker": "DSL",
+    "name_ko": "DoubleLine Income Solutions Fd"
+  },
+  {
+    "ticker": "GSL",
+    "name_ko": "글로벌 십 리스"
+  },
+  {
+    "ticker": "FSCO",
+    "name_ko": "FS Credit Opportunities Corp."
+  },
+  {
+    "ticker": "AESI",
+    "name_ko": "아틀라스 에너지 솔루션스"
+  },
+  {
+    "ticker": "KRP",
+    "name_ko": "Kimbell Royalty Partners LP Units"
+  },
+  {
+    "ticker": "JFR",
+    "name_ko": "Nuveen Floating Rate Income Closed Fund"
+  },
+  {
+    "ticker": "NEXA",
+    "name_ko": "넥사 리소스"
+  },
+  {
+    "ticker": "CRI",
+    "name_ko": "카터스"
+  },
+  {
+    "ticker": "THR",
+    "name_ko": "서몬 그룹 홀딩스"
+  },
+  {
+    "ticker": "NFJ",
+    "name_ko": "Virtus Dividend  Interest & Prem Str Fd"
+  },
+  {
+    "ticker": "ATEN",
+    "name_ko": "A10 네트웍스"
+  },
+  {
+    "ticker": "USPH",
+    "name_ko": "US 피지컬 테라피"
+  },
+  {
+    "ticker": "PRA",
+    "name_ko": "프로어슈어런스"
+  },
+  {
+    "ticker": "BV",
+    "name_ko": "브라이트뷰 홀딩스"
+  },
+  {
+    "ticker": "BAC PR M",
+    "name_ko": "뱅크오브아메리카 우선주 KK 5.375%"
+  },
+  {
+    "ticker": "WGO",
+    "name_ko": "위니바고 인더스트리"
+  },
+  {
+    "ticker": "COUR",
+    "name_ko": "코세라"
+  },
+  {
+    "ticker": "EOS",
+    "name_ko": "Eaton Vance Enhanced Equity Income II Closed Fund"
+  },
+  {
+    "ticker": "LUCK",
+    "name_ko": "럭키 스트라이크 엔터테인먼트"
+  },
+  {
+    "ticker": "MUX",
+    "name_ko": "맥이웬"
+  },
+  {
+    "ticker": "SPH",
+    "name_ko": "Suburban Propane Partners Common Units"
+  },
+  {
+    "ticker": "OBK",
+    "name_ko": "오리진 뱅코프"
+  },
+  {
+    "ticker": "PRG",
+    "name_ko": "PROG 홀딩스"
+  },
+  {
+    "ticker": "NMZ",
+    "name_ko": "Nuveen Municipal High Income Opportunity Closed Fund"
+  },
+  {
+    "ticker": "BHLB",
+    "name_ko": "버크셔 힐스 뱅코프"
+  },
+  {
+    "ticker": "BORR",
+    "name_ko": "보르 드릴링"
+  },
+  {
+    "ticker": "AMPX",
+    "name_ko": "앰프리어스 테크놀로지스"
+  },
+  {
+    "ticker": "SFL",
+    "name_ko": "SFL 코퍼레이션"
+  },
+  {
+    "ticker": "THS",
+    "name_ko": "트리하우스 푸드"
+  },
+  {
+    "ticker": "LPG",
+    "name_ko": "도리안 LPG"
+  },
+  {
+    "ticker": "ECVT",
+    "name_ko": "에코비스트"
+  },
+  {
+    "ticker": "GIC",
+    "name_ko": "글로벌 인더스트리얼"
+  },
+  {
+    "ticker": "ALX",
+    "name_ko": "알렉산더스"
+  },
+  {
+    "ticker": "PXED",
+    "name_ko": "피닉스 에듀케이션 파트너스"
+  },
+  {
+    "ticker": "NVGS",
+    "name_ko": "내비게이터 홀딩스"
+  },
+  {
+    "ticker": "JPM PR K",
+    "name_ko": "제이피모간체이스 우선주 시리즈 JJ 4.55%"
+  },
+  {
+    "ticker": "NGL",
+    "name_ko": "NGL Energy Partners Units"
+  },
+  {
+    "ticker": "KUKE",
+    "name_ko": "쿠케 뮤직 홀딩 ADR"
+  },
+  {
+    "ticker": "CBL",
+    "name_ko": "CBL & 어소시에이츠 프로퍼티스"
+  },
+  {
+    "ticker": "UA",
+    "name_ko": "언더 아머 Class C"
+  },
+  {
+    "ticker": "PD",
+    "name_ko": "페이져듀티"
+  },
+  {
+    "ticker": "RLJ",
+    "name_ko": "RLJ 로징 트러스트"
+  },
+  {
+    "ticker": "VRTS",
+    "name_ko": "비르투스 인베스트먼트 파트너스"
+  },
+  {
+    "ticker": "NBXG",
+    "name_ko": "Neuberger Next Gen Connectivity Fund Inc."
+  },
+  {
+    "ticker": "VTOL",
+    "name_ko": "브리스토우 그룹"
+  },
+  {
+    "ticker": "COF PR I",
+    "name_ko": "캐피탈 원 파이낸셜 우선주 시리즈 I 5%"
+  },
+  {
+    "ticker": "PX",
+    "name_ko": "P10"
+  },
+  {
+    "ticker": "AAT",
+    "name_ko": "아메리칸 애셋츠 트러스트"
+  },
+  {
+    "ticker": "ASA",
+    "name_ko": "ASA Gold And Precious Metals Limited"
+  },
+  {
+    "ticker": "UAN",
+    "name_ko": "CVR Partners Units"
+  },
+  {
+    "ticker": "LAR",
+    "name_ko": "리튬 아르헨티나"
+  },
+  {
+    "ticker": "SCL",
+    "name_ko": "스테판"
+  },
+  {
+    "ticker": "CWH",
+    "name_ko": "캠핑 월드 홀딩스"
+  },
+  {
+    "ticker": "TWO",
+    "name_ko": "투 하버스 인베스트먼트"
+  },
+  {
+    "ticker": "FPF",
+    "name_ko": "First Trust Intermediate Duration Preferred & Inc"
+  },
+  {
+    "ticker": "LUXE",
+    "name_ko": "럭스익스피리언스 ADR"
+  },
+  {
+    "ticker": "PCG PR X",
+    "name_ko": "PG&E 우선주 Series A 6%"
+  },
+  {
+    "ticker": "YALA",
+    "name_ko": "얄라 그룹 ADR"
+  },
+  {
+    "ticker": "PRO",
+    "name_ko": "프로스 홀딩스"
+  },
+  {
+    "ticker": "CSR",
+    "name_ko": "센터스페이스"
+  },
+  {
+    "ticker": "AGRO",
+    "name_ko": "아데코아그로"
+  },
+  {
+    "ticker": "DEC",
+    "name_ko": "다이버시파이드 에너지"
+  },
+  {
+    "ticker": "ESRT",
+    "name_ko": "엠파이어 스테이트 리얼티 트러스트"
+  },
+  {
+    "ticker": "PMT",
+    "name_ko": "페니맥 모기지 인베스트먼트"
+  },
+  {
+    "ticker": "VLRS",
+    "name_ko": "콘트롤라도라 부엘라 콤파니아 아비아시온 ADR"
+  },
+  {
+    "ticker": "BAC PR N",
+    "name_ko": "뱅크오브아메리카 우선주 LL 5%"
+  },
+  {
+    "ticker": "PTA",
+    "name_ko": "Cohen & Steers Tax-Adv Pref Secs and Inc Fund"
+  },
+  {
+    "ticker": "REX",
+    "name_ko": "렉스 아메리칸 리소시즈"
+  },
+  {
+    "ticker": "GS PR D",
+    "name_ko": "골드만삭스 우선주 시리즈 D"
+  },
+  {
+    "ticker": "UHAL",
+    "name_ko": "유홀 홀딩"
+  },
+  {
+    "ticker": "HQH",
+    "name_ko": "abrdn Healthcare Investors"
+  },
+  {
+    "ticker": "CIM",
+    "name_ko": "키메라 인베스트먼트"
+  },
+  {
+    "ticker": "PDM",
+    "name_ko": "피드몬트 리얼티 트러스트"
+  },
+  {
+    "ticker": "NPKI",
+    "name_ko": "NPK 인터내셔널"
+  },
+  {
+    "ticker": "SUPV",
+    "name_ko": "그루포 수페르비엘 ADR"
+  },
+  {
+    "ticker": "MS PR Q",
+    "name_ko": "모간스탠리 우선주 Series Q"
+  },
+  {
+    "ticker": "SAFE",
+    "name_ko": "세이프홀드"
+  },
+  {
+    "ticker": "FSSL",
+    "name_ko": "FS Specialty Lending Close End Fund"
+  },
+  {
+    "ticker": "GSBD",
+    "name_ko": "골드만삭스 BDC"
+  },
+  {
+    "ticker": "BFLY",
+    "name_ko": "버터플라이 네트워크"
+  },
+  {
+    "ticker": "MMI",
+    "name_ko": "마커스 & 밀리쳅"
+  },
+  {
+    "ticker": "DEA",
+    "name_ko": "이스털리 거번먼트 프로퍼티스"
+  },
+  {
+    "ticker": "DLX",
+    "name_ko": "딜럭스"
+  },
+  {
+    "ticker": "AOD",
+    "name_ko": "abrdn Total Dynamic Dividend Mutual Fund"
+  },
+  {
+    "ticker": "CCO",
+    "name_ko": "클리어 채널 아웃도어 홀딩스"
+  },
+  {
+    "ticker": "HLX",
+    "name_ko": "헬릭스 에너지 솔루션스 그룹"
+  },
+  {
+    "ticker": "MS PR P",
+    "name_ko": "모간스탠리 우선주 시리즈 P 6.5%"
+  },
+  {
+    "ticker": "PHR",
+    "name_ko": "프리시아"
+  },
+  {
+    "ticker": "MUC",
+    "name_ko": "BlackRock MuniHoldings California Quality Fd，Inc."
+  },
+  {
+    "ticker": "JBGS",
+    "name_ko": "JBG 스미스 프로퍼티"
+  },
+  {
+    "ticker": "MKC.V",
+    "name_ko": "매코믹 앤 컴퍼니"
+  },
+  {
+    "ticker": "BBN",
+    "name_ko": "BlackRock Taxable Municipal Bond Trust"
+  },
+  {
+    "ticker": "NMAX",
+    "name_ko": "뉴스맥스"
+  },
+  {
+    "ticker": "KBDC",
+    "name_ko": "케인 앤더슨"
+  },
+  {
+    "ticker": "ETW",
+    "name_ko": "Eaton Vance Tax Managed Global Buy Write Opportunities Closed Fund"
+  },
+  {
+    "ticker": "BTZ",
+    "name_ko": "BlackRock Credit Allocation Income Trust"
+  },
+  {
+    "ticker": "MS PR I",
+    "name_ko": "모간스탠리 우선주 시리즈 I"
+  },
+  {
+    "ticker": "DUK PR A",
+    "name_ko": "듀크 에너지 우선주 시리즈 A 5.75%"
+  },
+  {
+    "ticker": "SYF PR A",
+    "name_ko": "싱크로니 파이낸셜 우선주 시리즈 A 5.625%"
+  },
+  {
+    "ticker": "EIG",
+    "name_ko": "임플로이어스 홀딩스"
+  },
+  {
+    "ticker": "YEXT",
+    "name_ko": "이엑스트"
+  },
+  {
+    "ticker": "EQBK",
+    "name_ko": "애퀴티 뱅크셰어스"
+  },
+  {
+    "ticker": "XIFR",
+    "name_ko": "XPLR 인프라스트럭처"
+  },
+  {
+    "ticker": "T PR A",
+    "name_ko": "AT&T 우선주 시리즈 A 5.000%"
+  },
+  {
+    "ticker": "MS PR K",
+    "name_ko": "모간스탠리 우선주 시리즈 K"
+  },
+  {
+    "ticker": "MFA",
+    "name_ko": "MFA 파이낸셜"
+  },
+  {
+    "ticker": "PLYM",
+    "name_ko": "플리머스 인더스트리얼 리츠"
+  },
+  {
+    "ticker": "SBR",
+    "name_ko": "Sabine Royalty Units"
+  },
+  {
+    "ticker": "ALL PR H",
+    "name_ko": "올스테이트 우선주 Series H 5.1%"
+  },
+  {
+    "ticker": "ACEL",
+    "name_ko": "악셀 엔터테인먼트"
+  },
+  {
+    "ticker": "PUMP",
+    "name_ko": "프로페트로 홀딩"
+  },
+  {
+    "ticker": "JBI",
+    "name_ko": "야누스 인터내셔널 그룹"
+  },
+  {
+    "ticker": "BBDC",
+    "name_ko": "베어링스 BDC"
+  },
+  {
+    "ticker": "RNP",
+    "name_ko": "Cohen & Steers REIT & Preferred & Income Fund Inc"
+  },
+  {
+    "ticker": "BMEZ",
+    "name_ko": "BlackRock Health Sciences Term Closed End Fund"
+  },
+  {
+    "ticker": "PRSU",
+    "name_ko": "퍼슈트 어트랙션스 앤 호스피탈리티"
+  },
+  {
+    "ticker": "PML",
+    "name_ko": "PIMCO Municipal Income Fund II"
+  },
+  {
+    "ticker": "CII",
+    "name_ko": "BlackRock Enhanced Large Cap Core Closed End Fund"
+  },
+  {
+    "ticker": "USB PR A",
+    "name_ko": "US 뱅코프 우선주 시리즈 A"
+  },
+  {
+    "ticker": "EEX",
+    "name_ko": "에메랄드 홀딩"
+  },
+  {
+    "ticker": "SBSI",
+    "name_ko": "사우스사이드 뱅크셰어스"
+  },
+  {
+    "ticker": "PFLT",
+    "name_ko": "페넌트파크 플로팅 레이트 캐피탈"
+  },
+  {
+    "ticker": "NBR",
+    "name_ko": "네이보스 인더스트리스"
+  },
+  {
+    "ticker": "CMP",
+    "name_ko": "컴퍼스 미네랄스 인터내셔널"
+  },
+  {
+    "ticker": "GOLD",
+    "name_ko": "골드닷컴"
+  },
+  {
+    "ticker": "PDS",
+    "name_ko": "프레시전 드릴링"
+  },
+  {
+    "ticker": "AWF",
+    "name_ko": "AllianceBernstein Global High Income Closed Fund"
+  },
+  {
+    "ticker": "MS PR O",
+    "name_ko": "모간스탠리 우선주 시리즈 O 4.25%"
+  },
+  {
+    "ticker": "BAC PR Q",
+    "name_ko": "뱅크오브아메리카 우선주 시리즈 QQ 4.25%"
+  },
+  {
+    "ticker": "PCN",
+    "name_ko": "PIMCO Corporate & Income Strategy Fund"
+  },
+  {
+    "ticker": "COF PR J",
+    "name_ko": "캐피탈 원 파이낸셜 우선주 시리즈 J 4.8%"
+  },
+  {
+    "ticker": "ASIC",
+    "name_ko": "에이티그리티 스페셜티 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "MEG",
+    "name_ko": "몬트로즈 인바이런먼털 그룹"
+  },
+  {
+    "ticker": "ODV",
+    "name_ko": "오시스코 디벨롭먼트"
+  },
+  {
+    "ticker": "SG",
+    "name_ko": "스윗그린"
+  },
+  {
+    "ticker": "NRGV",
+    "name_ko": "에너지 볼트 홀딩스"
+  },
+  {
+    "ticker": "ALIT",
+    "name_ko": "얼라이트"
+  },
+  {
+    "ticker": "BCSF",
+    "name_ko": "배인 캐피털 스페셜티 파이낸스"
+  },
+  {
+    "ticker": "WFC PR A",
+    "name_ko": "웰스파고 우선주 시리즈 AA 4.7%"
+  },
+  {
+    "ticker": "SDHC",
+    "name_ko": "스미스 더글러스 홈스"
+  },
+  {
+    "ticker": "BKSY",
+    "name_ko": "블랙스카이 테크놀로지"
+  },
+  {
+    "ticker": "OPFI",
+    "name_ko": "옵파이"
+  },
+  {
+    "ticker": "AXL",
+    "name_ko": "아메리칸 액슬 & 매뉴팩처링 홀딩스"
+  },
+  {
+    "ticker": "NRK",
+    "name_ko": "Nuveen New York AMT-Free Quality Municipal Inc Fd"
+  },
+  {
+    "ticker": "WFC PR D",
+    "name_ko": "웰스파고 우선주 시리즈 DD 4.25%"
+  },
+  {
+    "ticker": "RYI",
+    "name_ko": "라이어슨 홀딩"
+  },
+  {
+    "ticker": "UVE",
+    "name_ko": "유니버설 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "UTL",
+    "name_ko": "유니틸"
+  },
+  {
+    "ticker": "MS PR E",
+    "name_ko": "모간스탠리 우선주 시리즈 E"
+  },
+  {
+    "ticker": "CLB",
+    "name_ko": "코어 래보라토리스"
+  },
+  {
+    "ticker": "CPAC",
+    "name_ko": "세멘토스 파카스마요 ADR"
+  },
+  {
+    "ticker": "GES",
+    "name_ko": "게스"
+  },
+  {
+    "ticker": "TDAY",
+    "name_ko": "USA 투데이"
+  },
+  {
+    "ticker": "MS PR A",
+    "name_ko": "모간스탠리 우선주 시리즈 A"
+  },
+  {
+    "ticker": "WBI",
+    "name_ko": "워터브리지 인프라스트럭처"
+  },
+  {
+    "ticker": "BCX",
+    "name_ko": "BlackRock Resources And Commodities Strategy Trust"
+  },
+  {
+    "ticker": "CPF",
+    "name_ko": "센트럴 퍼시픽 파이낸셜"
+  },
+  {
+    "ticker": "MNTN",
+    "name_ko": "MNTN"
+  },
+  {
+    "ticker": "PDX",
+    "name_ko": "PIMCO Dynamic Income Strategy Fund"
+  },
+  {
+    "ticker": "MS PR F",
+    "name_ko": "모간스탠리 우선주 시리즈 F"
+  },
+  {
+    "ticker": "AMTB",
+    "name_ko": "아머란트 뱅코프"
+  },
+  {
+    "ticker": "SMP",
+    "name_ko": "스탠다드 모터 프로덕츠"
+  },
+  {
+    "ticker": "PHK",
+    "name_ko": "PIMCO High Income Fund"
+  },
+  {
+    "ticker": "AIV",
+    "name_ko": "아파트먼트 인베스트먼트 & 매니지먼트"
+  },
+  {
+    "ticker": "ABX",
+    "name_ko": "애버커스 글로벌"
+  },
+  {
+    "ticker": "INR",
+    "name_ko": "인피니티 내추럴 리소시스"
+  },
+  {
+    "ticker": "GNK",
+    "name_ko": "젠코 시핑 & 트레이딩"
+  },
+  {
+    "ticker": "EOI",
+    "name_ko": "Eaton Vance Enhanced Equity Income Closed Fund"
+  },
+  {
+    "ticker": "BW",
+    "name_ko": "밥콕 앤 윌콕스 엔터프라이스"
+  },
+  {
+    "ticker": "BBW",
+    "name_ko": "빌드어베어 워크숍"
+  },
+  {
+    "ticker": "BH",
+    "name_ko": "비글라리 홀딩스 Class B"
+  },
+  {
+    "ticker": "BAC PR K",
+    "name_ko": "뱅크오브아메리카 우선주 HH 5.875%"
+  },
+  {
+    "ticker": "HTD",
+    "name_ko": "John Hancock Tax Advantaged Dividend Income Closed Fund"
+  },
+  {
+    "ticker": "TROX",
+    "name_ko": "트로녹스 홀딩스"
+  },
+  {
+    "ticker": "HRTG",
+    "name_ko": "헤리티지 인슈어런스 홀딩스"
+  },
+  {
+    "ticker": "BOW",
+    "name_ko": "보우헤드 스페셜티 홀딩스"
+  },
+  {
+    "ticker": "MCB",
+    "name_ko": "메트로폴리탄 뱅크 홀딩스"
+  },
+  {
+    "ticker": "NPK",
+    "name_ko": "내셔널 프레스토 인더스트리스"
+  },
+  {
+    "ticker": "VSTS",
+    "name_ko": "베스티스"
+  },
+  {
+    "ticker": "FOUR PR A",
+    "name_ko": "시프트4 페이먼츠 우선주 Series A 6.00%"
+  },
+  {
+    "ticker": "MOG.B",
+    "name_ko": "무그 Class B"
+  },
+  {
+    "ticker": "TK",
+    "name_ko": "티케이"
+  },
+  {
+    "ticker": "MQY",
+    "name_ko": "BlackRock MuniYield Quality Fund，Inc."
+  },
+  {
+    "ticker": "EPC",
+    "name_ko": "에지웰 퍼스널 케어"
+  },
+  {
+    "ticker": "NAT",
+    "name_ko": "노르딕 아메리칸 탱커"
+  },
+  {
+    "ticker": "PLOW",
+    "name_ko": "더글라스 다이내믹스"
+  },
+  {
+    "ticker": "BLND",
+    "name_ko": "블렌드 랩스"
+  },
+  {
+    "ticker": "PBT",
+    "name_ko": "Permian Basin Royalty Units"
+  },
+  {
+    "ticker": "THQ",
+    "name_ko": "abrdn Healthcare Opportunities Fund"
+  },
+  {
+    "ticker": "LDI",
+    "name_ko": "론디포"
+  },
+  {
+    "ticker": "EMO",
+    "name_ko": "ClearBridge Energy Midstream Opportunity Closed End Fund"
+  },
+  {
+    "ticker": "OPTU",
+    "name_ko": "옵티멈 커뮤니케이션스"
+  },
+  {
+    "ticker": "NXDR",
+    "name_ko": "넥스트도어 홀딩스"
+  },
+  {
+    "ticker": "SES",
+    "name_ko": "SES AI"
+  },
+  {
+    "ticker": "FBRT",
+    "name_ko": "프랭클린 BSP 리얼티 트러스트"
+  },
+  {
+    "ticker": "HIPO",
+    "name_ko": "히포 홀딩스"
+  },
+  {
+    "ticker": "CAPL",
+    "name_ko": "CrossAmerica Partners Common Units"
+  },
+  {
+    "ticker": "MTB PR J",
+    "name_ko": "M&T 뱅크 우선주 Series J"
+  },
+  {
+    "ticker": "BALY",
+    "name_ko": "발리스"
+  },
+  {
+    "ticker": "FFC",
+    "name_ko": "Flaherty Crumrine Preferred and Income Securities Mutual Fund  Incorporated"
+  },
+  {
+    "ticker": "MTUS",
+    "name_ko": "메탈루스"
+  },
+  {
+    "ticker": "BFS",
+    "name_ko": "솔 센터스"
+  },
+  {
+    "ticker": "CNNE",
+    "name_ko": "칸네 홀딩스"
+  },
+  {
+    "ticker": "HUYA",
+    "name_ko": "후야 ADR"
+  },
+  {
+    "ticker": "BAC PR O",
+    "name_ko": "뱅크오브아메리카 우선주 NN 4.375%"
+  },
+  {
+    "ticker": "NXRT",
+    "name_ko": "넥스포인트 레지덴셜 트러스트"
+  },
+  {
+    "ticker": "KODK",
+    "name_ko": "이스트먼 코닥"
+  },
+  {
+    "ticker": "AIO",
+    "name_ko": "Virtus Artificial Intelligence and Technology Opportunities Fund"
+  },
+  {
+    "ticker": "OPY",
+    "name_ko": "오펜하이머 홀딩스"
+  },
+  {
+    "ticker": "TEN",
+    "name_ko": "차코스 에너지 내비게이션"
+  },
+  {
+    "ticker": "HTB",
+    "name_ko": "홈트러스트 뱅크셰어스"
+  },
+  {
+    "ticker": "MET PR E",
+    "name_ko": "메트라이프 우선주 시리즈 E 5.625%"
+  },
+  {
+    "ticker": "RSKD",
+    "name_ko": "리스키파이드"
+  },
+  {
+    "ticker": "MAX",
+    "name_ko": "미디어알파"
+  },
+  {
+    "ticker": "VTS",
+    "name_ko": "비테스 에너지"
+  },
+  {
+    "ticker": "BRSP",
+    "name_ko": "브라이트스파이어 캐피탈"
+  },
+  {
+    "ticker": "GHM",
+    "name_ko": "그레이엄"
+  },
+  {
+    "ticker": "ECC",
+    "name_ko": "Eagle Point Credit Company Inc"
+  },
+  {
+    "ticker": "JQC",
+    "name_ko": "Nuveen Credit Strategies Income Closed Fund"
+  },
+  {
+    "ticker": "NX",
+    "name_ko": "콰넥스 빌딩 프로덕츠"
+  },
+  {
+    "ticker": "SCHW PR D",
+    "name_ko": "찰스 슈왑 우선주 시리즈 D 5.95%"
+  },
+  {
+    "ticker": "CARS",
+    "name_ko": "카스닷컴"
+  },
+  {
+    "ticker": "AMC",
+    "name_ko": "AMC 엔터테인먼트 홀딩스"
+  },
+  {
+    "ticker": "USB PR H",
+    "name_ko": "US 뱅코프 우선주 시리즈 B"
+  },
+  {
+    "ticker": "ODC",
+    "name_ko": "오일-드리 코퍼레이션 오브 아메리카"
+  },
+  {
+    "ticker": "NOAH",
+    "name_ko": "노아 홀딩스 ADR"
+  },
+  {
+    "ticker": "NLY PR F",
+    "name_ko": "애널리 캐피털 매니지먼트 우선주 시리즈 F"
+  },
+  {
+    "ticker": "JPM PR J",
+    "name_ko": "제이피모간체이스 우선주 시리즈 GG 4.75%"
+  },
+  {
+    "ticker": "NXP",
+    "name_ko": "Nuveen Select Tax-Free Income Portfolio"
+  },
+  {
+    "ticker": "MYE",
+    "name_ko": "마이어스 인더스트리스"
+  },
+  {
+    "ticker": "WSR",
+    "name_ko": "화이트스톤 리츠"
+  },
+  {
+    "ticker": "MYI",
+    "name_ko": "BlackRock MuniYield Quality Fund III，Inc."
+  },
+  {
+    "ticker": "WFC PR C",
+    "name_ko": "웰스파고 우선주 시리즈 CC 4.375%"
+  },
+  {
+    "ticker": "TFC PR R",
+    "name_ko": "트루이스트 파이낸셜 우선주 시리즈 R 4.75%"
+  },
+  {
+    "ticker": "SKYH",
+    "name_ko": "스카이 하버 그룹"
+  },
+  {
+    "ticker": "BTO",
+    "name_ko": "John Hancock Financial Opportunities Fund"
+  },
+  {
+    "ticker": "PAXS",
+    "name_ko": "PIMCO Access Income Fund"
+  },
+  {
+    "ticker": "DLY",
+    "name_ko": "DoubleLine Yield Opportunities Fund"
+  },
+  {
+    "ticker": "VEL",
+    "name_ko": "벨로시티 파이낸셜"
+  },
+  {
+    "ticker": "WDI",
+    "name_ko": "Western Asset Diversified Income Fund"
+  },
+  {
+    "ticker": "TYG",
+    "name_ko": "Tortoise Energy Infrastructure Closed Fund"
+  },
+  {
+    "ticker": "RA",
+    "name_ko": "Brookfield Real Assets Income Closed Fund"
+  },
+  {
+    "ticker": "GDOT",
+    "name_ko": "그린 닷"
+  },
+  {
+    "ticker": "WLKP",
+    "name_ko": "Westlake Chemical Partners Units"
+  },
+  {
+    "ticker": "MEGI",
+    "name_ko": "NYLI CBRE Global Infrstrctr Megatrends Term Fd"
+  },
+  {
+    "ticker": "NIE",
+    "name_ko": "Virtus Equity And Convertible Income Fund"
+  },
+  {
+    "ticker": "PFN",
+    "name_ko": "Pimco Income Strategy II Closed Fund"
+  },
+  {
+    "ticker": "AHH",
+    "name_ko": "아르마다 호플러 프로퍼티즈"
+  },
+  {
+    "ticker": "TRTX",
+    "name_ko": "TPG 리 파이낸스 트러스트"
+  },
+  {
+    "ticker": "EBS",
+    "name_ko": "이머전트 바이오솔루션스"
+  },
+  {
+    "ticker": "ANGX",
+    "name_ko": "엔젤 스튜디오스"
+  },
+  {
+    "ticker": "RWT",
+    "name_ko": "레드우드 트러스트"
+  },
+  {
+    "ticker": "IGR",
+    "name_ko": "CBRE Global Real Estate Income Fund"
+  },
+  {
+    "ticker": "MATV",
+    "name_ko": "마티브 홀딩스"
+  },
+  {
+    "ticker": "BHK",
+    "name_ko": "BlackRock Core Bond Closed Fund"
+  },
+  {
+    "ticker": "ACP",
+    "name_ko": "abrdn Income Credit Strategies Mutual Fund"
+  },
+  {
+    "ticker": "QXO PR B",
+    "name_ko": "QXO 우선주 Series B"
+  },
+  {
+    "ticker": "CSV",
+    "name_ko": "캐리지 서비스"
+  },
+  {
+    "ticker": "FVRR",
+    "name_ko": "파이버 인터내셔널"
+  },
+  {
+    "ticker": "SSTK",
+    "name_ko": "셔터스톡"
+  },
+  {
+    "ticker": "WFC PR Y",
+    "name_ko": "웰스파고 우선주 시리즈 Y 5.625%"
+  },
+  {
+    "ticker": "RNR PR F",
+    "name_ko": "르네상스리 홀딩스 우선주 시리즈 F 5.750%"
+  },
+  {
+    "ticker": "STK",
+    "name_ko": "Columbia Seligman Premium Technology Growth Fund"
+  },
+  {
+    "ticker": "MSC",
+    "name_ko": "스튜디오 시티 인터내셔널 홀딩스 ADR"
+  },
+  {
+    "ticker": "NCDL",
+    "name_ko": "누빈 처칠 다이렉트 렌딩"
+  },
+  {
+    "ticker": "LXU",
+    "name_ko": "LSB 인더스트리"
+  },
+  {
+    "ticker": "EQH PR A",
+    "name_ko": "에퀴터블 홀딩스 우선주 시리즈 A 5.25%"
+  },
+  {
+    "ticker": "VMO",
+    "name_ko": "Invesco Municipal Opportunity Trust"
+  },
+  {
+    "ticker": "SXC",
+    "name_ko": "선코크 에너지"
+  },
+  {
+    "ticker": "BOE",
+    "name_ko": "BlackRock Enhanced Global Dividend Closed End Fund"
+  },
+  {
+    "ticker": "VTEX",
+    "name_ko": "브이텍스"
+  },
+  {
+    "ticker": "SMBK",
+    "name_ko": "스마트파이낸셜"
+  },
+  {
+    "ticker": "NKX",
+    "name_ko": "Nuveen California AMT-Free Quality Municipal In Fd"
+  },
+  {
+    "ticker": "MUJ",
+    "name_ko": "BlackRock MuniHoldings New Jersey Quality Fd，Inc."
+  },
+  {
+    "ticker": "EVTL",
+    "name_ko": "버티컬 에어로스페이스"
+  },
+  {
+    "ticker": "IIIN",
+    "name_ko": "인스틸 인더스트리"
+  },
+  {
+    "ticker": "LVWR",
+    "name_ko": "AEA-브릿지스 임팩트"
+  },
+  {
+    "ticker": "EDN",
+    "name_ko": "엠프레사 디스트리부이도라 ADR"
+  },
+  {
+    "ticker": "CVLG",
+    "name_ko": "코버넌트 로지스틱스 그룹"
+  },
+  {
+    "ticker": "ALL PR J",
+    "name_ko": "올스테이트 우선주 Series J"
+  },
+  {
+    "ticker": "BAC PR P",
+    "name_ko": "뱅크오브아메리카 우선주 PP 4.125%"
+  },
+  {
+    "ticker": "BZH",
+    "name_ko": "비저 홈스 USA"
+  },
+  {
+    "ticker": "EMD",
+    "name_ko": "Western Asset Emerging Markets Debt Fund"
+  },
+  {
+    "ticker": "CINT",
+    "name_ko": "Ci&T"
+  },
+  {
+    "ticker": "PDT",
+    "name_ko": "John Hancock Premium Dividend Fund"
+  },
+  {
+    "ticker": "LDP",
+    "name_ko": "Cohen & Steers Ltd Dur Pref and Income Fund Inc"
+  },
+  {
+    "ticker": "SMWB",
+    "name_ko": "시밀러웹"
+  },
+  {
+    "ticker": "FRGE",
+    "name_ko": "포지 글로벌 홀딩스"
+  },
+  {
+    "ticker": "MSIF",
+    "name_ko": "MSC 인컴 펀드"
+  },
+  {
+    "ticker": "GOTU",
+    "name_ko": "카오투 테크에듀 ADR"
+  },
+  {
+    "ticker": "MHD",
+    "name_ko": "BlackRock MuniHoldings Fund，Inc."
+  },
+  {
+    "ticker": "NDMO",
+    "name_ko": "Nuveen Dynamic Municipal Opportunities Fund"
+  },
+  {
+    "ticker": "ASGI",
+    "name_ko": "abrdn Global Infrastructure Income Fund"
+  },
+  {
+    "ticker": "ETD",
+    "name_ko": "이튼 알렌 인테리어스"
+  },
+  {
+    "ticker": "CPS",
+    "name_ko": "쿠퍼-스탠더드 홀딩스"
+  },
+  {
+    "ticker": "SNDA",
+    "name_ko": "소니다 시니어 리빙"
+  },
+  {
+    "ticker": "KFRC",
+    "name_ko": "K포스"
+  },
+  {
+    "ticker": "NPWR",
+    "name_ko": "넷 파워"
+  },
+  {
+    "ticker": "BWMX",
+    "name_ko": "베터웨어 데 멕시코"
+  },
+  {
+    "ticker": "KEY PR L",
+    "name_ko": "키코프 우선주"
+  },
+  {
+    "ticker": "HZO",
+    "name_ko": "마린맥스"
+  },
+  {
+    "ticker": "AMN",
+    "name_ko": "AMN 헬스케어 서비스"
+  },
+  {
+    "ticker": "KRO",
+    "name_ko": "크로노스 월드와이드"
+  },
+  {
+    "ticker": "GS PR A",
+    "name_ko": "골드만삭스 우선주 시리즈 A"
+  },
+  {
+    "ticker": "ETJ",
+    "name_ko": "Eaton Vance Risk Managed Diversified Equity Income Closed Fund"
+  },
+  {
+    "ticker": "CTO",
+    "name_ko": "CTO 리얼티 그로스"
+  },
+  {
+    "ticker": "PEO",
+    "name_ko": "Adams Natural Resources Fund，Inc."
+  },
+  {
+    "ticker": "NPB",
+    "name_ko": "노스포인트 뱅크셰어스"
+  },
+  {
+    "ticker": "BCSS.U",
+    "name_ko": "Bain Capital GSS Investment Units"
+  },
+  {
+    "ticker": "IVR",
+    "name_ko": "인베스코 모기지 캐피털"
+  },
+  {
+    "ticker": "AMBQ",
+    "name_ko": "앰비크 마이크로"
+  },
+  {
+    "ticker": "IIM",
+    "name_ko": "Invesco Value Municipal Income Closed Fund"
+  },
+  {
+    "ticker": "EVAC",
+    "name_ko": "EQV 벤처스 애퀴지션 II"
+  },
+  {
+    "ticker": "BUI",
+    "name_ko": "BlackRock Utilities Infrastructure & Power Oppty"
+  },
+  {
+    "ticker": "IBTA",
+    "name_ko": "아이보타"
+  },
+  {
+    "ticker": "RMT",
+    "name_ko": "Royce Micro Cap Closed Fund"
+  },
+  {
+    "ticker": "RGR",
+    "name_ko": "스텀 루거 앤 컴퍼니"
+  },
+  {
+    "ticker": "HY",
+    "name_ko": "하이스터-예일"
+  },
+  {
+    "ticker": "EVMN",
+    "name_ko": "에보뮨"
+  },
+  {
+    "ticker": "GFR",
+    "name_ko": "그린파이어 리소시스"
+  },
+  {
+    "ticker": "NMCO",
+    "name_ko": "Nuveen Municipal Credit Opportunities Fund"
+  },
+  {
+    "ticker": "GRNT",
+    "name_ko": "그래나이트 릿지 리소시스"
+  },
+  {
+    "ticker": "OXM",
+    "name_ko": "옥스포드 인더스트리스"
+  },
+  {
+    "ticker": "MMU",
+    "name_ko": "Western Asset Managed Municipals Fund"
+  },
+  {
+    "ticker": "NEE PR N",
+    "name_ko": "넥스트에라 에너지 후순위 채권 시리즈 N 5.650% 만기 2079년"
+  },
+  {
+    "ticker": "DSU",
+    "name_ko": "BlackRock Debt Strategies Fund，Inc."
+  },
+  {
+    "ticker": "NGVC",
+    "name_ko": "내추럴 그로서즈 바이 바이타민 코티지"
+  },
+  {
+    "ticker": "JXN PR A",
+    "name_ko": "잭슨 파이낸셜 우선주"
+  },
+  {
+    "ticker": "AVNS",
+    "name_ko": "아바노스 메디컬"
+  },
+  {
+    "ticker": "TXO",
+    "name_ko": "TXO Partners Units"
+  },
+  {
+    "ticker": "WEAV",
+    "name_ko": "위브 커뮤니케이션스"
+  },
+  {
+    "ticker": "IFN",
+    "name_ko": "India Closed Fund"
+  },
+  {
+    "ticker": "VGM",
+    "name_ko": "Invesco Trust For Inv Grade Munis"
+  },
+  {
+    "ticker": "AVK",
+    "name_ko": "Advent Convertible and Income Fund"
+  },
+  {
+    "ticker": "DIAX",
+    "name_ko": "Nuveen Dow 30 Dynamic Overwrite Fund"
+  },
+  {
+    "ticker": "ZKH",
+    "name_ko": "ZKH 그룹 ADR"
+  },
+  {
+    "ticker": "AEXA",
+    "name_ko": "아메리칸 익셉셔널리즘 애퀴지션 A"
+  },
+  {
+    "ticker": "CABO",
+    "name_ko": "케이블 원"
+  },
+  {
+    "ticker": "UHT",
+    "name_ko": "유니버설 헬스 리얼티 인컴 트러스트"
+  },
+  {
+    "ticker": "BIT",
+    "name_ko": "BlackRock Multi-Sector Income Trust"
+  },
+  {
+    "ticker": "TBN",
+    "name_ko": "탬보란 리소시스"
+  },
+  {
+    "ticker": "SCE PR M",
+    "name_ko": "SCE 트러스트 VII 우선주"
+  },
+  {
+    "ticker": "TWI",
+    "name_ko": "타이탄 인터내셔널"
+  },
+  {
+    "ticker": "HOV",
+    "name_ko": "호브내니언 엔터프라이스"
+  },
+  {
+    "ticker": "HPP",
+    "name_ko": "허드슨 퍼시픽 프로퍼티즈"
+  },
+  {
+    "ticker": "BAC PR S",
+    "name_ko": "뱅크오브아메리카 우선주 시리즈 SS 4.75%"
+  },
+  {
+    "ticker": "TDS PR V",
+    "name_ko": "텔레폰 앤 데이터 시스템즈 우선주 시리즈 VV 6%"
+  },
+  {
+    "ticker": "HTT",
+    "name_ko": "하이템플러 테크"
+  },
+  {
+    "ticker": "KOP",
+    "name_ko": "코퍼스 홀딩스"
+  },
+  {
+    "ticker": "FTK",
+    "name_ko": "플로텍 인더스트리스"
+  },
+  {
+    "ticker": "BME",
+    "name_ko": "BlackRock Health Sciences Trust"
+  },
+  {
+    "ticker": "GUT",
+    "name_ko": "Gabelli Utility Trust"
+  },
+  {
+    "ticker": "MSB",
+    "name_ko": "메사비 트러스트"
+  },
+  {
+    "ticker": "TCBX",
+    "name_ko": "써드 코스트 뱅크셰어스"
+  },
+  {
+    "ticker": "VKQ",
+    "name_ko": "Invesco Municipal Trust"
+  },
+  {
+    "ticker": "VCV",
+    "name_ko": "Invesco California Value Muni Inc Tr"
+  },
+  {
+    "ticker": "LNC PR D",
+    "name_ko": "링컨 내셔널 우선주 9.00%"
+  },
+  {
+    "ticker": "GETY",
+    "name_ko": "게티 이미지스 홀딩스"
+  },
+  {
+    "ticker": "VPG",
+    "name_ko": "비샤이 프리시전 그룹"
+  },
+  {
+    "ticker": "CANG",
+    "name_ko": "캉고"
+  },
+  {
+    "ticker": "BGY",
+    "name_ko": "BlackRock Enhanced International Dividend Closed End Fund"
+  },
+  {
+    "ticker": "BGB",
+    "name_ko": "Blackstone Strategic Credit 2027 Term Fund"
+  },
+  {
+    "ticker": "BLW",
+    "name_ko": "BlackRock Limited Duration Income Trust"
+  },
+  {
+    "ticker": "WDH",
+    "name_ko": "워터드랍 ADR"
+  },
+  {
+    "ticker": "DIN",
+    "name_ko": "다인브랜드글로벌"
+  },
+  {
+    "ticker": "KLC",
+    "name_ko": "카인드케어 러닝"
+  },
+  {
+    "ticker": "SB",
+    "name_ko": "세이프 벌커스"
+  },
+  {
+    "ticker": "IQI",
+    "name_ko": "Invesco Quality Municipal Income Closed Fund"
+  },
+  {
+    "ticker": "SYF PR B",
+    "name_ko": "싱크로니 파이낸셜 우선주 Series B"
+  },
+  {
+    "ticker": "BXC",
+    "name_ko": "블루링스 홀딩스"
+  },
+  {
+    "ticker": "USB PR P",
+    "name_ko": "US 뱅코프 우선주 시리즈 K 5.5%"
+  },
+  {
+    "ticker": "WIW",
+    "name_ko": "Western Asset Inflation Linked Opportunities Income Closed End Fund"
+  },
+  {
+    "ticker": "FFWM",
+    "name_ko": "퍼스트 파운데이션"
+  },
+  {
+    "ticker": "DNA",
+    "name_ko": "깅코 바이오웍스 홀딩스"
+  },
+  {
+    "ticker": "ALL PR B",
+    "name_ko": "올스테이트 후순위 채권 5.1% 만기 2053년 1월"
+  },
+  {
+    "ticker": "CLCO",
+    "name_ko": "쿨 컴퍼니"
+  },
+  {
+    "ticker": "FTHY",
+    "name_ko": "First Trust High Yield Opportunities 2027 Term Closed End Fd"
+  },
+  {
+    "ticker": "MET PR A",
+    "name_ko": "메트라이프 우선주 시리즈 A"
+  },
+  {
+    "ticker": "MAGN",
+    "name_ko": "마그네라"
+  },
+  {
+    "ticker": "NXJ",
+    "name_ko": "Nuveen New Jersey Quality Municipal Income Fund"
+  },
+  {
+    "ticker": "THW",
+    "name_ko": "abrdn World Healthcare Fund"
+  },
+  {
+    "ticker": "DDL",
+    "name_ko": "딩동 (케이먼) ADR"
+  },
+  {
+    "ticker": "CTEV",
+    "name_ko": "클라리텝"
+  },
+  {
+    "ticker": "EHAB",
+    "name_ko": "인해빗"
+  },
+  {
+    "ticker": "KREF",
+    "name_ko": "KKR 리얼에스테이트 파이낸스 트러스트"
+  },
+  {
+    "ticker": "BANC PR F",
+    "name_ko": "캘리포니아 은행 우선주 Series F 5.625%"
+  },
+  {
+    "ticker": "SD",
+    "name_ko": "샌드리지 에너지"
+  },
+  {
+    "ticker": "GUG",
+    "name_ko": "Guggenheim Active Allocation CEF"
+  },
+  {
+    "ticker": "ATH PR E",
+    "name_ko": "아테네 홀딩 DRC"
+  },
+  {
+    "ticker": "INN",
+    "name_ko": "서밋 호텔 프로퍼티스"
+  },
+  {
+    "ticker": "BK PR K",
+    "name_ko": "뱅크 오브 뉴욕 멜론 우선주 Series K"
+  },
+  {
+    "ticker": "GHY",
+    "name_ko": "PGIM Global High Yield Fund，Inc"
+  },
+  {
+    "ticker": "SMC",
+    "name_ko": "서밋 미드스트림"
+  },
+  {
+    "ticker": "RF PR F",
+    "name_ko": "리전스 파이낸셜 우선주 Series F"
+  },
+  {
+    "ticker": "VVR",
+    "name_ko": "Invesco Senior Income Trust"
+  },
+  {
+    "ticker": "PKST",
+    "name_ko": "피크스톤 리얼티 트러스트"
+  },
+  {
+    "ticker": "BDN",
+    "name_ko": "브랜디와인 리얼티 트러스트"
+  },
+  {
+    "ticker": "BAK",
+    "name_ko": "브라스켐 ADR"
+  },
+  {
+    "ticker": "NUS",
+    "name_ko": "뉴스킨 엔터프라이즈"
+  },
+  {
+    "ticker": "RYAM",
+    "name_ko": "레이오니어 어드밴스드 머티리얼"
+  },
+  {
+    "ticker": "TFC PR O",
+    "name_ko": "트루이스트 파이낸셜 우선주 시리즈 O 5.25%"
+  },
+  {
+    "ticker": "PACK",
+    "name_ko": "란팍 홀딩스"
+  },
+  {
+    "ticker": "CION",
+    "name_ko": "사이온 인베스트먼트"
+  },
+  {
+    "ticker": "KEY PR I",
+    "name_ko": "키코프 우선주 시리즈 E"
+  },
+  {
+    "ticker": "PCQ",
+    "name_ko": "PIMCO California Municipal Income Fund"
+  },
+  {
+    "ticker": "BLE",
+    "name_ko": "BlackRock Municipal Income II Closed Fund"
+  },
+  {
+    "ticker": "HQL",
+    "name_ko": "abrdn Life Sciences Investors"
+  },
+  {
+    "ticker": "ANRO",
+    "name_ko": "알토 뉴로사이언스"
+  },
+  {
+    "ticker": "ETO",
+    "name_ko": "Eaton Vance Tax Advantaged Global Dividend Opportunities Closed Fund"
+  },
+  {
+    "ticker": "HLLY",
+    "name_ko": "홀리"
+  },
+  {
+    "ticker": "WOLF",
+    "name_ko": "울프스피드"
+  },
+  {
+    "ticker": "ASIX",
+    "name_ko": "어드밴식스"
+  },
+  {
+    "ticker": "PSFE",
+    "name_ko": "페이 세이프"
+  },
+  {
+    "ticker": "ASC",
+    "name_ko": "아드모어 쉬핑"
+  },
+  {
+    "ticker": "ISD",
+    "name_ko": "PGIM High Yield Bond Fund，Inc"
+  },
+  {
+    "ticker": "RF PR C",
+    "name_ko": "리전스 파이낸셜 우선주 시리즈 C"
+  },
+  {
+    "ticker": "MYD",
+    "name_ko": "BlackRock MuniYield Fund，Inc."
+  },
+  {
+    "ticker": "KIO",
+    "name_ko": "KKR Income Opportunities Fund"
+  },
+  {
+    "ticker": "CHCT",
+    "name_ko": "커뮤니티 헬스케어 트러스트"
+  },
+  {
+    "ticker": "BCSS",
+    "name_ko": "베인 캐피털 GSS 인베스트먼트"
+  },
+  {
+    "ticker": "KRSP",
+    "name_ko": "라이스 애퀴지션 3"
+  },
+  {
+    "ticker": "EVAC.U",
+    "name_ko": "EQV Ventures Acquisition II Units"
+  },
+  {
+    "ticker": "MTW",
+    "name_ko": "매니토웍 컴퍼니"
+  },
+  {
+    "ticker": "OIS",
+    "name_ko": "오일 스테이츠 인터내셔널"
+  },
+  {
+    "ticker": "AAM",
+    "name_ko": "AA 미션 애퀴지션"
+  },
+  {
+    "ticker": "UP",
+    "name_ko": "휠즈 업 익스피리언스"
+  },
+  {
+    "ticker": "PKE",
+    "name_ko": "파크 에어로스페이스"
+  },
+  {
+    "ticker": "CAL",
+    "name_ko": "컬레러스"
+  },
+  {
+    "ticker": "MCS",
+    "name_ko": "마커스"
+  },
+  {
+    "ticker": "FTW",
+    "name_ko": "EQV 벤처스 애퀴지션"
+  },
+  {
+    "ticker": "DPG",
+    "name_ko": "Duff & Phelps Utility and Infrastructure Fund Inc"
+  },
+  {
+    "ticker": "NBB",
+    "name_ko": "Nuveen Taxable Municipal Income Fund"
+  },
+  {
+    "ticker": "GMRE",
+    "name_ko": "글로벌 메디컬 릿츠"
+  },
+  {
+    "ticker": "HPS",
+    "name_ko": "John Hancock Preferred Income III Closed Fund"
+  },
+  {
+    "ticker": "AAM.U",
+    "name_ko": "AA Mission Acquisition Units"
+  },
+  {
+    "ticker": "EVH",
+    "name_ko": "에볼런트 헬스"
+  },
+  {
+    "ticker": "CYH",
+    "name_ko": "커뮤니티 헬스 시스템즈"
+  },
+  {
+    "ticker": "LAW",
+    "name_ko": "CS 디스코"
+  },
+  {
+    "ticker": "NPFD",
+    "name_ko": "Nuveen Variable Rate Preferred Income Closed End Fund"
+  },
+  {
+    "ticker": "FLG PR A",
+    "name_ko": "플래그스타 파이낸셜 우선주 Series A"
+  },
+  {
+    "ticker": "BBBY",
+    "name_ko": "베드 배스 앤드 비욘드"
+  },
+  {
+    "ticker": "RITM PR D",
+    "name_ko": "리듬 캐피탈 우선주 7.00% 시리즈 D"
+  },
+  {
+    "ticker": "NMG",
+    "name_ko": "누보 몽드 그래파이트"
+  },
+  {
+    "ticker": "MTB PR K",
+    "name_ko": "M&T 뱅크 우선주 Series K"
+  },
+  {
+    "ticker": "EBF",
+    "name_ko": "에니스"
+  },
+  {
+    "ticker": "STT PR G",
+    "name_ko": "스테이트 스트리트 우선주 시리즈 G"
+  },
+  {
+    "ticker": "SCHW PR J",
+    "name_ko": "찰스 슈왑 우선주 시리즈 J 4.450%"
+  },
+  {
+    "ticker": "COF PR L",
+    "name_ko": "캐피탈 원 파이낸셜 우선주 시리즈 L 4.375%"
+  },
+  {
+    "ticker": "OLP",
+    "name_ko": "원 리버티 프로퍼티즈"
+  },
+  {
+    "ticker": "TCI",
+    "name_ko": "트랜스컨티넨탈 리얼티 인베스터"
+  },
+  {
+    "ticker": "ETB",
+    "name_ko": "Eaton Vance Tax Managed Buy Write Income Closed Fund"
+  },
+  {
+    "ticker": "NLY PR I",
+    "name_ko": "애널리 캐피털 매니지먼트 우선주 시리즈 I"
+  },
+  {
+    "ticker": "IGD",
+    "name_ko": "Voya Global Equity Dividend & Premium Opportunity Closed Fund"
+  },
+  {
+    "ticker": "MLR",
+    "name_ko": "밀러 인더스트리스"
+  },
+  {
+    "ticker": "FET",
+    "name_ko": "포럼 에너지 테크놀로지스"
+  },
+  {
+    "ticker": "NQP",
+    "name_ko": "Nuveen Pennsylvania Quality Municipal Income Fund"
+  },
+  {
+    "ticker": "HSHP",
+    "name_ko": "히말라야 쉬핑"
+  },
+  {
+    "ticker": "ADCT",
+    "name_ko": "ADC 테라퓨틱스"
+  },
+  {
+    "ticker": "AXS PR E",
+    "name_ko": "액시스 캐피털 홀딩스 우선주 시리즈 E 5.5%"
+  },
+  {
+    "ticker": "BFK",
+    "name_ko": "BlackRock Municipal Income Trust"
+  },
+  {
+    "ticker": "FINS",
+    "name_ko": "Angel Oak Financial Strategies Income Term Trust"
+  },
+  {
+    "ticker": "NMAI",
+    "name_ko": "Nuveen Multi-Asset Income Fund"
+  },
+  {
+    "ticker": "FFA",
+    "name_ko": "First Trust Enhanced Equity Income Closed Fund"
+  },
+  {
+    "ticker": "EAF",
+    "name_ko": "그래프테크 인터내셔널"
+  },
+  {
+    "ticker": "BH.A",
+    "name_ko": "비글라리 홀딩스 Class A"
+  },
+  {
+    "ticker": "NGS",
+    "name_ko": "내추럴 가스 서비스 그룹"
+  },
+  {
+    "ticker": "EB",
+    "name_ko": "이벤트브라이트"
+  },
+  {
+    "ticker": "FPI",
+    "name_ko": "팜랜드 파트너스"
+  },
+  {
+    "ticker": "NOA",
+    "name_ko": "노스 아메리칸 컨스트럭션 그룹"
+  },
+  {
+    "ticker": "HPI",
+    "name_ko": "John Hancock Preferred Income Closed Fund"
+  },
+  {
+    "ticker": "KOS",
+    "name_ko": "코스모스 에너지"
+  },
+  {
+    "ticker": "DFP",
+    "name_ko": "Flaherty & Crumrine Dynamic Pfd and Inc Fd"
+  },
+  {
+    "ticker": "EVN",
+    "name_ko": "Eaton Vance Municipal Income Trust"
+  },
+  {
+    "ticker": "LZM",
+    "name_ko": "라이프존 메탈스"
+  },
+  {
+    "ticker": "PSTL",
+    "name_ko": "포스털 리얼티 트러스트"
+  },
+  {
+    "ticker": "NLY PR G",
+    "name_ko": "애널리 캐피털 매니지먼트 우선주 시리즈 G"
+  },
+  {
+    "ticker": "TRC",
+    "name_ko": "테혼 랜치"
+  },
+  {
+    "ticker": "PSA PR L",
+    "name_ko": "퍼블릭 스토리지 우선주 Series L 4.625%"
+  },
+  {
+    "ticker": "MG",
+    "name_ko": "미스트라스 그룹"
+  },
+  {
+    "ticker": "FRA",
+    "name_ko": "BlackRock Floating Rate Income Strategies Fd，Inc."
+  },
+  {
+    "ticker": "CFG PR H",
+    "name_ko": "시티즌스 파이낸셜 그룹 우선주 Series H"
+  },
+  {
+    "ticker": "OWLT",
+    "name_ko": "오울렛"
+  },
+  {
+    "ticker": "MUA",
+    "name_ko": "BlackRock MuniAssets Fund，Inc."
+  },
+  {
+    "ticker": "CMA PR B",
+    "name_ko": "코메리카 우선주 Series B 6.875%"
+  },
+  {
+    "ticker": "FPH",
+    "name_ko": "파이브 포인트 홀딩스"
+  },
+  {
+    "ticker": "MS PR L",
+    "name_ko": "모간스탠리 우선주 시리즈 L 4.875%"
+  },
+  {
+    "ticker": "ATH PR D",
+    "name_ko": "아테네 홀딩 우선주 시리즈 D 4.875%"
+  },
+  {
+    "ticker": "GTN",
+    "name_ko": "그레이 미디어"
+  },
+  {
+    "ticker": "SDHY",
+    "name_ko": "PGIM Short Duration High Yield Opportunities Fund"
+  },
+  {
+    "ticker": "ZEPP",
+    "name_ko": "젭 헬스 ADR"
+  },
+  {
+    "ticker": "ORN",
+    "name_ko": "오라이언 그룹 홀딩스"
+  },
+  {
+    "ticker": "WNC",
+    "name_ko": "와바시 내셔널"
+  },
+  {
+    "ticker": "YSG",
+    "name_ko": "얏센 홀딩 ADR"
+  },
+  {
+    "ticker": "CFG PR I",
+    "name_ko": "시티즌스 파이낸셜 그룹 우선주 Series I"
+  },
+  {
+    "ticker": "SGU",
+    "name_ko": "Star Group Units"
+  },
+  {
+    "ticker": "GBAB",
+    "name_ko": "Guggenheim Taxable Muni Bd & Inv Grade Dbt Trust"
+  },
+  {
+    "ticker": "MVF",
+    "name_ko": "BlackRock MuniVest Fund，Inc."
+  },
+  {
+    "ticker": "CMTG",
+    "name_ko": "클라로스 모기지 트러스트"
+  },
+  {
+    "ticker": "LEO",
+    "name_ko": "BNY Mellon Strategic Municipals Inc"
+  },
+  {
+    "ticker": "RITM PR C",
+    "name_ko": "리듬 캐피탈 우선주 6.375% 시리즈 C"
+  },
+  {
+    "ticker": "XPOF",
+    "name_ko": "엑스포넨셜 피트니스"
+  },
+  {
+    "ticker": "DBI",
+    "name_ko": "디자이너 브랜즈"
+  },
+  {
+    "ticker": "AII",
+    "name_ko": "아메리칸 인테그리티 인슈어런스 그룹"
+  },
+  {
+    "ticker": "BKKT",
+    "name_ko": "백트 홀딩스"
+  },
+  {
+    "ticker": "IPI",
+    "name_ko": "인트레피드 포타시"
+  },
+  {
+    "ticker": "VHI",
+    "name_ko": "밸히"
+  },
+  {
+    "ticker": "PNNT",
+    "name_ko": "페넌트파크 인베트스트먼트"
+  },
+  {
+    "ticker": "DXYZ",
+    "name_ko": "데스티니 테크100"
+  },
+  {
+    "ticker": "BOC",
+    "name_ko": "보스톤 오마하"
+  },
+  {
+    "ticker": "KEY PR K",
+    "name_ko": "키코프 우선주 시리즈 G 5.625%"
+  },
+  {
+    "ticker": "PSA PR P",
+    "name_ko": "퍼블릭 스토리지 우선주 Series P 4%"
+  },
+  {
+    "ticker": "CODI",
+    "name_ko": "컴퍼스 다이버시파이드 홀딩스"
+  },
+  {
+    "ticker": "SOR",
+    "name_ko": "Source Capital Beneficial Interest"
+  },
+  {
+    "ticker": "CBAN",
+    "name_ko": "콜로니 뱅코프"
+  },
+  {
+    "ticker": "MCI",
+    "name_ko": "Barings Corporate Investors"
+  },
+  {
+    "ticker": "EQV.U",
+    "name_ko": "EQV Ventures Acquisition Units"
+  },
+  {
+    "ticker": "HVT",
+    "name_ko": "하버티 퍼니처"
+  },
+  {
+    "ticker": "MYN",
+    "name_ko": "BlackRock MuniYield New York Quality Fund，Inc."
+  },
+  {
+    "ticker": "MBI",
+    "name_ko": "엠비아"
+  },
+  {
+    "ticker": "PFL",
+    "name_ko": "Pimco Income Strategy Closed Fund"
+  },
+  {
+    "ticker": "PSBD",
+    "name_ko": "파머 스퀘어 캐피털 BDC"
+  },
+  {
+    "ticker": "SCM",
+    "name_ko": "스텔러스 캐피털 인베스트먼트"
+  },
+  {
+    "ticker": "CMDB",
+    "name_ko": "코스타마레 벌커스 홀딩스"
+  },
+  {
+    "ticker": "RM",
+    "name_ko": "리저널 매니지먼트"
+  },
+  {
+    "ticker": "ONIT",
+    "name_ko": "오니티 그룹"
+  },
+  {
+    "ticker": "LXFR",
+    "name_ko": "럭스퍼 홀딩스"
+  },
+  {
+    "ticker": "JRI",
+    "name_ko": "Nuveen Real Asset Income and Growth Fund"
+  },
+  {
+    "ticker": "HIX",
+    "name_ko": "Western Asset High Income Fund II Inc"
+  },
+  {
+    "ticker": "EGY",
+    "name_ko": "발코 에너지"
+  },
+  {
+    "ticker": "FTW.U",
+    "name_ko": "EQV Ventures Acquisition Units"
+  },
+  {
+    "ticker": "GNE",
+    "name_ko": "지니 에너지"
+  },
+  {
+    "ticker": "AGL",
+    "name_ko": "애질론 헬스"
+  },
+  {
+    "ticker": "DDD",
+    "name_ko": "쓰리디 시스템즈"
+  },
+  {
+    "ticker": "MEC",
+    "name_ko": "메이빌 엔지니어링"
+  },
+  {
+    "ticker": "SAR",
+    "name_ko": "사라토가 인베스트먼트"
+  },
+  {
+    "ticker": "YRD",
+    "name_ko": "이렌 디지털 ADR"
+  },
+  {
+    "ticker": "FOF",
+    "name_ko": "Cohen & Steers Closed End Opportunity Closed Fund"
+  },
+  {
+    "ticker": "KRSP.U",
+    "name_ko": "Rice Acquisition Redeemable Units"
+  }
+]
 ]
