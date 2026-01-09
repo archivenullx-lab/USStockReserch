@@ -127,17 +127,24 @@
         투자 판단을 돕기 위한 참고용 정보입니다.
       </p>
 
-      <div class="input-group">
-        <input id="ticker" type="text" placeholder="예: AAPL, MSFT" />
+      <div class="input-group" style="position: relative;">
+        <input id="ticker" type="text" />
+      
         <div id="suggestions" style="
+          position: absolute;
+          top: 48px;
+          left: 0;
+          width: 100%;
           border: 1px solid #e5e7eb;
           border-radius: 8px;
-          margin-top: 4px;
           display: none;
           background: white;
+          z-index: 10;
         "></div>
+      
         <button onclick="analyze()">분석하기</button>
       </div>
+
 
       <div id="result" class="result">
         종목 코드를 입력하고 분석하기를 눌러주세요.
@@ -172,9 +179,9 @@
   
     const matches = stocks.filter(s =>
       s.name_ko.includes(q) ||
-      s.name_en.toLowerCase().includes(q.toLowerCase()) ||
       s.ticker.includes(q.toUpperCase())
     ).slice(0, 5);
+
   
     if (matches.length === 0) {
       suggestions.style.display = "none";
