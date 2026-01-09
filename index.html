@@ -162,7 +162,7 @@
   
   fetch("stocks.json")
     .then(res => res.json())
-    .then(data => stocks = data);
+    .then(data => stocks = data.flat());
   
   const input = document.getElementById("ticker");
   const suggestions = document.getElementById("suggestions");
