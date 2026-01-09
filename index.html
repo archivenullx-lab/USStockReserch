@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>미국주식 재무 분석</title>
+
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --primary: #2f5bea;
+      --text-main: #1f2937;
+      --text-sub: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, "Noto Sans KR", Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    p.description {
+      font-size: 14px;
+      color: var(--text-sub);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    input {
+      flex: 1;
+      padding: 12px 14px;
+      font-size: 15px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    input::placeholder {
+      color: #9ca3af;
+    }
+
+    button {
+      padding: 12px 18px;
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      background: var(--primary);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .result {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-main);
+      white-space: pre-line;
+    }
+
+    footer {
+      text-align: center;
+      margin: 60px 0 20px;
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    미국주식 재무 분석
+  </header>
+
+  <main>
+    <div class="card">
+      <h1>기업 재무 상태 요약</h1>
+      <p class="description">
+        미국 상장 기업의 재무 지표를 기반으로
+        전반적인 재무 상태를 요약해 제공합니다.
+        투자 판단을 돕기 위한 참고용 정보입니다.
+      </p>
+
+      <div class="input-group">
+        <input id="ticker" type="text" placeholder="예: AAPL, MSFT" />
+        <button onclick="analyze()">분석하기</button>
+      </div>
+
+      <div id="result" class="result">
+        종목 코드를 입력하고 분석하기를 눌러주세요.
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    본 서비스는 투자 판단을 보조하기 위한 정보 제공 서비스이며,
+    투자 결과에 대한 책임은 사용자에게 있습니다.
+  </footer>
+
+  <script>
+    function analyze() {
+      const ticker = document.getElementById("ticker").value.trim().toUpperCase();
+      const result = document.getElementById("result");
+
+      if (!ticker) {
+        result.innerText = "종목 코드를 입력해주세요.";
+        return;
+      }
+
+      // 나중에 여기 fetch()만 바꾸면 됨
+      result.innerText =
+        `"${ticker}" 재무 분석 결과\n\n` +
+        "• 매출 및 이익 추이: 분석 예정\n" +
+        "• 재무 안정성: 분석 예정\n" +
+        "• 종합 평가: 준비 중";
+    }
+  </script>
+
+</body>
+</html>
