@@ -188,10 +188,11 @@
       div.style.cursor = "pointer";
   
       div.onclick = () => {
-        input.value = `${s.name_ko} (${s.ticker})`;
+        input.value = s.ticker;
         suggestions.style.display = "none";
         result.innerText = `"${s.name_ko}" 분석 준비 중입니다.`;
       };
+
   
       suggestions.appendChild(div);
     });
