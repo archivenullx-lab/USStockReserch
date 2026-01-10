@@ -229,13 +229,33 @@
       suggestions.style.display = "block";
     });
 
-    function analyze() {
-      if (!input.value) {
-        result.innerText = "종목 코드를 입력해주세요.";
+    async function analyze() {
+    const ticker = input.value.trim().toUpperCase();
+
+    if (!ticker) {
+      result.innerText = "종목 코드를 입력해주세요.";
+      return;
+    }
+
+    result.innerText = "재무 데이터를 불러오는 중입니다...";
+
+    try {
+      const res = await fetch(
+        `http://127.0.0.1:8000/api/financials/summary?ticker=${ticker}`
+      );
+
+      const data = await res.json();
+
+      if (data.error) {
+        result.innerText = data.error;
         return;
       }
-      result.innerText = `"${input.value}" 분석 준비 중입니다.`;
+
+      result.innerText = data.text;
+    } catch (e) {
+      result.innerText = "서버에 연결할 수 없습니다.";
     }
+  }
   </script>
 
 </body>
